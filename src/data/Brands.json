@@ -1,0 +1,16 @@
+[
+  { "key": 1, "name": "Asus", "logo": "src/assets/brands/Asus.png" },
+  { "key": 2, "name": "Gigabyte", "logo": "src/assets/brands/Gigabyte.png" },
+  { "key": 3, "name": "MSI", "logo": "src/assets/brands/MSI.png" },
+  { "key": 4, "name": "Nvidia", "logo": "src/assets/brands/Nvidia.png" },
+  { "key": 5, "name": "Intel", "logo": "src/assets/brands/Intel.png" },
+  { "key": 6, "name": "AMD", "logo": "src/assets/brands/AMD.png" },
+  { "key": 7, "name": "", "logo": "src/assets/brands/ASrock.png" },
+  { "key": 8, "name": "ASrock", "logo": "src/assets/brands/corsair.png" },
+  { "key": 9, "name": "PNY", "logo": "src/assets/brands/PNY.png" },
+  {
+    "key": 10,
+    "name": "Thermaltake",
+    "logo": "src/assets/brands/thermaltake.png"
+  }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 241.1 469.68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1023.63" y1="1123.82" x2="1024.24" y2="1124.49" gradientTransform="translate(-246769.46 528258.2) scale(241.1 -469.68)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2e2e2e"/>
+      <stop offset="1" stop-color="#111"/>
+    </linearGradient>
+  </defs>
+  <polygon id="Rectangle_17-2" data-name="Rectangle 17-2" class="cls-1" points="0 0 173.94 0 241.1 61.78 241.1 469.68 54.87 469.68 0 424.89 0 0"/>
+</svg>

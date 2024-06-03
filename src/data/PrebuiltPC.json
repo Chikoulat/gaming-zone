@@ -1,0 +1,155 @@
+[
+  {
+    "key": 1,
+    "name": "DYNAMO",
+    "img": "/src/assets/prebuilt/budget1.png",
+    "description": "Typically equipped with an Intel Core i3 processor, 8GB of RAM, and integrated graphics, suitable for basic computing tasks.",
+    "category": "Budget",
+    "specs": {
+      "processor": "Intel Core i3",
+      "ram": "8GB",
+      "graphicsCard": "Integrated graphics",
+      "case": "Standard Case",
+      "ssdDrive": "256GB SSD",
+      "cpuFan": "Standard CPU Fan",
+      "PSU": "500W PSU",
+      "motherboard": "Standard Motherboard"
+    }
+  },
+  {
+    "key": 2,
+    "name": "MARVEL",
+    "img": "/src/assets/prebuilt/budget2.png",
+    "description": "Offers an AMD Ryzen 5, 8GB of RAM, and a dedicated Nvidia GTX 1650 graphics card for entry-level gaming.",
+    "category": "Budget",
+    "specs": {
+      "processor": "AMD Ryzen 5",
+      "ram": "8GB",
+      "graphicsCard": "Nvidia GTX 1650",
+      "case": "Standard Case",
+      "ssdDrive": "256GB SSD",
+      "cpuFan": "Standard CPU Fan",
+      "PSU": "500W PSU",
+      "motherboard": "Standard Motherboard"
+    }
+  },
+  {
+    "key": 3,
+    "name": "CHAMPION",
+    "img": "/src/assets/prebuilt/budget3.png",
+    "description": "Featuring options like Intel Core i3, 8GB RAM, and integrated graphics, suitable for home and office use.",
+    "category": "Budget",
+    "specs": {
+      "processor": "Intel Core i3",
+      "ram": "8GB",
+      "graphicsCard": "Integrated graphics",
+      "case": "Standard Case",
+      "ssdDrive": "256GB SSD",
+      "cpuFan": "Standard CPU Fan",
+      "PSU": "500W PSU",
+      "motherboard": "Standard Motherboard"
+    }
+  },
+  {
+    "key": 4,
+    "name": "DOMINATOR",
+    "img": "/src/assets/prebuilt/performance1.png",
+    "description": "Configurations include high-end Intel Core i9 processors, 16GB or more RAM, and powerful Nvidia RTX 3080 graphics card, ideal for gaming and VR.",
+    "category": "Performance",
+    "specs": {
+      "processor": "Intel Core i9",
+      "ram": "16GB",
+      "graphicsCard": "Nvidia RTX 3080",
+      "case": "Gaming Case",
+      "ssdDrive": "1TB SSD",
+      "cpuFan": "Watercooling CPU Fan",
+      "PSU": "750W PSU",
+      "motherboard": "Gaming Motherboard"
+    }
+  },
+  {
+    "key": 5,
+    "name": "TITAN",
+    "img": "/src/assets/prebuilt/performance2.png",
+    "description": "Compact design with AMD Ryzen 7 processors, 16GB RAM, and high-end Nvidia RTX 3070 graphics, offering excellent gaming performance.",
+    "category": "Performance",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "graphicsCard": "Nvidia RTX 3070",
+      "case": "Gaming Case",
+      "ssdDrive": "1TB SSD",
+      "cpuFan": "Watercooling CPU Fan",
+      "PSU": "750W PSU",
+      "motherboard": "Gaming Motherboard"
+    }
+  },
+  {
+    "key": 6,
+    "name": "GALDIATOR",
+    "img": "/src/assets/prebuilt/performance3.png",
+    "description": "Featuring an AMD Ryzen 7 processors, 16GB RAM, and Nvidia RTX 3060 graphics card, designed for gamers seeking a balance between performance and price.",
+    "category": "Performance",
+    "specs": {
+      "processor": "AMD Ryzen 7",
+      "ram": "16GB",
+      "graphicsCard": "Nvidia RTX 3060",
+      "case": "Gaming Case",
+      "ssdDrive": "1TB SSD",
+      "cpuFan": "Watercooling CPU Fan",
+      "PSU": "750W PSU",
+      "motherboard": "Gaming Motherboard"
+    }
+  },
+  {
+    "key": 7,
+    "name": "PRODIGY",
+    "img": "/src/assets/prebuilt/workstation1.png",
+    "description": "Configurations offer Intel Xeon processors, up to 64GB of ECC RAM, and Nvidia Quadro graphics, suitable for demanding professional tasks like CAD and 3D rendering.",
+    "category": "Workstation",
+    "specs": {
+      "processor": "Intel Xeon",
+      "ram": "64GB of ECC RAM",
+      "graphicsCard": "Nvidia Quadro",
+      "case": "Workstation Case",
+      "ssdDrive": "2TB SSD",
+      "cpuFan": "Watercooling CPU Fan",
+      "PSU": "1000W PSU",
+      "motherboard": "Workstation Motherboard"
+    }
+  },
+  {
+    "key": 8,
+    "name": "INNOVATOR",
+    "img": "/src/assets/prebuilt/workstation2.png",
+    "description": "Options include Intel Xeon processors, up to 128GB of ECC RAM, and Nvidia Quadro RTX graphics, ideal for professionals in industries like architecture, engineering, and design.",
+    "category": "Workstation",
+    "specs": {
+      "processor": "Intel Xeon",
+      "ram": "128GB of ECC RAM",
+      "graphicsCard": "Nvidia Quadro RTX",
+      "case": "Workstation Case",
+      "ssdDrive": "2TB SSD",
+      "cpuFan": "Watercooling CPU Fan",
+      "PSU": "1000W PSU",
+      "motherboard": "Workstation Motherboard"
+    }
+  },
+  {
+    "key": 9,
+    "name": "POWERHOUSE",
+    "img": "/src/assets/prebuilt/workstation3.png",
+    "description": "Featuring Intel Xeon processors, up to 128GB of RAM, and Nvidia Quadro graphics, designed for heavy-duty computing tasks such as video editing, animation, and scientific simulations.",
+    "category": "Workstation",
+    "specs": {
+      "processor": "Intel Xeon",
+      "ram": "128GB of RAM",
+      "graphicsCard": "Nvidia Quadro",
+      "case": "Workstation Case",
+      "ssdDrive": "2TB SSD",
+      "cpuFan": "Watercooling CPU Fan",
+      "PSU": "1000W PSU",
+      "motherboard": "Workstation Motherboard"
+    }
+  }
+]

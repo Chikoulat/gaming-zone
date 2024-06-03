@@ -1,0 +1,17 @@
+<svg width="2545" height="160" viewBox="0 0 2545 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes rgbAnimation {
+      0% { stroke: #ff0c3b; }
+      33% { stroke: #3B3B3B; }
+      66% { stroke: #ff0c3b; }
+      100% { stroke: #3B3B3B; }
+    
+    }
+    .animated-path {
+      animation: rgbAnimation 3s infinite ease-in-out;
+    }
+  </style>
+  <path d="M0 102.807L518.588 117.868L587.641 159.381H1962.14L2018.39 127.381L2535.24 102.807L2544.9 7.99902H0V102.807Z" fill="#CA2026"/>
+  <path d="M0 129.368H540.754L587.642 151.383H1962.14L2017.07 129.368H2544.9V0H0V129.368Z" fill="#101010"/>
+  <path class="animated-path" d="M622.5 79.6924H1925.5" stroke="#3B3B3B" stroke-width="2"/>
+</svg>

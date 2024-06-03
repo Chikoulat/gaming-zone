@@ -1,0 +1,56 @@
+[
+  {
+    "key": 1,
+    "name": "TUF Gaming H3 Wireless",
+    "img": "src/assets/new product/Asus headphone.png",
+    "category": "heaphones",
+    "description": "The TUF Gaming H3 Wireless combines premium audio quality, comfort, and convenience, making it the perfect companion for gamers seeking a wireless gaming headset that delivers on all fronts.",
+    "price": 12000,
+    "config": false
+  },
+  {
+    "key": 2,
+    "name": "Cooler master b530",
+    "img": "src/assets/new product/Cooler master b530p.jpg",
+    "category": "Case",
+    "description": "The Cooler Master B530 combines sleek design, superior cooling performance, and convenient features, making it an excellent choice for gamers and PC enthusiasts looking to build a high-performance gaming rig.",
+    "price": 34000,
+    "config": true
+  },
+  {
+    "key": 3,
+    "name": "redragon K552",
+    "img": "src/assets/new product/redragon K552.png",
+    "category": "Keyboard",
+    "description": "The Redragon K552 is a compact yet powerful gaming keyboard suitable for gamers looking for durability and performance in a smaller form factor.",
+    "price": 15000,
+    "config": false
+  },
+  {
+    "key": 4,
+    "name": "NVIDIA MSI RTX 4080",
+    "img": "src/assets/new product/RTX 4080.png",
+    "category": "Graphic cards",
+    "description": "The NVIDIA MSI RTX 4080 sets a new standard for gaming graphics cards, delivering exceptional performance, stunning visuals, and advanced features for gamers and content creators alike.",
+    "price": 173000,
+    "config": true
+  },
+  {
+    "key": 5,
+    "name": "Asus ROG 34'' curved",
+    "img": "src/assets/new product/Asus screen.png",
+    "category": "Screen",
+    "description": "The Asus ROG 34'' curved monitor combines immersive visuals, high refresh rates, and gaming-specific features to provide an exceptional gaming experience for enthusiasts and professionals alike.",
+    "price": 48000,
+    "config": false
+  },
+  {
+    "key": 6,
+    "name": "AMD Ryzen 9",
+    "img": "src/assets/new product/Ryzen 9 5000.jpg",
+    "category": "Processors",
+    "description": "The AMD Ryzen 9 series offers exceptional performance and value for enthusiasts and professionals looking for a powerful and versatile CPU for gaming, content creation, and productivity tasks.",
+    "price": 109000,
+    "config": true
+  }
+]

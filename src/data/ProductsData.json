@@ -1,0 +1,32 @@
+[
+  {
+    "key": 1,
+    "name": "pc sur-mesure",
+    "src": "src/assets/products/home-featured-cat-periph_0-image.png",
+    "link": "/products"
+  },
+  {
+    "key": 2,
+    "name": "pc pré-conçu",
+    "src": "src/assets/products/home-featured-cat-gaming-image.png",
+    "link": "/products"
+  },
+  {
+    "key": 3,
+    "name": "périphériques",
+    "src": "src/assets/products/home-featured-cat-composants-image.png",
+    "link": "/products"
+  },
+  {
+    "key": 4,
+    "name": "Composants",
+    "src": "src/assets/products/home-featured-cat-pc_0-image.png",
+    "link": "/products"
+  },
+  {
+    "key": 5,
+    "name": "audio & screens",
+    "src": "src/assets/products/home-featured-cat-image-son-image.png",
+    "link": "/products"
+  }
+]

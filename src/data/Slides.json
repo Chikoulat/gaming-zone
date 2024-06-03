@@ -1,0 +1,30 @@
+[
+  {
+    "key": 1,
+    "title": "gaming experience 1",
+    "text": "Immerse yourself in our top-rated gaming experience. Enjoy high-quality graphics and thrilling gameplay.",
+    "src": "src/assets/carousel/component.png",
+    "alt": "slide1"
+  },
+  {
+    "key": 2,
+    "title": "gaming experience 2",
+    "text": "Experience the thrill of competitive gaming with our advanced multiplayer features.",
+    "src": "src/assets/carousel/custom_main.png",
+    "alt": "slide2"
+  },
+  {
+    "key": 3,
+    "title": "gaming experience 3",
+    "text": "Explore new worlds with our vast selection of adventure games. There's always a new challenge waiting.",
+    "src": "src/assets/carousel/gaming builds.png",
+    "alt": "slide3"
+  },
+  {
+    "key": 4,
+    "title": "gaming experience 4",
+    "text": "Join our gaming community and connect with gamers from around the world. Share your achievements and make new friends.",
+    "src": "src/assets/carousel/pc-builds.png",
+    "alt": "slide4"
+  }
+]
