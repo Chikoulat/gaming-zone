@@ -7,7 +7,7 @@ import youtube from "../assets/social/youtube.png";
 
 function Footer() {
   return (
-    <section>
+    <section className=" relative z-10">
       <div className="flex justify-between px-10 gap-16 text-white border-t-2 border-t-newred py-8 xs:flex-col xl:flex-row xl:items-center">
         <ul className="flex xs:flex-col xs:w-80 xl:flex-row xl:w-500 xl:gap-36">
           <li>
@@ -33,7 +33,7 @@ function Footer() {
               Service
             </NavLink>
 
-            <NavLink to="" className="hover:text-newred">
+            <NavLink to="/become-affiliate" className="hover:text-newred">
               Affiliations
             </NavLink>
           </div>
@@ -59,7 +59,7 @@ function Footer() {
           <img src={GZ} alt="Gaming Zone" className="xs:w-1/3 xl:w-1/6" />
         </div>
         <div className="flex gap-4">
-          <a href="">
+          <a href="https://www.facebook.com/divatechdz/">
             <img src={facebook} alt="Facebook" className="xs:w-96 xl:w-2/3" />
           </a>
           <a href="">

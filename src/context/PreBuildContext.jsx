@@ -5,14 +5,14 @@ import products from "../data/PrebuiltPC.json";
 const PreBuildContext = React.createContext();
 
 export const useBuildContext = () => useContext(PreBuildContext);
-export function PreBuildProvider({ children, initialIndex }) {
-  const [index, setIndex] = useState(() => {
-    const savedIndex = localStorage.getItem("index");
-    return savedIndex ? JSON.parse(savedIndex) : initialIndex || "";
-  });
+
+export function PreBuildProvider({ children }) {
+  const [index, setIndex] = useState(
+    parseInt(localStorage.getItem("productIndex")) || 1
+  );
 
   useEffect(() => {
-    localStorage.setItem("index", JSON.stringify(index));
+    localStorage.setItem("productIndex", index);
   }, [index]);
 
   return (
@@ -24,5 +24,4 @@ export function PreBuildProvider({ children, initialIndex }) {
 
 PreBuildProvider.propTypes = {
   children: PropTypes.node.isRequired,
-  initialIndex: PropTypes.number,
 };

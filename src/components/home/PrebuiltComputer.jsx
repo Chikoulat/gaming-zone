@@ -159,7 +159,7 @@ function PrebuiltComputer() {
 
                     <NavLink
                       to={`/pre-build/${product.name.replace(/\s/g, "-")}`}
-                      className="bg-border bg-no-repeat bg-cover bg-center py-3 xs:px-6"
+                      className="bg-border bg-no-repeat bg-cover bg-center py-3 px-7"
                     >
                       <button onClick={() => handlePrebuild(product.key)}>
                         PRECONFIGURED

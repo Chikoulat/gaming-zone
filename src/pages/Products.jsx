@@ -1,6 +1,8 @@
 import { useState, useMemo } from "react";
 import productParts from "../data/Products.json";
 import DOMPurify from "dompurify";
+import { Filters } from "../service/MultiFilter.js";
+import { NavLink } from "react-router-dom";
 import CPU from "../assets/products/CPU.jpg";
 import GPU from "../assets/products/GPU.jpg";
 import RAM from "../assets/products/ram.jpg";
@@ -10,7 +12,7 @@ import PSU from "../assets/products/PSU.jpg";
 import cooler from "../assets/products/CPU fan.jpg";
 import monitor from "../assets/products/monitor.jpg";
 import cases from "../assets/products/case.jpg";
-import { Filters } from "../service/MultiFilter.js";
+import { useProductContext } from "../context/ProductContext.jsx";
 
 const itemsPerPage = 8;
 
@@ -27,6 +29,7 @@ const categoryMap = {
 };
 
 function Products() {
+  const { setProductIndex } = useProductContext();
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
   const [inputValue, setInputValue] = useState("");
@@ -408,8 +411,17 @@ function Products() {
                 <p>{product.category.toUpperCase()}</p>
                 <p className="text-sm xs:h-52 xl:h-32">{product.description}</p>
                 <p className="text-gzred">Price: {product.price} dz</p>
-                <button className=" xs:px-12 xl:x-16 mt-2 bg-button bg-center bg-no-repeat bg-contain py-4">
-                  {product.config ? "Config" : "Buy"}
+                <button onClick={() => setProductIndex(product.id)}>
+                  <NavLink
+                    to={
+                      product.config
+                        ? "/"
+                        : `/products/${product.name.replace(/\//g, "-")}`
+                    }
+                    className=" xs:px-12 xl:x-16 mt-2 bg-button bg-center bg-no-repeat bg-contain py-4"
+                  >
+                    {product.config ? "Config" : "Buy"}
+                  </NavLink>
                 </button>
               </div>
             </article>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "How can I determine the value of my PC part?",
+    "answer": "You can determine the value of your PC part by checking similar listings on online marketplaces, or by using an appraisal tool."
+  },
+  {
+    "id": 2,
+    "question": "Where can I sell my PC part?",
+    "answer": "You can sell your PC part on online marketplaces, at a local computer store, or through a PC parts exchange program."
+  },
+  {
+    "id": 3,
+    "question": "What information should I include in my listing?",
+    "answer": "You should include the make and model of the part, its condition, any relevant specifications, and clear photos."
+  },
+  {
+    "id": 4,
+    "question": "How should I price my PC part?",
+    "answer": "You should price your PC part based on its condition, the current market value, and any additional features or accessories included."
+  },
+  {
+    "id": 5,
+    "question": "How can I ship my PC part safely?",
+    "answer": "You should use ample protective packaging, and consider insuring the shipment for the value of the part."
+  },
+  {
+    "id": 6,
+    "question": "What should I do if my part doesn't sell?",
+    "answer": "If your part doesn't sell, you could consider lowering the price, improving your listing, or trying a different sales platform."
+  }
+]

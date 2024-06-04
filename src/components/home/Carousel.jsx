@@ -52,7 +52,7 @@ function Carousel() {
   }
 
   const button =
-    "text-white xl:text-2xl bg-primary border-gzred py-1 hover:bg-gzred hover:shadow-button hover:shadow-gzred";
+    "text-white xl:text-2xl bg-primary bg-cover px-6 border-gzred py-1 hover:bg-gzred hover:shadow-button hover:shadow-gzred";
 
   return (
     <section
@@ -75,7 +75,10 @@ function Carousel() {
               </h1>
               <h3 className="xl:text-2xl text-cyan-50 w-80">{slide.text}</h3>
               <div className="flex gap-8">
-                <button className={button}> Products </button>
+                <a href="/products" className={button}>
+                  {" "}
+                  Products{" "}
+                </a>
                 <button className={button}> Trending </button>
               </div>
               <div className="flex justify-start gap-3">

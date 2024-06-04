@@ -1,16 +1,32 @@
 import { Outlet } from "react-router-dom";
+import PropTypes from "prop-types";
+import { PreBuildProvider } from "./context/PreBuildContext";
+import { ProductProvider } from "./context/ProductContext";
+import { NewsProvider } from "./context/NewsContext";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
-import { PreBuildProvider } from "./context/PreBuildContext";
+
+const Providers = ({ children }) => (
+  <ProductProvider>
+    <NewsProvider>
+      {" "}
+      <PreBuildProvider>{children}</PreBuildProvider>
+    </NewsProvider>{" "}
+  </ProductProvider>
+);
 
 function App() {
   return (
-    <PreBuildProvider>
+    <Providers>
       <Navbar />
       <Outlet />
       <Footer />
-    </PreBuildProvider>
+    </Providers>
   );
 }
+
+Providers.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
 export default App;

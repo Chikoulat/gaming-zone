@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "logo": "/src/assets/stores/Gigabyte logo.png",
+    "name": "Gigabyte",
+    "phone": "05 57 91 10 11",
+    "adress": "05 rue maraval, oran"
+  },
+  {
+    "id": 2,
+    "logo": "/src/assets/stores/MSI logo.png",
+    "name": "MSI",
+    "phone": "05 57 91 10 11",
+    "adress": "05 rue maraval, oran"
+  },
+  {
+    "id": 3,
+    "logo": "/src/assets/stores/Nvidia logo.png",
+    "name": "Nvidia",
+    "phone": "05 57 91 10 11",
+    "adress": "05 rue maraval, oran"
+  }
+]

@@ -11,7 +11,7 @@ function NavBar() {
   const divBg =
     "flex justify-center items-center xs:size-4 xl:bg-social xl:bg-no-repeat xl:bg-center xl:bg-cover xl:w-10 xl:size-8";
   return (
-    <section className="bg-navbar bg-no-repeat bg-center xs:bg-contain xs:h-24 xl:h-36 xl:bg-cover">
+    <section className="bg-navbar bg-no-repeat bg-center xs:bg-contain xs:h-24 xl:h-36 xl:bg-cover relative z-10">
       <div className="flex xs:gap-16 xs:justify-between xl:justify-start xl:gap-36 xl:px-32 3xl:px-80">
         <div className=" p-2 gap-8 xs:hidden xl:flex ">
           <p className="text-white ">Follow us</p>
@@ -61,8 +61,8 @@ function NavBar() {
           <NavLink to="/products">Product</NavLink>
           <NavLink to="/config">Config</NavLink>
           <NavLink to="/contact">Contact</NavLink>
-          <NavLink to="">Blog</NavLink>
-          <a href="">Divatech</a>
+          <NavLink to="/blog">Blog</NavLink>
+          <a href="https://divatech.dz/">Divatech</a>
 
           <div className="flex gap-2">
             <a href="https://www.facebook.com/divatechdz/">
@@ -113,15 +113,18 @@ function NavBar() {
           >
             Contact
           </NavLink>
-          <NavLink className="hover:animate-pulse hover:underline hover:decoration-gzred">
+          <NavLink
+            to="/blog"
+            className="hover:animate-pulse hover:underline hover:decoration-gzred"
+          >
             Blog
           </NavLink>
-          <NavLink
-            to="https://divatech.dz/"
+          <a
+            href="https://divatech.dz/"
             className="hover:animate-pulse hover:underline hover:decoration-gzred"
           >
             Divatech
-          </NavLink>
+          </a>
         </div>
       </div>
     </section>

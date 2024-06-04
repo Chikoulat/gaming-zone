@@ -63,7 +63,7 @@ xs:duration-${transitionSpeed} xs:${product.key - 1 === index ? "" : "hidden"}`}
               <img
                 src={product.img}
                 alt={product.name}
-                className="xl:w-32 xl:h-32 hover:animate-ping hover:animate-once"
+                className="w-32 h-32 hover:animate-ping hover:animate-once"
               />
               <h2 className="text-xl"> {product.name} </h2>
               <h4 className="text-lg"> {product.category} </h4>

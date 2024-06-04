@@ -1,44 +1,38 @@
 [
   {
-    "key": 1,
-    "img": "src/assets/images/Rectangle 35.png",
+    "id": 1,
+    "img": "/src/assets/images/Rectangle 35.png",
     "title": "NVIDIA Releases GeForce RTX 4090",
-    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities.",
-    "link": "/"
+    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities."
   },
   {
-    "key": 2,
-    "img": "src/assets/images/Rectangle 37.png",
+    "id": 2,
+    "img": "/src/assets/images/Rectangle 37.png",
     "title": "AMD Introduces Ryzen 7000 Series",
-    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities.",
-    "link": "/"
+    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities."
   },
   {
-    "key": 3,
-    "img": "src/assets/images/Rectangle 39.png",
+    "id": 3,
+    "img": "/src/assets/images/Rectangle 39.png",
     "title": "Corsair Launches Innovative iCUE Link System",
-    "text": "Corsair has introduced the iCUE Link, an integrated lighting and cooling solution for gaming PCs.",
-    "link": "/"
+    "text": "Corsair has introduced the iCUE Link, an integrated lighting and cooling solution for gaming PCs."
   },
   {
-    "key": 4,
-    "img": "src/assets/images/Rectangle 35.png",
+    "id": 4,
+    "img": "/src/assets/images/Rectangle 35.png",
     "title": "Intel Announces New Core i9 Processors",
-    "text": "Intel has revealed the latest Core i9 processors, offering improved performance and efficiency for gaming and content creation.",
-    "link": "/"
+    "text": "Intel has revealed the latest Core i9 processors, offering improved performance and efficiency for gaming and content creation."
   },
   {
-    "key": 5,
-    "img": "src/assets/images/Rectangle 37.png",
+    "id": 5,
+    "img": "/src/assets/images/Rectangle 37.png",
     "title": "ASUS ROG Announces New Gaming Laptop",
-    "text": "ASUS has unveiled the ROG Strix G17, a powerful gaming laptop with a high-refresh rate display and advanced cooling system.",
-    "link": "/"
+    "text": "ASUS has unveiled the ROG Strix G17, a powerful gaming laptop with a high-refresh rate display and advanced cooling system."
   },
   {
-    "key": 6,
-    "img": "src/assets/images/Rectangle 39.png",
+    "id": 6,
+    "img": "/src/assets/images/Rectangle 39.png",
     "title": "Razer Launches New Gaming Peripherals",
-    "text": "Razer has introduced a new lineup of gaming peripherals, including keyboards, mice, and headsets with advanced features and RGB lighting.",
-    "link": "/"
+    "text": "Razer has introduced a new lineup of gaming peripherals, including keyboards, mice, and headsets with advanced features and RGB lighting."
   }
 ]

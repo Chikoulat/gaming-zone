@@ -8,6 +8,10 @@ import Contact from "./pages/Contact.jsx";
 import Products from "./pages/Products.jsx";
 import Config from "./pages/Config.jsx";
 import PreBuild from "./pages/PreBuild.jsx";
+import SingleProduct from "./pages/SingleProduct.jsx";
+import Blog from "./pages/Blog.jsx";
+import SingleBlog from "./pages/SingleBlog.jsx";
+import Affiliate from "./pages/Affiliate.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,13 +29,31 @@ const router = createBrowserRouter([
         path: "/config",
         element: <Config />,
       },
+
       {
         path: "/products",
         element: <Products />,
       },
       {
+        path: "/products/:id",
+        element: <SingleProduct />,
+      },
+      {
         path: "/pre-build/:id",
         element: <PreBuild />,
+      },
+
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/blog/:id",
+        element: <SingleBlog />,
+      },
+      {
+        path: "/become-affiliate",
+        element: <Affiliate />,
       },
     ],
   },
