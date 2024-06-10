@@ -52,7 +52,7 @@ function Carousel() {
   }
 
   const button =
-    "text-white xl:text-2xl bg-primary bg-cover px-6 border-gzred py-1 hover:bg-gzred hover:shadow-button hover:shadow-gzred";
+    "text-white xl:text-2xl bg-newred bg-cover px-6 border-gzred py-1 hover:bg-gzred hover:shadow-button hover:shadow-gzred";
 
   return (
     <section

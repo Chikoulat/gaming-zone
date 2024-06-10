@@ -10,8 +10,8 @@ function SingleBlog() {
   const index = newsIndex - 1;
 
   return (
-    <section className="text-white relative">
-      <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 z-10 relative">
+    <section className="text-white ">
+      <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 xl:z-10 xl:relative">
         {" "}
         <h1 className="text-center py-6 xs:text-3xl xl:text-7xl">BLOG</h1>
       </div>
@@ -20,17 +20,21 @@ function SingleBlog() {
           <img
             src={news[index].img}
             alt="article"
-            className="w-full h-512 px-40 absolute z-0 -top-20"
+            className="w-full xl:h-512 px-40 xl:absolute xl:z-0 xl:-top-20"
           />
           <div className="relative xl:mt-80 text-center">
             {" "}
-            <p className="text-xl pb-5">october 19, 2023 / news</p>
-            <h3 className="text-4xl pb-5"> {news[index].title} </h3>
-            <p className="px-40"> {news[index].text}</p>
+            <p className="xl:text-xl pb-5">october 19, 2023 / news</p>
+            <h3 className="xl:text-4xl pb-5"> {news[index].title} </h3>
+            <p className="xl:px-40 xl:text-xl py-6"> {news[index].text}</p>
+            <p className="xl:px-40 xs:px-6 xs:text-left">
+              {" "}
+              {news[index].article}{" "}
+            </p>
           </div>
         </div>
       )}
-      <div className="flex justify-between px-52 py-6">
+      <div className="flex justify-between xs:px-2 xl:px-52 py-6 xs:gap-10 xl:gap-10">
         <div className="flex gap-2">
           <p>TAGS:</p>
           <p>new / esports / matches</p>
@@ -39,13 +43,21 @@ function SingleBlog() {
           <p>Share:</p>
 
           <a href="">
-            <img src={twitter} alt="Twitter" className="size-8" />
+            <img src={twitter} alt="Twitter" className="xs:size-6 xl:size-8" />
           </a>
           <a href="">
-            <img src={facebook} alt="Facebook" className="size-8" />
+            <img
+              src={facebook}
+              alt="Facebook"
+              className="xs:size-6 xl:size-8"
+            />
           </a>
           <a href="">
-            <img src={instagram} alt="Instagram" className="size-8" />
+            <img
+              src={instagram}
+              alt="Instagram"
+              className="xs:size-6 xl:size-8"
+            />
           </a>
         </div>
       </div>

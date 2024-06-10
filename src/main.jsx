@@ -13,6 +13,7 @@ import Blog from "./pages/Blog.jsx";
 import SingleBlog from "./pages/SingleBlog.jsx";
 import Affiliate from "./pages/Affiliate.jsx";
 import ShopingCart from "./pages/ShopingCart.jsx";
+import Checkout from "./pages/Checkout.jsx";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
       {
         path: "/shopping-cart",
         element: <ShopingCart />,
+      },
+      {
+        path: "/checkout",
+        element: <Checkout />,
       },
       {
         path: "/blog",

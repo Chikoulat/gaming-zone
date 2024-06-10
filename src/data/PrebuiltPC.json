@@ -14,7 +14,8 @@
       "cpuFan": "Standard CPU Fan",
       "PSU": "500W PSU",
       "motherboard": "Standard Motherboard"
-    }
+    },
+    "details": "Ideal for everyday computing tasks such as web browsing, document editing, and media consumption. Limited upgrade potential due to standard motherboard and power supply unit. Best suited for users who need a reliable and affordable machine for light to moderate usage. Comes with a 1-year limited warranty and lifetime technical support via online chat and phone."
   },
   {
     "key": 2,
@@ -31,7 +32,8 @@
       "cpuFan": "Standard CPU Fan",
       "PSU": "500W PSU",
       "motherboard": "Standard Motherboard"
-    }
+    },
+    "details": "Great for entry-level gaming, capable of running most games at medium settings. Potential for RAM and storage upgrades, though limited by the standard case. Perfect for gamers on a budget or those new to PC gaming. It supports modern gaming titles and multimedia tasks with ease. Comes with a 1-year limited warranty and lifetime technical support via online chat and phone."
   },
   {
     "key": 3,
@@ -48,7 +50,8 @@
       "cpuFan": "Standard CPU Fan",
       "PSU": "500W PSU",
       "motherboard": "Standard Motherboard"
-    }
+    },
+    "details": "Perfect for home and office tasks, such as email, spreadsheets, and web browsing. Basic expandability for additional storage or RAM. An excellent choice for students and professionals who need a dependable and affordable machine for daily tasks. Comes with a 1-year limited warranty and lifetime technical support via online chat and phone."
   },
   {
     "key": 4,
@@ -65,7 +68,8 @@
       "cpuFan": "Watercooling CPU Fan",
       "PSU": "750W PSU",
       "motherboard": "Gaming Motherboard"
-    }
+    },
+    "details": "Designed for high-end gaming, virtual reality, and intensive multimedia tasks. Ample room for future upgrades with high wattage PSU and spacious case. Ideal for gamers and creators who demand top-tier performance. Offers a seamless experience in the latest AAA games and VR applications. Comes with a 2-year limited warranty with on-site support, along with lifetime technical support via online chat and phone."
   },
   {
     "key": 5,
@@ -82,11 +86,12 @@
       "cpuFan": "Watercooling CPU Fan",
       "PSU": "750W PSU",
       "motherboard": "Gaming Motherboard"
-    }
+    },
+    "details": "Ideal for gamers looking for high performance in a compact form factor. Good expansion options with support for additional storage and enhanced cooling solutions. Excellent choice for those with limited space but high performance needs. Handles modern gaming and streaming effortlessly. Comes with a 2-year limited warranty with on-site support, along with lifetime technical support via online chat and phone."
   },
   {
     "key": 6,
-    "name": "GALDIATOR",
+    "name": "GLADIATOR",
     "img": "/src/assets/prebuilt/performance3.png",
     "description": "Featuring an AMD Ryzen 7 processors, 16GB RAM, and Nvidia RTX 3060 graphics card, designed for gamers seeking a balance between performance and price.",
     "category": "Performance",
@@ -99,7 +104,8 @@
       "cpuFan": "Watercooling CPU Fan",
       "PSU": "750W PSU",
       "motherboard": "Gaming Motherboard"
-    }
+    },
+    "details": "Great for gamers and power users who want a balance of performance and cost. Flexible upgrade options for future improvements in performance. Offers reliable performance in gaming and multitasking at an affordable price. Suitable for gamers who want to enjoy high settings without breaking the bank. Comes with a 2-year limited warranty with on-site support, along with lifetime technical support via online chat and phone."
   },
   {
     "key": 7,
@@ -116,7 +122,8 @@
       "cpuFan": "Watercooling CPU Fan",
       "PSU": "1000W PSU",
       "motherboard": "Workstation Motherboard"
-    }
+    },
+    "details": "Engineered for professionals working in CAD, 3D rendering, and other intensive applications. Highly expandable with multiple slots for RAM and additional GPUs. Delivers exceptional performance and reliability for complex projects. Suitable for architects, engineers, and designers. Comes with a 3-year limited warranty with on-site support, along with lifetime technical support via online chat and phone."
   },
   {
     "key": 8,
@@ -133,7 +140,8 @@
       "cpuFan": "Watercooling CPU Fan",
       "PSU": "1000W PSU",
       "motherboard": "Workstation Motherboard"
-    }
+    },
+    "details": "Perfect for high-demand professional applications such as architecture, engineering, and design. Extensive expandability options to support large-scale upgrades. Built for handling large datasets and complex simulations. Ideal for professionals who need maximum reliability and performance. Comes with a 3-year limited warranty with on-site support, along with lifetime technical support via online chat and phone."
   },
   {
     "key": 9,
@@ -150,6 +158,7 @@
       "cpuFan": "Watercooling CPU Fan",
       "PSU": "1000W PSU",
       "motherboard": "Workstation Motherboard"
-    }
+    },
+    "details": "Ideal for professionals requiring robust computing power for video editing, animation, and scientific simulations. Maximum expandability for handling the most demanding tasks and future upgrades. Provides unparalleled performance and reliability for critical applications. Suitable for film editors, animators, and researchers. Comes with a 3-year limited warranty with on-site support, along with lifetime technical support via online chat and phone."
   }
 ]

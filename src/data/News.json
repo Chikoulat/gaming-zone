@@ -3,36 +3,42 @@
     "id": 1,
     "img": "/src/assets/images/Rectangle 35.png",
     "title": "NVIDIA Releases GeForce RTX 4090",
-    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities."
+    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities.",
+    "article": "NVIDIA's latest release, the GeForce RTX 4090, is set to redefine gaming and professional graphics performance. This powerhouse GPU features groundbreaking advancements in ray tracing, AI-driven graphics enhancements, and unparalleled computational capabilities. Gamers and creators alike can expect significant boosts in frame rates and rendering speeds, making it a top choice for 4K gaming, VR experiences, and high-end content creation. The RTX 4090 also supports the latest NVIDIA technologies, including DLSS and Reflex, ensuring the smoothest and most immersive experiences possible."
   },
   {
     "id": 2,
     "img": "/src/assets/images/Rectangle 37.png",
     "title": "AMD Introduces Ryzen 7000 Series",
-    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities."
+    "text": "NVIDIA has unveiled the GeForce RTX 4090, boasting unprecedented performance with advanced ray tracing and AI capabilities.",
+    "article": "AMD's latest Ryzen 7000 Series processors are making waves in the computing world, offering exceptional performance and efficiency for a variety of applications. These new CPUs leverage advanced architecture and manufacturing technologies to deliver significant improvements in multi-core performance, power efficiency, and thermal management. Designed for both gamers and professionals, the Ryzen 7000 Series supports PCIe 5.0, DDR5 memory, and enhanced connectivity options, providing a robust platform for future upgrades. With these processors, AMD continues to challenge the status quo and push the boundaries of what is possible in desktop computing."
   },
   {
     "id": 3,
     "img": "/src/assets/images/Rectangle 39.png",
     "title": "Corsair Launches Innovative iCUE Link System",
-    "text": "Corsair has introduced the iCUE Link, an integrated lighting and cooling solution for gaming PCs."
+    "text": "Corsair has introduced the iCUE Link, an integrated lighting and cooling solution for gaming PCs.",
+    "article": "Corsair's new iCUE Link system is revolutionizing the way gamers customize and manage their PC lighting and cooling setups. This innovative solution integrates RGB lighting and cooling control into a single, cohesive ecosystem, allowing for seamless synchronization and management through Corsair's iCUE software. The iCUE Link system simplifies the installation process with a single connection for both power and control, reducing cable clutter and enhancing the overall aesthetics of gaming rigs. With customizable lighting effects and advanced cooling profiles, the iCUE Link ensures optimal performance and stunning visuals."
   },
   {
     "id": 4,
     "img": "/src/assets/images/Rectangle 35.png",
     "title": "Intel Announces New Core i9 Processors",
-    "text": "Intel has revealed the latest Core i9 processors, offering improved performance and efficiency for gaming and content creation."
+    "text": "Intel has revealed the latest Core i9 processors, offering improved performance and efficiency for gaming and content creation.",
+    "article": "Intel's newest Core i9 processors promise to deliver unparalleled performance for gamers and content creators alike. These processors are built on Intel's advanced architecture, offering significant improvements in both single-threaded and multi-threaded tasks. With higher clock speeds, enhanced core counts, and improved power efficiency, the latest Core i9 chips provide the ultimate platform for demanding applications, including gaming, video editing, and 3D rendering. Additionally, these processors feature Intel's latest connectivity and security technologies, ensuring a robust and secure computing experience. The new Core i9 lineup reaffirms Intel's commitment to innovation and performance leadership."
   },
   {
     "id": 5,
     "img": "/src/assets/images/Rectangle 37.png",
     "title": "ASUS ROG Announces New Gaming Laptop",
-    "text": "ASUS has unveiled the ROG Strix G17, a powerful gaming laptop with a high-refresh rate display and advanced cooling system."
+    "text": "ASUS has unveiled the ROG Strix G17, a powerful gaming laptop with a high-refresh rate display and advanced cooling system.",
+    "article": "The new ASUS ROG Strix G17 gaming laptop is designed to deliver top-tier gaming performance in a portable form factor. Equipped with the latest high-performance processors and graphics, this laptop ensures smooth gameplay even in the most demanding titles. The Strix G17 features a high-refresh rate display, providing fluid visuals and a competitive edge in fast-paced games. Its advanced cooling system keeps temperatures in check, ensuring sustained performance during extended gaming sessions. With customizable RGB lighting and a sleek design, the ROG Strix G17 is the perfect companion for gamers on the go."
   },
   {
     "id": 6,
     "img": "/src/assets/images/Rectangle 39.png",
     "title": "Razer Launches New Gaming Peripherals",
-    "text": "Razer has introduced a new lineup of gaming peripherals, including keyboards, mice, and headsets with advanced features and RGB lighting."
+    "text": "Razer has introduced a new lineup of gaming peripherals, including keyboards, mice, and headsets with advanced features and RGB lighting.",
+    "article": "Razer's latest lineup of gaming peripherals is set to enhance the gaming experience with cutting-edge features and stylish designs. The new collection includes keyboards with customizable RGB lighting, ultra-responsive mechanical switches, and ergonomic designs for extended gaming sessions. Razer's new mice offer high-precision sensors, adjustable DPI settings, and customizable buttons, providing gamers with the accuracy and flexibility needed for any game. The new headsets deliver immersive sound quality with advanced noise-canceling features, ensuring crystal-clear communication and an immersive audio experience. Each peripheral in Razer's lineup is designed with the gamer in mind, combining performance, comfort, and style."
   }
 ]

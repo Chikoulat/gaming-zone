@@ -68,7 +68,7 @@ function NavBar() {
       {open && (
         <div
           onClick={() => setOpen(!open)}
-          className="xl:hidden text-white text-center flex flex-col items-center justify-center relative z-50 bg-newred mx-12 mt-3 rounded-md xs:gap-4 xs:py-4 xs:z-10"
+          className="xl:hidden text-white text-center flex flex-col items-center justify-center z-40 bg-newred mx-12 mt-1 rounded-md gap-4 py-4"
         >
           <NavLink to="/">Home</NavLink>
           <NavLink to="/products">Product</NavLink>
@@ -76,7 +76,6 @@ function NavBar() {
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/blog">Blog</NavLink>
           <a href="https://divatech.dz/">Divatech</a>
-
           <div className="flex gap-2">
             <a href="https://www.facebook.com/divatechdz/">
               <img src={facebook} alt="facebook" className="size-4" />
@@ -93,7 +92,15 @@ function NavBar() {
             <a href="">
               <img src={youtube} alt="youtube" className="size-4" />
             </a>
-          </div>
+          </div>{" "}
+          <NavLink to="/shopping-cart" className="xs:ml-60">
+            {" "}
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABB0lEQVR4nO3WMU7DQBCF4S0hdNBREBokGjqOgyg5AjVN6DkBEpdAkCi+QyREwRHowAVUHzJaJDB2gsxmk8J/s7b1PDP7ZmRvCD096wQu8e4n1f0oVwGvOKg928FbrgJGDQ58kqWANtaigER0myeJHOg8T7pxsczNdAIbS3cgzI9zjtuQGwxwjQfsdgkwlwXvHmKGG2yFnOAUzzj7b6BfLNBv4gqPOAo5wXHsddXzwTL/km084SRJ4i9i8u2wKqzq64Uhimhtte63aKYoMcZeygKmMXEZ16JBU9Q096lPSGV0oLpu47vmJWUB49ruJn9wKakDwypgDD5p6m/UTKLmLukM9PSEDHwAYDyTpx+XqXcAAAAASUVORK5CYII="
+              alt="shopping cart"
+            />
+            {shop && <span> {shop}</span>}
+          </NavLink>
         </div>
       )}
 

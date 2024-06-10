@@ -43,7 +43,7 @@ module.exports = {
         header: "url('/src/assets/background/bg-cart header.svg')",
       },
       backgroundPosition: {
-        top4: "center bottom 52rem",
+        top4: "center bottom 56rem",
       },
       width: {
         512: "800px",
@@ -76,6 +76,10 @@ module.exports = {
       },
       padding: {
         100: "30rem",
+      },
+      gap: {
+        100: "36rem",
+        110: "40rem",
       },
     },
   },

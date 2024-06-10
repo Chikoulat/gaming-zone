@@ -11,37 +11,35 @@ function Affiliate() {
   return (
     <section className="text-white pb-12">
       <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 z-10 relative">
-        {" "}
         <h1 className="text-center py-6 xs:text-3xl xl:text-5xl">
           BECOME AFFILIATE
         </h1>
       </div>
       <div className="flex justify-center py-2 mt-96">
         <img src={img} alt="affiliate" className="mx-auto absolute top-52" />
-        <h2 className="realtive z-10 text-4xl bottom-0">
+        <h2 className="realtive z-10 bottom-0 xs:text-xl xl:text-4xl">
           become an official gaming zone affiliate today !
         </h2>
       </div>
 
-      <p className="relative px-80 text-center text-lg py-2">
+      <p className="relative xl:px-80 text-center text-lg py-2">
         Are you a passionate PC gamer with a social media account, Twitch.TV
         channel, YouTube channel, or have a new website with PC gaming related
         content? Want an easy way to earn some cash by partnering up with the
         best custom PC system builder in the world? Well, Gaming ZONE Affiliate
         program via Commission Junction (CJ) is the perfect choice for you!
       </p>
-
-      <div className="flex items-center gap-20 px-80 py-20">
-        <div>
-          <h2 className="text-4xl text-center">EARN</h2>
-          <p className="py-6">
+      <h2 className="text-6xl text-center pt-10">EARN</h2>
+      <div className="flex xl:items-center gap-20 py-10 xs:flex-col-reverse xl:flex-row xl:px-80">
+        <div className="xs:flex xs:flex-col xs:items-center xl:block">
+          <p className="px-3 pb-6">
             With your unique URL link provided by Commission Junction, you can
             easily track and earn commission on any Gaming Zone PC system or
             Gearshop order referred by your channel or website! All commissions
             are determined by Gaming Zone and will be offered to you once you
             complete the signup process to join as a CJ Publisher.
           </p>
-          <button className="bg-button bg-center bg-cover px-10 py-2">
+          <button className="bg-button bg-center bg-no-repeat py-2 xs:bg-contain xs:px-20 xl:bg-cover xl:px-10">
             Commission policy
           </button>
         </div>
@@ -86,20 +84,20 @@ function Affiliate() {
         </button>
       </form>
       <hr className="border-2 border-secondary my-6" />
-      <h1 className="text-center text-gzred text-5xl py-3">
+      <h1 className="text-center text-gzred py-3 xs:text-2xl xl:text-5xl">
         Frequently asked questions
       </h1>
-      <div className="grid grid-cols-2 text-white">
+      <div className="grid xl:grid-cols-2 text-white">
         {FAQ &&
           FAQ.map((faq) => (
             <div key={faq.id}>
               <details
-                className="bg-buttonC bg-cover bg-center bg-no-repeat px-20 my-4 p-6"
+                className="bg-buttonC bg-cover bg-center bg-no-repeat my-4 xs:px-16 xl:px-20 xs:py-4 xl:py-6"
                 open={open === faq.id}
                 onClick={() => setOpen(open === faq.id ? null : faq.id)}
               >
                 <summary className="flex items-center justify-between cursor-pointer">
-                  <h5 className="text-lg">{faq.question}</h5>
+                  <h5 className=" xs:text-sm xl:text-lg">{faq.question}</h5>
 
                   <span className="relative flex-shrink-0 ml-1.5 w-5 h-5">
                     <svg

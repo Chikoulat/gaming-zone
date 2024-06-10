@@ -8,21 +8,23 @@ function Blog() {
   const { setNewsIndex, news } = useNewsContext();
 
   return (
-    <section className="text-white">
+    <section className="text-white xs:text-xs xl:text-base">
       <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12">
-        {" "}
         <h1 className="text-center py-8 xs:text-3xl xl:text-7xl">BLOG</h1>
       </div>
 
-      <div className="flex flex-wrap gap-16 justify-center py-12">
+      <div className="flex flex-wrap xs:gap-8 xl:gap-16 justify-center py-12">
         {news &&
           news.map((article) => (
-            <div key={article.id} className="flex flex-col gap-3 w-1/4">
+            <div
+              key={article.id}
+              className="flex flex-col xs:gap-1 xl:gap-3 xs:w-1/3 xl:w-1/4"
+            >
               <img src={article.img} alt="article" />
               <p>october 19, 2023 / news</p>
-              <h3>{article.title}</h3>
-              <p>{article.text}</p>
-              <div className="flex justify-between">
+              <h3 className="h-10">{article.title}</h3>
+              <p className="xs:h-32 xl:h-20">{article.text}</p>
+              <div className="flex justify-between xs:flex-col xl:flex-row xs:gap-3">
                 <button
                   type="button"
                   onClick={() => setNewsIndex(article.id)}
@@ -36,13 +38,25 @@ function Blog() {
                   <p>Share:</p>
 
                   <a href="">
-                    <img src={twitter} alt="Twitter" className="size-8" />
+                    <img
+                      src={twitter}
+                      alt="Twitter"
+                      className="xs:size-4 xl:size-8"
+                    />
                   </a>
                   <a href="">
-                    <img src={facebook} alt="Facebook" className="size-8" />
+                    <img
+                      src={facebook}
+                      alt="Facebook"
+                      className="xs:size-4 xl:size-8"
+                    />
                   </a>
                   <a href="">
-                    <img src={instagram} alt="Instagram" className="size-8" />
+                    <img
+                      src={instagram}
+                      alt="Instagram"
+                      className="xs:size-4 xl:size-8"
+                    />
                   </a>
                 </div>
               </div>
