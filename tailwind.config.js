@@ -28,6 +28,7 @@ module.exports = {
         news: "url('/src/assets/background/bg-news.svg')",
         newsComponents: "url('/src/assets/background/bg-news component.svg')",
         contact: "url('/src/assets/background/bg-contact.webp')",
+        singUp: "url('/src/assets/background/bg-sing up.png')",
         input: "url('/src/assets/background/bg-input.svg')",
         message: "url('/src/assets/background/bg-message.svg')",
         info: "url('/src/assets/background/bg-info.svg')",

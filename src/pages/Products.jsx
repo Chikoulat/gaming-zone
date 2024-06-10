@@ -166,7 +166,7 @@ function Products() {
   return (
     <section className="text-white">
       <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12">
-        <h1 className="text-center py-8 xs:text-3xl xl:text-7xl">PRODUCTS</h1>
+        <h1 className="text-center pb-10 xs:text-3xl xl:text-7xl">PRODUCTS</h1>
       </div>
       <div className="bg-search bg-no-repeat bg-center flex justify-center items-center py-12 my-2 xs:gap-6 xl:gap-3">
         <div

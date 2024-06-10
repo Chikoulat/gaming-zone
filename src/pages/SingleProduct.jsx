@@ -42,105 +42,108 @@ function SingleProduct() {
 
   return (
     <section className="text-white">
-      <div className="bg-builds bg-cover bg-no-repeat bg-bottom pb-20">
-        <h1 className="text-center text-5xl py-8">{products[index].name}</h1>
+      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xs:pb-6 xl:pb-20">
+        <h1 className="text-center xs:text-xl xl:text-5xl ">
+          {products[index].name}
+        </h1>
       </div>
-      <div className="bg-prebuiltpage bg-contain bg-top4 bg-no-repeat">
-        <div className="flex items-center gap-8 pr-100 mr-32 w-full py-24">
-          <div className="flex flex-col justify-center gap-4 px-44">
-            <h1 className="text-3xl">{products[index].name}</h1>
-            <p>{products[index].description}</p>
+      <div className="bg-prebuiltpage bg-contain bg-top4 bg-no-repeat py-12">
+        <div className="flex justify-center items-center xs:flex-col xl:flex-row">
+          <div className="flex justify-center items-center xs:flex-col xl:flex-row ">
+            <p className="xl:w-1/2 px-12">{products[index].description}</p>
+            <img
+              src={categoryMap[products[index].category]}
+              alt={products[index].name}
+              className="xs:size-3/6 xl:w-96"
+            />
           </div>
-
-          <img
-            src={categoryMap[products[index].category]}
-            alt={products[index].name}
-            className="size-1/3"
-          />
         </div>{" "}
-        <div className="flex items-center justify-between bg-bar text-2xl">
-          <h1 className="pl-4">{products[index].name}</h1>
-          <div>
+        <div className="flex xs:flex-col xl:flex-row justify-between bg-bar xs:my-10 xl:my-5 xl:text-2xl xl:items-center">
+          <h1 className="xl:pl-4 xs:w-full xl:w-auto">
+            {products[index].name}
+          </h1>
+          <div className="xs:flex xs:justify-end xl:block">
             <button
-              className="bg-button bg-cover bg-center px-36 py-6 -mr-10"
               onClick={handleAddToCart}
+              className="bg-button bg-no-repeat bg-center xs:-mr-16 xl:-mr-10 xs:bg-contain xs:px-16 xl:bg-cover xl:px-36 xl:py-6"
             >
               Buy now
             </button>
-            <button className="bg-buttonC bg-cover bg-center px-36 py-6">
+            <button className="bg-buttonC bg-center bg-no-repeat xs:bg-contain xs:px-5 xl:bg-cover xl:px-36 xl:py-6">
               Customize
             </button>
           </div>
         </div>
-        <div>
-          <div className="flex flex-row-reverse justify-center gap-24 pt-4">
-            <div className="flex flex-col justify-around">
-              <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
-              <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
-              <p className="w-500">
-                When you need the maximum amount of PC power with innovative,
-                high-performance custom cooling, the ORIGIN PC GENESIS desktop
-                lays down the foundation to create your dream machine. Designed
-                for the gamer and PC enthusiast, the HydroX powered GENESIS is
-                professionally built and backed by a 24/7 support team. Choose
-                from the latest high end PC hardware with support for the latest
-                graphics cards and processors cooled by the latest in HydroX
-                cooling technology.
-              </p>
-            </div>
-            <img src={img1} alt="img1" />
+      </div>
+
+      <div>
+        <div className="flex xs:flex-col xl:flex-row-reverse justify-center gap-24 pt-4">
+          <div className="flex flex-col justify-around">
+            <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
+            <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
+            <p className="xl:w-500">
+              When you need the maximum amount of PC power with innovative,
+              high-performance custom cooling, the ORIGIN PC GENESIS desktop
+              lays down the foundation to create your dream machine. Designed
+              for the gamer and PC enthusiast, the HydroX powered GENESIS is
+              professionally built and backed by a 24/7 support team. Choose
+              from the latest high end PC hardware with support for the latest
+              graphics cards and processors cooled by the latest in HydroX
+              cooling technology.
+            </p>
           </div>
-          <div className="flex items-center justify-center gap-24 my-10">
-            <div className="flex flex-col justify-around">
-              <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
-              <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
-              <p className="w-500">
-                When you need the maximum amount of PC power with innovative,
-                high-performance custom cooling, the ORIGIN PC GENESIS desktop
-                lays down the foundation to create your dream machine. Designed
-                for the gamer and PC enthusiast, the HydroX powered GENESIS is
-                professionally built and backed by a 24/7 support team. Choose
-                from the latest high end PC hardware with support for the latest
-                graphics cards and processors cooled by the latest in HydroX
-                cooling technology.
-              </p>
-            </div>
-            <img src={img2} alt="img2" />
+          <img src={img1} alt="img1" />
+        </div>
+        <div className="flex xs:flex-col xl:flex-row items-center justify-center gap-24 my-10">
+          <div className="flex flex-col justify-around">
+            <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
+            <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
+            <p className="xl:w-500">
+              When you need the maximum amount of PC power with innovative,
+              high-performance custom cooling, the ORIGIN PC GENESIS desktop
+              lays down the foundation to create your dream machine. Designed
+              for the gamer and PC enthusiast, the HydroX powered GENESIS is
+              professionally built and backed by a 24/7 support team. Choose
+              from the latest high end PC hardware with support for the latest
+              graphics cards and processors cooled by the latest in HydroX
+              cooling technology.
+            </p>
           </div>
-          <div className="flex flex-row-reverse justify-center items-center gap-24 px-32 my-10">
-            <div>
-              <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
-              <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
-              <p className="w-500">
-                When you need the maximum amount of PC power with innovative,
-                high-performance custom cooling, the ORIGIN PC GENESIS desktop
-                lays down the foundation to create your dream machine. Designed
-                for the gamer and PC enthusiast, the HydroX powered GENESIS is
-                professionally built and backed by a 24/7 support team. Choose
-                from the latest high end PC hardware with support for the latest
-                graphics cards and processors cooled by the latest in HydroX
-                cooling technology.
-              </p>
-            </div>
-            <img src={img3} alt="img3" />
+          <img src={img2} alt="img2" />
+        </div>
+        <div className="flex xs:flex-col xl:flex-row-reverse justify-center items-center gap-24 px-32 my-10">
+          <div>
+            <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
+            <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
+            <p className="xl:w-500">
+              When you need the maximum amount of PC power with innovative,
+              high-performance custom cooling, the ORIGIN PC GENESIS desktop
+              lays down the foundation to create your dream machine. Designed
+              for the gamer and PC enthusiast, the HydroX powered GENESIS is
+              professionally built and backed by a 24/7 support team. Choose
+              from the latest high end PC hardware with support for the latest
+              graphics cards and processors cooled by the latest in HydroX
+              cooling technology.
+            </p>
           </div>
-          <div className="flex items-center justify-center gap-24 px-32 pb-4">
-            <div>
-              <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
-              <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
-              <p className="w-500">
-                When you need the maximum amount of PC power with innovative,
-                high-performance custom cooling, the ORIGIN PC GENESIS desktop
-                lays down the foundation to create your dream machine. Designed
-                for the gamer and PC enthusiast, the HydroX powered GENESIS is
-                professionally built and backed by a 24/7 support team. Choose
-                from the latest high end PC hardware with support for the latest
-                graphics cards and processors cooled by the latest in HydroX
-                cooling technology.
-              </p>
-            </div>
-            <img src={img4} alt="img4" />
+          <img src={img3} alt="img3" />
+        </div>
+        <div className="flex xs:flex-col xl:flex-row items-center justify-center gap-24 px-32 pb-4">
+          <div>
+            <h2 className="text-4xl text-newred">FLEXIBILITY</h2>
+            <h3 className="text-4xl w-80">TAKE COMMAND OF TRUE POWER</h3>
+            <p className="xl:w-500">
+              When you need the maximum amount of PC power with innovative,
+              high-performance custom cooling, the ORIGIN PC GENESIS desktop
+              lays down the foundation to create your dream machine. Designed
+              for the gamer and PC enthusiast, the HydroX powered GENESIS is
+              professionally built and backed by a 24/7 support team. Choose
+              from the latest high end PC hardware with support for the latest
+              graphics cards and processors cooled by the latest in HydroX
+              cooling technology.
+            </p>
           </div>
+          <img src={img4} alt="img4" />
         </div>
       </div>
 

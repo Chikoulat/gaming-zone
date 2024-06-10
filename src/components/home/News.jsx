@@ -30,7 +30,7 @@ function News() {
       <div className="flex justify-center">
         <NavLink
           to="/blog"
-          className="text-white bg-button bg-no-repeat bg-center xs:bg-contain py-2 mt-8 xs:px-20 xl:px-20 xl:bg-cover xl:text-2xl"
+          className="text-white bg-button bg-cover bg-no-repeat bg-center py-2 mt-8 px-16 xl:text-2xl"
         >
           View More
         </NavLink>

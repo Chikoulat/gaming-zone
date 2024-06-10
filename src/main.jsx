@@ -14,6 +14,8 @@ import SingleBlog from "./pages/SingleBlog.jsx";
 import Affiliate from "./pages/Affiliate.jsx";
 import ShopingCart from "./pages/ShopingCart.jsx";
 import Checkout from "./pages/Checkout.jsx";
+import SingUp from "./pages/SingUp.jsx";
+import Login from "./pages/Login.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Homepage />,
+      },
+      {
+        path: "/sing-up",
+        element: <SingUp />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
       },
       {
         path: "/contact",

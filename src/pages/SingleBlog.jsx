@@ -13,7 +13,7 @@ function SingleBlog() {
     <section className="text-white ">
       <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 xl:z-10 xl:relative">
         {" "}
-        <h1 className="text-center py-6 xs:text-3xl xl:text-7xl">BLOG</h1>
+        <h1 className="text-center pb-10 xs:text-3xl xl:text-7xl">BLOG</h1>
       </div>
       {news && (
         <div>

@@ -63,7 +63,7 @@ function ShopingCart() {
   return (
     <section className="text-white">
       <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20">
-        <h1 className="text-center xs:text-xl xl:text-5xl py-8">
+        <h1 className="text-center xs:text-xl xl:text-5xl pb-10">
           SHOPPING CART
         </h1>
       </div>
