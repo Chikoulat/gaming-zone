@@ -40,6 +40,7 @@ module.exports = {
         new: "url('/src/assets/background/new-product.svg')",
         search: "url('/src/assets/background/bg-search.svg')",
         faq: "url('/src/assets/background/bg-FAQ.svg')",
+        header: "url('/src/assets/background/bg-cart header.svg')",
       },
       backgroundPosition: {
         top4: "center bottom 52rem",

@@ -12,6 +12,7 @@ import SingleProduct from "./pages/SingleProduct.jsx";
 import Blog from "./pages/Blog.jsx";
 import SingleBlog from "./pages/SingleBlog.jsx";
 import Affiliate from "./pages/Affiliate.jsx";
+import ShopingCart from "./pages/ShopingCart.jsx";
 
 const router = createBrowserRouter([
   {
@@ -42,7 +43,10 @@ const router = createBrowserRouter([
         path: "/pre-build/:id",
         element: <PreBuild />,
       },
-
+      {
+        path: "/shopping-cart",
+        element: <ShopingCart />,
+      },
       {
         path: "/blog",
         element: <Blog />,

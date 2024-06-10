@@ -206,15 +206,10 @@ function Products() {
                         )
                       }
                     >
-                      <option value="All">All</option>
+                      {" "}
+                      <input type="checkbox" value="All" />
                       {Filters[selectedCategory][filterKey].map((option) => (
-                        <option
-                          key={option}
-                          value={option}
-                          className="xs:text-xs xl:text-base"
-                        >
-                          {option}
-                        </option>
+                        <input type="checkbox" value={option} key={option} />
                       ))}
                     </select>
                   </div>

@@ -79,7 +79,10 @@ function Carousel() {
                   {" "}
                   Products{" "}
                 </a>
-                <button className={button}> Trending </button>
+                <a href="/blog" className={button}>
+                  {" "}
+                  Trending{" "}
+                </a>
               </div>
               <div className="flex justify-start gap-3">
                 {slides &&

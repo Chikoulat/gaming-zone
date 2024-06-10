@@ -1,4 +1,5 @@
 import { useBuildContext } from "../context/PreBuildContext";
+import stores from "../data/stores.json";
 import img1 from "../assets/images/Image 107.png";
 import img2 from "../assets/images/Image 108.png";
 import img3 from "../assets/images/Image 109.png";
@@ -11,9 +12,6 @@ import RAM from "../assets/built pc/ram.png";
 import SSD from "../assets/built pc/ssd.png";
 import PSU from "../assets/built pc/psu.png";
 import CPUFan from "../assets/built pc/cpu-fan.png";
-import Gigabyte from "../assets/stores/Gigabyte logo.png";
-import MSI from "../assets/stores/MSI logo.png";
-import Nvidia from "../assets/stores/Nvidia logo.png";
 import Phone from "../assets/images/phone.png";
 import Map from "../assets/images/map.png";
 
@@ -186,68 +184,37 @@ function PreBuild() {
           </div>
         )}
       </div>
-      <div className="flex justify-center items-center text-black">
-        <div className="bg-stores bg-no-repeat py-10 px-">
-          <img src={Gigabyte} alt="Gigabyte" />
-          <hr className="border-2 border-black my-4" />
-          <p className="font-bold text-lg">gigabyte informatique</p>
-          <div className="flex">
-            <img src={Phone} alt="Phone" />
-            <p>05 57 91 10 11</p>
+      <div className="flex flex-wrap justify-center gap-4 my-6">
+        {stores.map((store) => (
+          <div
+            key={store.id}
+            className="flex flex-col gap-3 bg-stores bg-no-repeat bg-contain bg-center py-10 px-12 text-black"
+          >
+            <img
+              src={store.logo}
+              alt={store.name}
+              className="size-1/2 mx-auto"
+            />
+            <hr className="border-2 border-black my-4" />
+            <p className="font-bold text-3xl">{store.name}</p>
+            <div className="flex gap-4">
+              <img src={Phone} alt="Phone" />
+              <p>{store.phone}</p>
+            </div>
+            <div className="flex gap-4">
+              <img src={Map} alt="Map" />
+              <p>{store.adress}</p>
+            </div>
+            <div className="flex justify-center items-center gap-2 text-white">
+              <button className="flex items-center gap-3 bg-button bg-center bg-contain bg-no-repeat px-12 py-1">
+                Call
+              </button>
+              <button className="flex items-center gap-3 bg-button bg-center bg-contain bg-no-repeat px-12 py-1 ">
+                Visit
+              </button>
+            </div>
           </div>
-          <div className="flex">
-            <img src={Map} alt="Map" />
-            <p>05 rue maraval, oran</p>
-          </div>
-          <div className="flex justify-center items-end">
-            <button className="flex items-center gap-3 bg-button bg-center bg-cover bg-no-repeat px-12 py-1">
-              <img src={Phone} alt="Phone" /> Call
-            </button>
-            <button className="flex items-center gap-3 bg-button bg-center bg-cover bg-no-repeat px-12 py-1">
-              <img src={Map} alt="Map" /> Visit
-            </button>
-          </div>
-        </div>
-        <div className="bg-stores">
-          <img src={MSI} alt="MSI" />
-          <hr />
-          <p>MSI informatique</p>
-          <div>
-            <img src={Phone} alt="Phone" />
-            <p>05 57 91 10 11</p>
-          </div>
-          <div>
-            <img src={Map} alt="Map" />
-            <p>05 rue maraval, oran</p>
-          </div>
-          <button>
-            <img src={Phone} alt="Phone" /> pCall
-          </button>
-          <button>
-            {" "}
-            <img src={Map} alt="Map" /> Visit
-          </button>
-        </div>
-        <div className="bg-stores">
-          <img src={Nvidia} alt="Nvidia" />
-          <hr />
-          <p>Nvidia informatique</p>
-          <div>
-            <img src={Phone} alt="Phone" />
-            <p>05 57 91 10 11</p>
-          </div>
-          <div>
-            <img src={Map} alt="Map" />
-            <p>05 rue maraval, oran</p>
-          </div>
-          <button>
-            <img src={Phone} alt="Phone" /> Call
-          </button>
-          <button>
-            {" "}
-            <img src={Map} alt="Map" /> Visit
-          </button>
-        </div>
+        ))}
       </div>
     </section>
   );

@@ -19,7 +19,7 @@ export const Filters = {
     architecture: ["Zen 2", "Zen 3", "Comet Lake", "Rocket Lake"],
   },
   motherboard: {
-    socket: ["LGA 1200", "LGA 1151", "AM4"],
+    socket: ["LGA 1200", "LGA 1151", "AM4", "toto"],
     "form factor": ["ATX", "Micro-ATX", "Mini-ITX"],
 
     chipset: ["AMD B450", "AMD B550", "AMD X570", "Intel B460", "Intel Z490"],

@@ -3,16 +3,18 @@ import PropTypes from "prop-types";
 import { PreBuildProvider } from "./context/PreBuildContext";
 import { ProductProvider } from "./context/ProductContext";
 import { NewsProvider } from "./context/NewsContext";
+import { CartProvider } from "./context/CartContext";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 
 const Providers = ({ children }) => (
-  <ProductProvider>
-    <NewsProvider>
-      {" "}
-      <PreBuildProvider>{children}</PreBuildProvider>
-    </NewsProvider>{" "}
-  </ProductProvider>
+  <CartProvider>
+    <ProductProvider>
+      <NewsProvider>
+        <PreBuildProvider>{children}</PreBuildProvider>
+      </NewsProvider>
+    </ProductProvider>
+  </CartProvider>
 );
 
 function App() {

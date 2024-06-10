@@ -9,8 +9,6 @@ function SingleBlog() {
 
   const index = newsIndex - 1;
 
-  console.log(newsIndex);
-
   return (
     <section className="text-white relative">
       <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 z-10 relative">

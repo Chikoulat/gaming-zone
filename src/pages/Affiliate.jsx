@@ -85,6 +85,10 @@ function Affiliate() {
           Join us
         </button>
       </form>
+      <hr className="border-2 border-secondary my-6" />
+      <h1 className="text-center text-gzred text-5xl py-3">
+        Frequently asked questions
+      </h1>
       <div className="grid grid-cols-2 text-white">
         {FAQ &&
           FAQ.map((faq) => (

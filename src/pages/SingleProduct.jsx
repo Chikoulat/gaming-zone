@@ -1,4 +1,5 @@
 import { useProductContext } from "../context/ProductContext.jsx";
+import { useCartContext } from "../context/CartContext.jsx";
 import stores from "../data/stores.json";
 import img1 from "../assets/images/Image 107.png";
 import img2 from "../assets/images/Image 108.png";
@@ -16,21 +17,28 @@ import cooler from "../assets/products/CPU fan.jpg";
 import monitor from "../assets/products/monitor.jpg";
 import cases from "../assets/products/case.jpg";
 
-const categoryMap = {
-  CPU,
-  GPU,
-  RAM,
-  storage: drive,
-  motherboard,
-  "power supply": PSU,
-  cooler,
-  monitor,
-  case: cases,
-};
-
 function SingleProduct() {
+  const categoryMap = {
+    CPU,
+    GPU,
+    RAM,
+    storage: drive,
+    motherboard,
+    "power supply": PSU,
+    cooler,
+    monitor,
+    case: cases,
+  };
+
+  const { addToCart } = useCartContext();
   const { productIndex, products } = useProductContext();
   const index = productIndex - 1;
+
+  const handleAddToCart = () => {
+    const product = products[index];
+
+    addToCart(product);
+  };
 
   return (
     <section className="text-white">
@@ -43,6 +51,7 @@ function SingleProduct() {
             <h1 className="text-3xl">{products[index].name}</h1>
             <p>{products[index].description}</p>
           </div>
+
           <img
             src={categoryMap[products[index].category]}
             alt={products[index].name}
@@ -52,7 +61,10 @@ function SingleProduct() {
         <div className="flex items-center justify-between bg-bar text-2xl">
           <h1 className="pl-4">{products[index].name}</h1>
           <div>
-            <button className="bg-button bg-cover bg-center px-36 py-6 -mr-10">
+            <button
+              className="bg-button bg-cover bg-center px-36 py-6 -mr-10"
+              onClick={handleAddToCart}
+            >
               Buy now
             </button>
             <button className="bg-buttonC bg-cover bg-center px-36 py-6">
