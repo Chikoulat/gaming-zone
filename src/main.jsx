@@ -6,7 +6,6 @@ import App from "./App.jsx";
 import Homepage from "./pages/Homepage.jsx";
 import Contact from "./pages/Contact.jsx";
 import Products from "./pages/Products.jsx";
-import Config from "./pages/Config.jsx";
 import PreBuild from "./pages/PreBuild.jsx";
 import SingleProduct from "./pages/SingleProduct.jsx";
 import Blog from "./pages/Blog.jsx";
@@ -16,6 +15,8 @@ import ShopingCart from "./pages/ShopingCart.jsx";
 import Checkout from "./pages/Checkout.jsx";
 import SingUp from "./pages/SingUp.jsx";
 import Login from "./pages/Login.jsx";
+import Error404 from "./pages/Error404.jsx";
+import Builder from "./pages/Builder.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,8 +39,8 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "/config",
-        element: <Config />,
+        path: "/builder",
+        element: <Builder />,
       },
 
       {
@@ -73,6 +74,10 @@ const router = createBrowserRouter([
       {
         path: "/become-affiliate",
         element: <Affiliate />,
+      },
+      {
+        path: "/*",
+        element: <Error404 />,
       },
     ],
   },

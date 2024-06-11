@@ -19,7 +19,7 @@ function PreBuild() {
   const { index, products } = useBuildContext();
   const id = index - 1;
   const cssBuild =
-    "flex items-center justify- bg-prebuilproduct bg-no-repeat bg-center bg-cover xs:px-2 xs:py-1 xs:gap-12 xl:gap-10 xl:px-5 xl:py-2";
+    "flex items-center bg-prebuilproduct bg-no-repeat bg-center bg-cover xs:px-2 xs:py-1 xs:gap-12 xl:gap-10 xl:px-5 xl:py-2";
 
   return (
     <section className="text-white">

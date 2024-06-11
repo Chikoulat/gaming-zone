@@ -1,9 +1,14 @@
 import { useState } from "react";
 import img from ".././assets/images/affiliate.png";
 import FAQ from "../data/FAQ.json";
+import { NavLink } from "react-router-dom";
 
 function Affiliate() {
   const [open, setOpen] = useState(false);
+
+  const handleSubmit = () => {
+    document.getElementById("my_modal_2").showModal();
+  };
 
   const inputCSS =
     "w-80 h-12 bg-transparent text-lg px-8 bg-input bg-cover bg-no-repeat bg-center";
@@ -77,7 +82,7 @@ function Affiliate() {
         </div>
 
         <button
-          type="submit"
+          onClick={handleSubmit}
           className="h-12 bg-button bg-center bg-no-repeat bg-cover text-white text-xl relative px-20"
         >
           Join us
@@ -137,6 +142,35 @@ function Affiliate() {
             </div>
           ))}
       </div>
+      <dialog id="my_modal_2" className="py-10 rounded-md">
+        {" "}
+        <button
+          onClick={() => document.getElementById("my_modal_2").close()}
+          className="top-0 right-0 absolute bg-button bg-center bg-cover bg-no-repeat px-2 py-1 text-white"
+        >
+          x
+        </button>
+        <p className="py-4 xs:px-12 xl:px-28">
+          Thank you for joining us, we will contact you soon. Would you like to
+          go back to our products?
+        </p>
+        <div className="flex justify-center gap-4">
+          <NavLink
+            to="/products"
+            className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
+          >
+            {" "}
+            Products
+          </NavLink>
+          <NavLink
+            to="/"
+            className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
+          >
+            {" "}
+            Home page
+          </NavLink>
+        </div>
+      </dialog>
     </section>
   );
 }

@@ -36,24 +36,22 @@ function ShopingCart() {
   if (cart.length === 0) {
     return (
       <section className="text-white text-center">
-        <div className="bg-builds bg-cover bg-no-repeat bg-bottom pb-20">
-          <h1 className=" text-5xl py-8">SHOPPING CART</h1>
+        <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20 xl:py-3 3xl:pb-28 3xl:pt-8">
+          <h1 className="text-center xs:text-xl xl:text-5xl xs:pb-4 xl:pb-1">
+            SHOPPING CART
+          </h1>
         </div>
         <div className="py-12">
-          <div>
-            <h1 className="text-5xl pb-10">
-              Nothing in your cart yet, please visit our products
-            </h1>
-            <div className="flex gap-12 justify-center items-center">
-              {" "}
-              <NavLink
-                to="/products"
-                className="text-xl bg-button bg-center bg-cover bg-no-repeat py-3 px-20"
-              >
-                Our products
-              </NavLink>
-              <iframe src="https://lottie.host/embed/f91ca4d1-019e-4406-8ac4-223ccb029a99/eiSvsl97ll.json" />
-            </div>
+          <h1 className="xs:text-2xl xl:text-5xl pb-10">
+            Nothing in your cart yet, please visit our products
+          </h1>
+          <div className="xl:flex gap-12 justify-center items-center">
+            <NavLink
+              to="/products"
+              className="text-xl bg-button bg-center bg-cover bg-no-repeat xs:px-10 xs:py-2 xl:py-3 xl:px-20"
+            >
+              Our products
+            </NavLink>
           </div>
         </div>
       </section>
@@ -62,7 +60,7 @@ function ShopingCart() {
 
   return (
     <section className="text-white">
-      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20">
+      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20 3xl:pb-20 3xl:pt-8">
         <h1 className="text-center xs:text-xl xl:text-5xl pb-10">
           SHOPPING CART
         </h1>

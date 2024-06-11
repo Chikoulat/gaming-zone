@@ -8,9 +8,14 @@ import PSU from "../assets/products/PSU.jpg";
 import cooler from "../assets/products/CPU fan.jpg";
 import monitor from "../assets/products/monitor.jpg";
 import cases from "../assets/products/case.jpg";
+import { NavLink } from "react-router-dom";
 
 function Checkout() {
   const { cart, getCartTotal } = useCartContext();
+
+  const handleBuy = () => {
+    document.getElementById("my_modal_2").showModal();
+  };
 
   const categoryMap = {
     CPU,
@@ -27,8 +32,10 @@ function Checkout() {
     "w-80 h-12 bg-transparent text-white text-lg px-8 mb-8 relative bg-input bg-cover bg-no-repeat bg-center";
   return (
     <section className="text-white">
-      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20">
-        <h1 className="text-center xs:text-xl xl:text-5xl pb-10">CHECKOUT</h1>
+      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pt-4 xl:pb-20 3xl:pb-20 3xl:pt-8">
+        <h1 className="text-center xs:text-xl xl:text-5xl xs:pb-2 3xl:pb-6">
+          CHECKOUT
+        </h1>
       </div>
       <div className="flex xl:justify-center items-center gap-10 px-40 py-12 xs:flex-col xl:flex-row">
         <div>
@@ -151,13 +158,45 @@ function Checkout() {
               in our privacy policy.
             </p>
             <div className="flex justify-center py-4">
-              <button className="bg-button bg-center bg-contain bg-no-repeat px-10 py-2">
+              <button
+                onClickCapture={handleBuy}
+                className="bg-button bg-center bg-contain bg-no-repeat px-10 py-2"
+              >
                 Buy now
               </button>
             </div>
           </div>
         </div>
       </div>
+      <dialog id="my_modal_2" className="py-10 rounded-md">
+        {" "}
+        <button
+          onClick={() => document.getElementById("my_modal_2").close()}
+          className="top-0 right-0 absolute bg-button bg-center bg-cover bg-no-repeat px-2 py-1 text-white"
+        >
+          x
+        </button>
+        <p className="py-4 xs:px-12 xl:px-28">
+          Your purchase has been completed successfully. Would you like to go
+          back to our products?
+        </p>
+        <div className="flex justify-center gap-4">
+          <NavLink
+            to="/products"
+            className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
+          >
+            {" "}
+            Products
+          </NavLink>
+          <NavLink
+            to="/"
+            className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
+          >
+            {" "}
+            Home page
+          </NavLink>
+        </div>
+      </dialog>
     </section>
   );
 }

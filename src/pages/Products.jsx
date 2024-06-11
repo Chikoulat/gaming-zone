@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
 import productParts from "../data/Products.json";
+import { useProductContext } from "../context/ProductContext.jsx";
 import DOMPurify from "dompurify";
 import { Filters } from "../service/MultiFilter.js";
 import { NavLink } from "react-router-dom";
@@ -12,7 +13,6 @@ import PSU from "../assets/products/PSU.jpg";
 import cooler from "../assets/products/CPU fan.jpg";
 import monitor from "../assets/products/monitor.jpg";
 import cases from "../assets/products/case.jpg";
-import { useProductContext } from "../context/ProductContext.jsx";
 
 const itemsPerPage = 8;
 
@@ -165,8 +165,10 @@ function Products() {
 
   return (
     <section className="text-white">
-      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12">
-        <h1 className="text-center pb-10 xs:text-3xl xl:text-7xl">PRODUCTS</h1>
+      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20 xl:py-3">
+        <h1 className="text-center xs:text-xl xl:text-5xl xs:pb-4 xl:pb-4">
+          PRODUCTS
+        </h1>
       </div>
       <div className="bg-search bg-no-repeat bg-center flex justify-center items-center py-12 my-2 xs:gap-6 xl:gap-3">
         <div

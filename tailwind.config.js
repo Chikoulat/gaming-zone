@@ -42,6 +42,12 @@ module.exports = {
         search: "url('/src/assets/background/bg-search.svg')",
         faq: "url('/src/assets/background/bg-FAQ.svg')",
         header: "url('/src/assets/background/bg-cart header.svg')",
+        amd: "url('/src/assets/background/bg-amd.svg')",
+        intel: "url('/src/assets/background/bg-intel.svg')",
+        redB: "url('/src/assets/background/bg-red border.svg')",
+        red: "url('/src/assets/background/bg-red button.svg')",
+        blue: "url('/src/assets/background/bg-blue button.svg')",
+        blueB: "url('/src/assets/background/bg-blue border.svg')",
       },
       backgroundPosition: {
         top4: "center bottom 56rem",
@@ -81,6 +87,10 @@ module.exports = {
       gap: {
         100: "36rem",
         110: "40rem",
+      },
+      zIndex: {
+        1: "1",
+        "-1": "-1",
       },
     },
   },

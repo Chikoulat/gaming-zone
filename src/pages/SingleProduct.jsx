@@ -16,6 +16,7 @@ import PSU from "../assets/products/PSU.jpg";
 import cooler from "../assets/products/CPU fan.jpg";
 import monitor from "../assets/products/monitor.jpg";
 import cases from "../assets/products/case.jpg";
+import { NavLink } from "react-router-dom";
 
 function SingleProduct() {
   const categoryMap = {
@@ -36,14 +37,14 @@ function SingleProduct() {
 
   const handleAddToCart = () => {
     const product = products[index];
-
     addToCart(product);
+    document.getElementById("my_modal_1").showModal();
   };
 
   return (
     <section className="text-white">
-      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xs:pb-6 xl:pb-20">
-        <h1 className="text-center xs:text-xl xl:text-5xl ">
+      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xs:pb-6 xl:pb-20 3xl:pb-28 3xl:pt-8">
+        <h1 className="text-center xs:text-xl xl:text-5xl">
           {products[index].name}
         </h1>
       </div>
@@ -75,6 +76,36 @@ function SingleProduct() {
           </div>
         </div>
       </div>
+
+      <dialog id="my_modal_1" className="py-10 rounded-md">
+        {" "}
+        <button
+          onClick={() => document.getElementById("my_modal_1").close()}
+          className="top-0 right-0 absolute bg-button bg-center bg-cover bg-no-repeat px-2 py-1 text-white"
+        >
+          x
+        </button>
+        <p className="py-4 xs:px-12 xl:px-28">
+          The item has been added to your cart. Would you like to go back to our
+          products?
+        </p>
+        <div className="flex justify-center gap-4">
+          <NavLink
+            to="/products"
+            className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
+          >
+            {" "}
+            Products
+          </NavLink>
+          <NavLink
+            to="/shopping-cart"
+            className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
+          >
+            {" "}
+            Cart
+          </NavLink>
+        </div>
+      </dialog>
 
       <div>
         <div className="flex xs:flex-col xl:flex-row-reverse justify-center gap-24 pt-4">

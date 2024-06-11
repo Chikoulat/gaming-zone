@@ -6,6 +6,7 @@ import { NewsProvider } from "./context/NewsContext";
 import { CartProvider } from "./context/CartContext";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
+import GoUp from "./components/GoUp";
 
 const Providers = ({ children }) => (
   <CartProvider>
@@ -21,6 +22,7 @@ function App() {
   return (
     <Providers>
       <Navbar />
+      <GoUp />
       <Outlet />
       <Footer />
     </Providers>

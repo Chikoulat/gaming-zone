@@ -151,7 +151,7 @@ function PrebuiltComputer() {
                   <h1 className="text-newred text-3xl relative mt-16">
                     {product.name}
                   </h1>
-                  <p className="w-5/6 h-5/6">{product.description}</p>
+                  <p className="w-5/6 h-32">{product.description}</p>
                   <div className="flex justify-center gap-2 px-2">
                     <button className="bg-button bg-no-repeat bg-contain bg-center px-10 py-3 hover:text-primary">
                       CUSTOMIZE
