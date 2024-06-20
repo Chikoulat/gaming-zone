@@ -4,18 +4,21 @@ import { PreBuildProvider } from "./context/PreBuildContext";
 import { ProductProvider } from "./context/ProductContext";
 import { NewsProvider } from "./context/NewsContext";
 import { CartProvider } from "./context/CartContext";
+import { BuilderProvider } from "./context/BuilderContext";
 import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import GoUp from "./components/GoUp";
 
 const Providers = ({ children }) => (
-  <CartProvider>
-    <ProductProvider>
-      <NewsProvider>
-        <PreBuildProvider>{children}</PreBuildProvider>
-      </NewsProvider>
-    </ProductProvider>
-  </CartProvider>
+  <BuilderProvider>
+    <CartProvider>
+      <ProductProvider>
+        <NewsProvider>
+          <PreBuildProvider>{children}</PreBuildProvider>
+        </NewsProvider>
+      </ProductProvider>
+    </CartProvider>
+  </BuilderProvider>
 );
 
 function App() {

@@ -4,29 +4,8 @@ import { useProductContext } from "../context/ProductContext.jsx";
 import DOMPurify from "dompurify";
 import { Filters } from "../service/MultiFilter.js";
 import { NavLink } from "react-router-dom";
-import CPU from "../assets/products/CPU.jpg";
-import GPU from "../assets/products/GPU.jpg";
-import RAM from "../assets/products/ram.jpg";
-import drive from "../assets/products/drive.jpg";
-import motherboard from "../assets/products/Motherboard.jpg";
-import PSU from "../assets/products/PSU.jpg";
-import cooler from "../assets/products/CPU fan.jpg";
-import monitor from "../assets/products/monitor.jpg";
-import cases from "../assets/products/case.jpg";
 
 const itemsPerPage = 8;
-
-const categoryMap = {
-  CPU,
-  GPU,
-  RAM,
-  storage: drive,
-  motherboard,
-  "power supply": PSU,
-  cooler,
-  monitor,
-  case: cases,
-};
 
 function Products() {
   const { setProductIndex } = useProductContext();
@@ -42,8 +21,8 @@ function Products() {
   const updatedProducts = useMemo(() => {
     return productParts.map((item, index) => ({
       ...item,
-      config: index % 2 === 0,
-      new: index % 2 !== 0,
+      config: index % 2 === true,
+      new: index % 2 !== true,
     }));
   }, []);
 
@@ -300,7 +279,7 @@ function Products() {
         </div>
       </div>
 
-      <div className="text-xl justify-center gap-6 xs:hidden xl:flex xl:flex-wrap">
+      <div className="text-xl justify-center gap-6 xs:hidden xl:flex xl:flex-wrap 3xl:px-52">
         {uniqueCategories.map((category) => (
           <button
             key={category}
@@ -399,7 +378,7 @@ function Products() {
                 <div className="bg-new bg-no-repeat size-24 absolute xl:bg-top" />
               )}
               <img
-                src={categoryMap[product.category]}
+                src={product.images}
                 alt={product.category}
                 className="xl:w-5/6 mx-auto h-40 object-cover"
               />
@@ -412,7 +391,7 @@ function Products() {
                   <NavLink
                     to={
                       product.config
-                        ? "/"
+                        ? "/builder"
                         : `/products/${product.name.replace(/\//g, "-")}`
                     }
                     className=" xs:px-12 xl:x-16 mt-2 bg-button bg-center bg-no-repeat bg-contain py-4"

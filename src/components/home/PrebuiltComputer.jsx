@@ -153,9 +153,11 @@ function PrebuiltComputer() {
                   </h1>
                   <p className="w-5/6 h-32">{product.description}</p>
                   <div className="flex justify-center gap-2 px-2">
-                    <button className="bg-button bg-no-repeat bg-contain bg-center px-10 py-3 hover:text-primary">
-                      CUSTOMIZE
-                    </button>
+                    <NavLink to="/builder">
+                      <button className="bg-button bg-no-repeat bg-contain bg-center px-10 py-3 hover:text-primary">
+                        CUSTOMIZE
+                      </button>
+                    </NavLink>
 
                     <NavLink
                       to={`/pre-build/${product.name.replace(/\s/g, "-")}`}
@@ -178,9 +180,11 @@ function PrebuiltComputer() {
       </div>
 
       <div className="flex justify-center">
-        <button className="xs:text-xl xl:text-2xl bg-button bg-no-repeat bg-center bg-cover xs:px-12 xs:py-3 xl:px-24 xl:py-6">
-          DISCOVER MORE
-        </button>
+        <NavLink to="/products">
+          <button className="xs:text-xl xl:text-2xl bg-button bg-no-repeat bg-center bg-cover xs:px-12 xs:py-3 xl:px-24 xl:py-6">
+            DISCOVER MORE
+          </button>
+        </NavLink>
       </div>
       <div className="bg-builds bg-cover bg-center bg-no-repeat flex items-center xs:flex-col-reverse xs:px-4 xs:py-44 xl:flex-row xl:px-60 xl:py-40 my-20">
         <div>

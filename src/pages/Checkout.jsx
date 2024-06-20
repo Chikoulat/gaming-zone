@@ -1,13 +1,4 @@
 import { useCartContext } from "../context/CartContext.jsx";
-import CPU from "../assets/products/CPU.jpg";
-import GPU from "../assets/products/GPU.jpg";
-import RAM from "../assets/products/ram.jpg";
-import drive from "../assets/products/drive.jpg";
-import motherboard from "../assets/products/Motherboard.jpg";
-import PSU from "../assets/products/PSU.jpg";
-import cooler from "../assets/products/CPU fan.jpg";
-import monitor from "../assets/products/monitor.jpg";
-import cases from "../assets/products/case.jpg";
 import { NavLink } from "react-router-dom";
 
 function Checkout() {
@@ -17,17 +8,6 @@ function Checkout() {
     document.getElementById("my_modal_2").showModal();
   };
 
-  const categoryMap = {
-    CPU,
-    GPU,
-    RAM,
-    storage: drive,
-    motherboard,
-    "power supply": PSU,
-    cooler,
-    monitor,
-    case: cases,
-  };
   const inputCSS =
     "w-80 h-12 bg-transparent text-white text-lg px-8 mb-8 relative bg-input bg-cover bg-no-repeat bg-center";
   return (
@@ -97,7 +77,7 @@ function Checkout() {
                   <div className="flex items-center py-2 xs:justify-center xl:justify-evenly xs:gap-8 xl:gap-16 3xl:gap-96">
                     <div className="flex gap-4">
                       <img
-                        src={categoryMap[item.category]}
+                        src={item.images}
                         alt={item.name}
                         className="xs:w-10 xl:w-20"
                       />

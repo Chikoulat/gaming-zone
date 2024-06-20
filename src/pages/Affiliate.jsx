@@ -15,7 +15,7 @@ function Affiliate() {
 
   return (
     <section className="text-white pb-12">
-      <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 z-10 relative">
+      <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 xl:z-10 relative">
         <h1 className="text-center pb-10 xs:text-3xl xl:text-5xl">
           BECOME AFFILIATE
         </h1>

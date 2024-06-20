@@ -1,15 +1,7 @@
 import { useCartContext } from "../context/CartContext.jsx";
+import { useBuilderContext } from "../context/BuilderContext.jsx";
 import { NavLink } from "react-router-dom";
 import delItem from "../assets/delete item.png";
-import CPU from "../assets/products/CPU.jpg";
-import GPU from "../assets/products/GPU.jpg";
-import RAM from "../assets/products/ram.jpg";
-import drive from "../assets/products/drive.jpg";
-import motherboard from "../assets/products/Motherboard.jpg";
-import PSU from "../assets/products/PSU.jpg";
-import cooler from "../assets/products/CPU fan.jpg";
-import monitor from "../assets/products/monitor.jpg";
-import cases from "../assets/products/case.jpg";
 
 function ShopingCart() {
   const {
@@ -21,16 +13,44 @@ function ShopingCart() {
     getCartTotal,
   } = useCartContext();
 
-  const categoryMap = {
-    CPU,
-    GPU,
-    RAM,
-    storage: drive,
-    motherboard,
-    "power supply": PSU,
-    cooler,
-    monitor,
-    case: cases,
+  const {
+    clearCase,
+    clearCpu,
+    clearGpu,
+    clearMobo,
+    clearPsu,
+    clearRam,
+    clearStorage,
+    clearCooler,
+  } = useBuilderContext();
+
+  const clearBuild = (item) => {
+    switch (item.category) {
+      case "motherboard":
+        clearMobo();
+        break;
+      case "CPU":
+        clearCpu();
+        break;
+      case "GPU":
+        clearGpu();
+        break;
+      case "power supply":
+        clearPsu();
+        break;
+      case "case":
+        clearCase();
+        break;
+      case "RAM":
+        clearRam();
+        break;
+      case "storage":
+        clearStorage();
+        break;
+      case "cooler":
+        clearCooler();
+        break;
+    }
   };
 
   if (cart.length === 0) {
@@ -60,8 +80,8 @@ function ShopingCart() {
 
   return (
     <section className="text-white">
-      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20 3xl:pb-20 3xl:pt-8">
-        <h1 className="text-center xs:text-xl xl:text-5xl pb-10">
+      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xl:pb-20 3xl:pt-8">
+        <h1 className="text-center xs:text-xl xl:text-5xl p-5">
           SHOPPING CART
         </h1>
       </div>
@@ -79,11 +99,17 @@ function ShopingCart() {
           cart.map((item) => (
             <div key={item.id}>
               <div className="flex items-center py-4 xs:px-2 xl:px-52 xl:gap-12">
-                <button type="button" onClick={() => removeFromCart(item)}>
+                <button
+                  type="button"
+                  onClick={() => {
+                    removeFromCart(item);
+                    clearBuild(item);
+                  }}
+                >
                   <img className="w-1/2" src={delItem} alt="cancel" />
                 </button>
                 <img
-                  src={categoryMap[item.category]}
+                  src={item.images}
                   alt={item.name}
                   className="xs:hidden xl:block xl:w-32"
                 />

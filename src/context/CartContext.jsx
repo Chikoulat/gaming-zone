@@ -1,7 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
-const CartContext = React.createContext();
+const CartContext = createContext();
 
 export const useCartContext = () => useContext(CartContext);
 
@@ -34,6 +34,25 @@ export function CartProvider({ children }) {
     setShop((prevShop) => prevShop + 1);
   };
 
+  const addBuilderToCart = (items) => {
+    const updatedCart = [...cart];
+
+    items.forEach((item) => {
+      const existingCartItem = updatedCart.find(
+        (cartItem) => cartItem.id === item.id
+      );
+
+      if (existingCartItem) {
+        existingCartItem.quantity += item.quantity;
+      } else {
+        updatedCart.push({ ...item, quantity: item.quantity });
+      }
+    });
+
+    setCart(updatedCart);
+    setShop((prevShop) => prevShop + items.length);
+  };
+
   const decreaseQuantity = (item) => {
     setCart((prevCart) => {
       const newCart = prevCart.map((cartItem) =>
@@ -51,7 +70,9 @@ export function CartProvider({ children }) {
     setCart((prevCart) =>
       prevCart.filter((cartItem) => cartItem.id !== item.id)
     );
-    setShop((prevShop) => prevShop - 1);
+    if (shop > 0) {
+      setShop((prevShop) => prevShop - 1);
+    }
   };
 
   const clearCart = () => {
@@ -83,6 +104,7 @@ export function CartProvider({ children }) {
         shop,
         cart,
         addToCart,
+        addBuilderToCart,
         decreaseQuantity,
         removeFromCart,
         clearCart,

@@ -1,122 +1,213 @@
-import { useState, useMemo } from "react";
+import { useState } from "react";
 import { useProductContext } from "../context/ProductContext";
 import { useCartContext } from "../context/CartContext";
-import DOMPurify from "dompurify";
-import { Filters } from "../service/MultiFilter.js";
-import pcCase from "../assets/built pc/case.png";
-import mobo from "../assets/built pc/mobo.png";
-import GPU from "../assets/built pc/gpu.png";
-import CPU from "../assets/built pc/cpu.png";
-import RAM from "../assets/built pc/ram.png";
-import SSD from "../assets/built pc/ssd.png";
-import PSU from "../assets/built pc/psu.png";
-import CPUFan from "../assets/built pc/cpu-fan.png";
-import processor from "../assets/products/CPU.jpg";
-import graphic from "../assets/products/GPU.jpg";
-import randomMemory from "../assets/products/ram.jpg";
-import drive from "../assets/products/drive.jpg";
-import motherboard from "../assets/products/Motherboard.jpg";
-import powerSupply from "../assets/products/PSU.jpg";
-import cooler from "../assets/products/CPU fan.jpg";
-import monitor from "../assets/products/monitor.jpg";
-import cases from "../assets/products/case.jpg";
-
-const itemsPerPage = 8;
-
-const categoryMap = {
-  processor,
-  graphic,
-  randomMemory,
-  storage: drive,
-  motherboard,
-  powerSupply,
-  cooler,
-  monitor,
-  case: cases,
-};
+import { useBuilderContext } from "../context/BuilderContext.jsx";
+import BuilderItem from "../components/builder/BuilderItem.jsx";
 
 function Builder() {
-  const cssBuild =
-    "flex items-center justify-end bg-prebuilproduct bg-no-repeat bg-center bg-cover xs:px-2 xs:py-1 xs:gap-12 xl:gap-8 xl:pr-24 xl:px-4 xl:py-2";
+  const [getCPU, setGetCPU] = useState("");
+  const { products } = useProductContext();
+  const { addBuilderToCart } = useCartContext();
+  const {
+    selectCase,
+    selectCpu,
+    selectGpu,
+    selectMobo,
+    selectPsu,
+    selectRam,
+    selectStorage,
+    selectCooler,
+    handleCase,
+    handleCpu,
+    handleGpu,
+    handleMobo,
+    handlePsu,
+    handleRam,
+    handleStorage,
+    handleCooler,
+    clearCase,
+    clearCpu,
+    clearGpu,
+    clearMobo,
+    clearPsu,
+    clearRam,
+    clearStorage,
+    clearCooler,
+  } = useBuilderContext();
+
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const handleCategory = (e, category) => {
+    const selected = category || e.target.value;
+    setSelectedCategory(selected);
+  };
+
+  const handleItem = (product) => {
+    switch (product.category) {
+      case "motherboard":
+        handleMobo(product);
+        break;
+      case "CPU":
+        handleCpu(product);
+        break;
+      case "GPU":
+        handleGpu(product);
+        break;
+      case "power supply":
+        handlePsu(product);
+        break;
+      case "case":
+        handleCase(product);
+        break;
+      case "storage":
+        handleStorage(product);
+        break;
+      case "RAM":
+        handleRam(product);
+        break;
+      case "cooler":
+        handleCooler(product);
+        break;
+      default:
+        break;
+    }
+  };
+
+  const handleClear = (clearFunc, category) => {
+    clearFunc();
+    handleCategory(null, category);
+  };
+
+  const handleCPU = (e) => {
+    setGetCPU(e.target.value);
+  };
+
+  const builderItems = [
+    { item: selectMobo, category: "motherboard", clearFunc: clearMobo },
+    { item: selectCpu, category: "CPU", clearFunc: clearCpu },
+    { item: selectGpu, category: "GPU", clearFunc: clearGpu },
+    { item: selectRam, category: "RAM", clearFunc: clearRam },
+    { item: selectStorage, category: "storage", clearFunc: clearStorage },
+    { item: selectCooler, category: "cooler", clearFunc: clearCooler },
+    { item: selectPsu, category: "power supply", clearFunc: clearPsu },
+    { item: selectCase, category: "case", clearFunc: clearCase },
+  ];
+
+  console.log(builderItems.map((item) => item.item));
+  const handleReset = () => {
+    builderItems.forEach((item) => item.clearFunc());
+  };
+
+  const handleAddAllToCart = () => {
+    const itemsToAdd = builderItems
+      .filter(({ item }) => item)
+      .map(({ item }) => ({ ...item, quantity: 1 }));
+
+    addBuilderToCart(itemsToAdd);
+    console.log(itemsToAdd);
+  };
+  const totalPrices = builderItems.reduce(
+    (total, item) => total + (item.item ? item.item.price : 0),
+    0
+  );
 
   return (
     <section className="text-white py-12">
       <h1 className="text-5xl text-center">PC BUILDER</h1>
-      <div className="flex justify-center ">
-        <div className="bg-amd bg-center bg-no-repeat w-full h-150 flex items-end justify-center ">
-          <button className="text-xl bg-redB bg-center bg-no-repeat bg-cover px-12 py-6 relative  hover:bg-red hover:px-12 hover:py-6 hover:bg-contain">
+      <div className="flex justify-center px-52 py-8">
+        <div className="bg-amd bg-center bg-no-repeat w-full h-150 flex items-end justify-center">
+          <button
+            onClick={handleCPU}
+            value="AMD"
+            className="text-xl bg-redB bg-center bg-no-repeat bg-cover px-12 py-6 relative hover:bg-red hover:px-12 hover:py-6 hover:bg-contain"
+          >
             Build
           </button>
         </div>
-        <div className="bg-intel bg-center bg-no-repeat w-full h-150 flex items-end justify-center ">
-          <button className="text-xl bg-blueB bg-center bg-no-repeat bg-cover px-12 py-6 relative hover:bg-blue hover:px-12 hover:py-6 hover:bg-contain">
+        <div className="bg-intel bg-center bg-no-repeat w-full h-150 flex items-end justify-center">
+          <button
+            onClick={handleCPU}
+            value="Intel"
+            className="text-xl bg-blueB bg-center bg-no-repeat bg-cover px-12 py-6 relative hover:bg-blue hover:px-12 hover:py-6 hover:bg-contain"
+          >
             Build
           </button>
         </div>
       </div>
 
-      <div className="flex">
-        <div className="flex flex-col items-center gap-4 xl:py-6 xl:px-12">
-          <div className={cssBuild}>
-            <img src={pcCase} alt="Case" className="xs:w-10 xl:w-12" />
-            <div className="">
-              <h3 className="w-40">Case</h3>
-              <button>Please select an item</button>
-            </div>
-          </div>
-          <div className={cssBuild}>
-            <img src={mobo} alt="MOBO" className="xs:w-10 xl:w-12" />
-            <div className="">
-              <h3 className="w-40">Motherboard</h3>
-              <button>Please select an item</button>
-            </div>
-          </div>
-          <div className={cssBuild}>
-            <img src={CPU} alt="CPU" className="xs:w-10 xl:w-12" />
-            <div className="">
-              <h3 className="w-40">CPU</h3>
-              <button>Please select an item</button>
-            </div>
-          </div>
-          <div className={cssBuild}>
-            <img src={RAM} alt="RAM" className="xs:w-10 xl:w-12" />
-            <div className="">
-              <h3 className="w-40">RAM</h3>
-              <button>Please select an item</button>
-            </div>
-          </div>
-          <div className={`${cssBuild} `}>
-            <img src={CPUFan} alt="CPU fan" className="xs:w-10 xl:w-12" />
-            <div className="">
-              <h3 className="w-40">CPU cooler</h3>
-              <button>Please select an item</button>
-            </div>
-          </div>
-          <div className={`${cssBuild} `}>
-            <img src={GPU} alt="GPU" className="xs:w-10 xl:w-12" />
-            <div className="">
-              <h3 className="w-40">GPU</h3>
-              <button>Please select an item</button>
-            </div>
-          </div>
-          <div className={`${cssBuild}`}>
-            <img src={SSD} alt="SSD" className="xs:w-10 xl:w-10" />
-            <div className="">
-              <h3 className="w-40">SSD</h3>
-              <button>Please select an item</button>
-            </div>
-          </div>
-          <div className={`${cssBuild} `}>
-            <img src={PSU} alt="PSU" className="xs:w-10 xl:w-12" />
-            <div className="">
-              <h3 className="w-40">Power supply</h3>
-              <button>Please select an item</button>
-            </div>
+      <div className="flex justify-center w-full">
+        <div className="flex flex-col gap-4 xl:py-6 xl:px-12">
+          {builderItems.map(({ item, category, clearFunc }) => (
+            <BuilderItem
+              key={category}
+              item={item}
+              category={category}
+              handleClear={() => {
+                handleClear(clearFunc, category);
+              }}
+              handleCategory={handleCategory}
+            />
+          ))}
+          <div className="text-white">
+            <p>Total: {totalPrices} dz</p>
+            <button onClick={handleAddAllToCart}>Add to cart</button>
+            <button onClick={handleReset}>Reset all</button>
           </div>
         </div>
 
-        <div>
-          <h1>hehehehe</h1>
+        <div className="px-2">
+          {products &&
+            selectedCategory !== "All" &&
+            products
+              .filter((product) => {
+                if (product.category.includes(selectedCategory)) {
+                  if (product.category === "motherboard") {
+                    return product.filter.support === getCPU;
+                  }
+                  if (product.category === "CPU") {
+                    return product.filter.chipset === getCPU;
+                  }
+                  return true;
+                }
+                return false;
+              })
+              .map((product) => (
+                <article
+                  key={product.id}
+                  className="bg-newProduct bg-center bg-no-repeat bg-cover py-6 flex items-center justify-between border-b-2 border-b-newred px-10 gap-6"
+                >
+                  <img
+                    src={product.images}
+                    alt={product.category}
+                    className="h-20 object-cover"
+                  />
+                  <h5 className="w-40 overflow-hidden overflow-ellipsis whitespace-nowrap">
+                    {product.name}
+                  </h5>
+
+                  <ul className="flex gap-4 items-center">
+                    {Object.values(product.filter)
+                      .slice(0, 4)
+                      .map((value, index) => (
+                        <li
+                          key={index}
+                          className="border-2 p-2 overflow-hidden overflow-ellipsis whitespace-nowrap"
+                        >
+                          {value}
+                        </li>
+                      ))}
+                  </ul>
+                  <p className="text-gzred">{product.price} dz</p>
+
+                  <button
+                    onClick={() => {
+                      handleItem(product);
+                    }}
+                  >
+                    Add
+                  </button>
+                </article>
+              ))}
         </div>
       </div>
     </section>

@@ -11,7 +11,7 @@ function SingleBlog() {
 
   return (
     <section className="text-white ">
-      <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 xl:z-10 xl:relative">
+      <div className=" bg-builds bg-cover bg-no-repeat bg-bottom xl:py-12 xl:z-10 xl:relative 3xl:bottom- 3xl: ">
         {" "}
         <h1 className="text-center pb-10 xs:text-3xl xl:text-7xl">BLOG</h1>
       </div>
@@ -20,7 +20,7 @@ function SingleBlog() {
           <img
             src={news[index].img}
             alt="article"
-            className="w-full xl:h-512 px-40 xl:absolute xl:z-0 xl:-top-20"
+            className="w-full xl:h-96 px-40 xl:absolute xl:z-0 xl:top-60"
           />
           <div className="relative xl:mt-80 text-center">
             {" "}
