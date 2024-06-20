@@ -93,7 +93,6 @@ function Builder() {
     { item: selectCase, category: "case", clearFunc: clearCase },
   ];
 
-  console.log(builderItems.map((item) => item.item));
   const handleReset = () => {
     builderItems.forEach((item) => item.clearFunc());
   };
@@ -104,7 +103,6 @@ function Builder() {
       .map(({ item }) => ({ ...item, quantity: 1 }));
 
     addBuilderToCart(itemsToAdd);
-    console.log(itemsToAdd);
   };
   const totalPrices = builderItems.reduce(
     (total, item) => total + (item.item ? item.item.price : 0),
