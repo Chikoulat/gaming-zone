@@ -3,7 +3,7 @@ import { useBuilderContext } from "../context/BuilderContext.jsx";
 import { NavLink } from "react-router-dom";
 import delItem from "../assets/delete item.png";
 
-function ShopingCart() {
+function ShoppingCart() {
   const {
     cart,
     addToCart,
@@ -188,4 +188,4 @@ function ShopingCart() {
   );
 }
 
-export default ShopingCart;
+export default ShoppingCart;

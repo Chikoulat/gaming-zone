@@ -80,6 +80,7 @@ function Builder() {
 
   const handleCPU = (e) => {
     setGetCPU(e.target.value);
+    setSelectedCategory("motherboard");
   };
 
   const builderItems = [
@@ -101,9 +102,9 @@ function Builder() {
     const itemsToAdd = builderItems
       .filter(({ item }) => item)
       .map(({ item }) => ({ ...item, quantity: 1 }));
-
     addBuilderToCart(itemsToAdd);
   };
+
   const totalPrices = builderItems.reduce(
     (total, item) => total + (item.item ? item.item.price : 0),
     0
@@ -159,11 +160,11 @@ function Builder() {
             products
               .filter((product) => {
                 if (product.category.includes(selectedCategory)) {
-                  if (product.category === "motherboard") {
-                    return product.filter.support === getCPU;
+                  if (selectedCategory === "motherboard") {
+                    return product.filter.support === getCPU || getCPU === "";
                   }
-                  if (product.category === "CPU") {
-                    return product.filter.chipset === getCPU;
+                  if (selectedCategory === "CPU") {
+                    return product.filter.chipset === getCPU || getCPU === "";
                   }
                   return true;
                 }

@@ -11,7 +11,7 @@ import SingleProduct from "./pages/SingleProduct.jsx";
 import Blog from "./pages/Blog.jsx";
 import SingleBlog from "./pages/SingleBlog.jsx";
 import Affiliate from "./pages/Affiliate.jsx";
-import ShopingCart from "./pages/ShopingCart.jsx";
+import ShoppingCart from "./pages/ShoppingCart.jsx";
 import Checkout from "./pages/Checkout.jsx";
 import SingUp from "./pages/SingUp.jsx";
 import Login from "./pages/Login.jsx";
@@ -57,7 +57,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/shopping-cart",
-        element: <ShopingCart />,
+        element: <ShoppingCart />,
       },
       {
         path: "/checkout",
