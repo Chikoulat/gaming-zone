@@ -34,30 +34,28 @@ function BuilderItem({ item, category, handleClear, handleCategory }) {
       <div className={cssBuild}>
         {item ? (
           <>
+            <img
+              src={item.images}
+              alt={item.name}
+              className="xs:w-10 xl:w-12"
+            />
             <div>
-              <img
-                src={item.images}
-                alt={item.name}
-                className="xs:w-10 xl:w-12"
-              />
-              <div>
-                <h3 className="w-40 overflow-hidden overflow-ellipsis whitespace-nowrap">
-                  <button onClick={handleCategory} value={category}>
-                    {item.name}
-                  </button>
-                </h3>
-                <div className="flex gap-16">
-                  <p>{item.price} dz</p>
-                  <button
-                    onClick={() => {
-                      handleClear(item);
-                      removeFromCart(item);
-                    }}
-                    className="flex justify-end"
-                  >
-                    <img className="w-5" src={delItem} alt="cancel" />
-                  </button>
-                </div>
+              <h3 className="w-40 overflow-hidden overflow-ellipsis whitespace-nowrap">
+                <button onClick={handleCategory} value={category}>
+                  {item.name}
+                </button>
+              </h3>
+              <div className="flex gap-16">
+                <p>{item.price} dz</p>
+                <button
+                  onClick={() => {
+                    handleClear(item);
+                    removeFromCart(item);
+                  }}
+                  className="flex justify-end"
+                >
+                  <img className="w-5" src={delItem} alt="cancel" />
+                </button>
               </div>
             </div>
           </>

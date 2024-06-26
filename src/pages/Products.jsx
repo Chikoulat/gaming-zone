@@ -4,11 +4,54 @@ import { useProductContext } from "../context/ProductContext.jsx";
 import DOMPurify from "dompurify";
 import { Filters } from "../service/MultiFilter.js";
 import { NavLink } from "react-router-dom";
+import { useBuilderContext } from "../context/BuilderContext.jsx";
 
 const itemsPerPage = 8;
 
 function Products() {
   const { setProductIndex } = useProductContext();
+  const {
+    handleCase,
+    handleCpu,
+    handleGpu,
+    handleMobo,
+    handlePsu,
+    handleRam,
+    handleStorage,
+    handleCooler,
+  } = useBuilderContext();
+
+  const handleItem = (product) => {
+    switch (product.category) {
+      case "motherboard":
+        handleMobo(product);
+        break;
+      case "CPU":
+        handleCpu(product);
+        break;
+      case "GPU":
+        handleGpu(product);
+        break;
+      case "RAM":
+        handleRam(product);
+        break;
+      case "storage":
+        handleStorage(product);
+        break;
+      case "cooler":
+        handleCooler(product);
+        break;
+      case "power supply":
+        handlePsu(product);
+        break;
+      case "case":
+        handleCase(product);
+        break;
+      default:
+        break;
+    }
+  };
+
   const [currentPage, setCurrentPage] = useState(1);
   const [searchTerm, setSearchTerm] = useState("");
   const [inputValue, setInputValue] = useState("");
@@ -18,14 +61,6 @@ function Products() {
   const [openFilter, setOpenFilter] = useState(false);
   const [openCat, setOpenCat] = useState(false);
 
-  const updatedProducts = useMemo(() => {
-    return productParts.map((item, index) => ({
-      ...item,
-      config: index % 2 === true,
-      new: index % 2 !== true,
-    }));
-  }, []);
-
   const maxPrices = productParts.reduce((acc, product) => {
     if (!acc[product.category] || product.price > acc[product.category]) {
       acc[product.category] = product.price;
@@ -34,7 +69,7 @@ function Products() {
   }, {});
 
   const filteredProducts = useMemo(() => {
-    let products = updatedProducts;
+    let products = productParts;
 
     if (selectedCategory && selectedCategory !== "All") {
       products = products.filter(
@@ -58,7 +93,7 @@ function Products() {
         );
       });
     });
-  }, [selectedCategory, selectedFilters, updatedProducts, productPrice]);
+  }, [selectedCategory, selectedFilters, productPrice]);
 
   const searchedProducts = useMemo(() => {
     return filteredProducts.filter((product) =>
@@ -80,11 +115,8 @@ function Products() {
   }, [searchedProducts]);
 
   const uniqueCategories = useMemo(() => {
-    return [
-      "All",
-      ...new Set(updatedProducts.map((product) => product.category)),
-    ];
-  }, [updatedProducts]);
+    return ["All", ...new Set(productParts.map((product) => product.category))];
+  }, []);
 
   const handleSearch = () => {
     const sanitizedInput = DOMPurify.sanitize(inputValue);
@@ -379,7 +411,7 @@ function Products() {
               )}
               <img
                 src={product.images}
-                alt={product.category}
+                alt={product.name}
                 className="xl:w-5/6 mx-auto h-40 object-cover"
               />
               <h5 className=" text-center h-16 my-2">{product.name}</h5>
@@ -387,7 +419,14 @@ function Products() {
                 <p>{product.category.toUpperCase()}</p>
                 <p className="text-sm xs:h-52 xl:h-32">{product.description}</p>
                 <p className="text-gzred">Price: {product.price} dz</p>
-                <button onClick={() => setProductIndex(product.id)}>
+                <button
+                  onClick={() => {
+                    setProductIndex(product.id);
+                    if (product.config) {
+                      handleItem(product);
+                    }
+                  }}
+                >
                   <NavLink
                     to={
                       product.config

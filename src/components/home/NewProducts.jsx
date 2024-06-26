@@ -1,13 +1,69 @@
 import { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
-import newProducts from "../../data/NewProducts.json";
+import products from "../../data/Products.json";
+import { NavLink } from "react-router-dom";
+import { useBuilderContext } from "../../context/BuilderContext";
+import { useProductContext } from "../../context/ProductContext";
 
 function NewProducts() {
   const [index, setIndex] = useState(0);
 
+  const { setProductIndex } = useProductContext();
+  const {
+    handleCase,
+    handleCpu,
+    handleGpu,
+    handleMobo,
+    handlePsu,
+    handleRam,
+    handleStorage,
+    handleCooler,
+  } = useBuilderContext();
+
+  const handleItem = (product) => {
+    switch (product.category) {
+      case "motherboard":
+        handleMobo(product);
+        break;
+      case "CPU":
+        handleCpu(product);
+        break;
+      case "GPU":
+        handleGpu(product);
+        break;
+      case "RAM":
+        handleRam(product);
+        break;
+      case "storage":
+        handleStorage(product);
+        break;
+      case "cooler":
+        handleCooler(product);
+        break;
+      case "power supply":
+        handlePsu(product);
+        break;
+      case "case":
+        handleCase(product);
+        break;
+      default:
+        break;
+    }
+  };
+
   const autoplay = true;
   const autoplaySpeed = 5000;
   const transitionSpeed = 600;
+
+  const categories = [...new Set(products.map((product) => product.category))];
+  const newProducts = categories
+    .map(
+      (category) =>
+        products.filter(
+          (product) => product.category === category && product.new
+        )[0]
+    )
+    .filter((product) => product !== undefined);
 
   useEffect(() => {
     let intervalId;
@@ -25,7 +81,7 @@ function NewProducts() {
         clearInterval(intervalId);
       }
     };
-  }, [autoplay, autoplaySpeed]);
+  }, [autoplay, autoplaySpeed, newProducts]);
 
   const nextSlide = () => {
     setIndex((prevIndex) => (prevIndex + 1) % newProducts.length);
@@ -54,14 +110,17 @@ function NewProducts() {
       </h2>
       <div className="flex justify-center gap-10 flex-wrap xl:flex-nowrap">
         {newProducts &&
-          newProducts.map((product) => (
+          newProducts.slice(0, 6).map((product, productIndex) => (
             <div
               key={product.key}
-              className={`xl:flex xs:flex xs:gap-6 xl:gap-2 flex-col justify-evenly items-center  bg-newProduct bg-no-repeat bg-cover w-full py-8 3xl:bg-contain 3xl:bg-center 3xl:w-1/2 3xl:px-4 
-xs:duration-${transitionSpeed} xs:${product.key - 1 === index ? "" : "hidden"}`}
+              className={`xl:flex xs:flex xs:gap-6 xl:gap-2 flex-col justify-evenly items-center bg-newProduct bg-no-repeat bg-cover w-full py-8 3xl:bg-contain 3xl:bg-center 3xl:w-1/2 3xl:px-4 
+              xs:${productIndex === index ? "block" : "hidden"}`}
+              style={{
+                transition: `all ${transitionSpeed}ms ease-in-out`,
+              }}
             >
               <img
-                src={product.img}
+                src={product.images}
                 alt={product.name}
                 className="w-32 h-32 hover:animate-ping hover:animate-once"
               />
@@ -71,9 +130,24 @@ xs:duration-${transitionSpeed} xs:${product.key - 1 === index ? "" : "hidden"}`}
               <p> {product.price} dz</p>
               <button
                 type="button"
+                onClick={() => {
+                  setProductIndex(product.id);
+                  if (product.config) {
+                    handleItem(product);
+                  }
+                }}
                 className="bg-buttonB bg-center bg-cover px-14 py-1 hover:text-primary"
               >
-                {product.config ? "Config" : "View"}
+                {" "}
+                <NavLink
+                  to={
+                    product.config
+                      ? "/builder"
+                      : `/products/${product.name.replace(/\//g, "-")}`
+                  }
+                >
+                  {product.config ? "Config" : "View"}
+                </NavLink>{" "}
               </button>
             </div>
           ))}

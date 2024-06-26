@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import builder from "../../assets/images/build pc.png";
 
 function Builder() {
@@ -14,7 +15,7 @@ function Builder() {
           hardware brands to bring your ultimate PC to life.
         </p>
         <button className="bg-button bg-cover px-8 py-1 xl:text-3xl hover:text-primary hover:animate-pulse">
-          BUILD NOW
+          <NavLink to="/builder">BUILD NOW</NavLink>
         </button>
       </div>
       <div>

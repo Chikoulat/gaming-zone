@@ -24,8 +24,8 @@ function ShoppingCart() {
     clearCooler,
   } = useBuilderContext();
 
-  const clearBuild = (item) => {
-    switch (item.category) {
+  const clearBuild = (index) => {
+    switch (cart[index].category) {
       case "motherboard":
         clearMobo();
         break;
@@ -50,7 +50,20 @@ function ShoppingCart() {
       case "cooler":
         clearCooler();
         break;
+      default:
+        break;
     }
+  };
+
+  const handleClearCart = () => {
+    const handleClear = (item) => {
+      clearBuild(cart.indexOf(item));
+      removeFromCart(cart.indexOf(item));
+    };
+    cart.forEach((item) => {
+      handleClear(item);
+    });
+    clearCart();
   };
 
   if (cart.length === 0) {
@@ -99,13 +112,7 @@ function ShoppingCart() {
           cart.map((item) => (
             <div key={item.id}>
               <div className="flex items-center py-4 xs:px-2 xl:px-52 xl:gap-12">
-                <button
-                  type="button"
-                  onClick={() => {
-                    removeFromCart(item);
-                    clearBuild(item);
-                  }}
-                >
+                <button type="button" onClick={() => handleClearCart(item)}>
                   <img className="w-1/2" src={delItem} alt="cancel" />
                 </button>
                 <img
@@ -115,8 +122,7 @@ function ShoppingCart() {
                 />
                 <p className=" xs:w-96 xl:w-500">{item.name}</p>
                 <p className="xs:px-3  xl:px-0 xl:w-40 text-center">
-                  {" "}
-                  {item.price} dz{" "}
+                  {item.price} dz
                 </p>
                 <div className="flex justify-between items-center bg-button bg-center bg-no-repeat xs:bg-contain xs:px-6 xs:gap-4 xl:bg-cover xl:px-10 xl:gap-8">
                   <button
@@ -141,16 +147,15 @@ function ShoppingCart() {
             </div>
           ))}
         <div className="flex justify-evenly items-center xs:gap-10 xs:flex-col xl:flex-row xl:gap-20 py-10">
-          {" "}
           <div>
             <input type="text" className="xl:w-60" />
-            <button className="bg-buttonC bg-center bg-contain bg-no-repeat px-8 py-1 ">
+            <button className="bg-buttonC bg-center bg-contain bg-no-repeat px-8 py-1">
               Apply coupon
             </button>
           </div>
           <div>
             <button
-              onClick={clearCart}
+              onClick={handleClearCart}
               className="bg-button bg-center bg-no-repeat bg-cover px-10"
             >
               Clear Cart
@@ -158,18 +163,18 @@ function ShoppingCart() {
           </div>
           {getCartTotal() > 0 && (
             <div className="xl:py-10">
-              <table className=" w-full text-center mb-8">
+              <table className="w-full text-center mb-8">
                 <thead className="bg-newred border">
                   <tr>
                     <th className="px-4 py-2">
-                      <h2> Total basket </h2>
+                      <h2>Total basket</h2>
                     </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td className="border px-4 py-2">
-                      <h4>Total: {getCartTotal()}</h4>
+                      <h4>Total: {getCartTotal()} dz</h4>
                     </td>
                   </tr>
                 </tbody>

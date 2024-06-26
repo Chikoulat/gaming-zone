@@ -6,8 +6,11 @@ import BuilderItem from "../components/builder/BuilderItem.jsx";
 
 function Builder() {
   const [getCPU, setGetCPU] = useState("");
+  const [storeMobo, setStoreMobo] = useState({});
+  const [showDialog, setShowDialog] = useState(false);
+  const [dialogMessage, setDialogMessage] = useState("");
   const { products } = useProductContext();
-  const { addBuilderToCart } = useCartContext();
+  const { addBuilderToCart, removeFromCart } = useCartContext();
   const {
     selectCase,
     selectCpu,
@@ -46,27 +49,81 @@ function Builder() {
     switch (product.category) {
       case "motherboard":
         handleMobo(product);
+        setStoreMobo(product);
         break;
       case "CPU":
-        handleCpu(product);
+        if (selectMobo) {
+          if (
+            product.filter.chipset === storeMobo.filter.support &&
+            product.filter.socket === storeMobo.filter.socket
+          ) {
+            handleCpu(product);
+          } else {
+            setDialogMessage(
+              "Chipset or socket incompatible, please select another CPU"
+            );
+            setShowDialog(true);
+          }
+        } else {
+          setDialogMessage("Please select motherboard first");
+          setShowDialog(true);
+        }
         break;
       case "GPU":
-        handleGpu(product);
-        break;
-      case "power supply":
-        handlePsu(product);
-        break;
-      case "case":
-        handleCase(product);
-        break;
-      case "storage":
-        handleStorage(product);
+        if (selectCpu) {
+          handleGpu(product);
+        } else {
+          setDialogMessage("Please select CPU first");
+          setShowDialog(true);
+        }
         break;
       case "RAM":
-        handleRam(product);
+        if (selectGpu) {
+          if (
+            product.filter.type === storeMobo.filter.type ||
+            product.filter.speed <= storeMobo.filter["memory speed"]
+          ) {
+            handleRam(product);
+          } else {
+            setDialogMessage("Type incompatible, please select another RAM");
+            setShowDialog(true);
+          }
+        } else {
+          setDialogMessage("Please select GPU first");
+          setShowDialog(true);
+        }
+        break;
+      case "storage":
+        if (selectRam) {
+          handleStorage(product);
+        } else {
+          setDialogMessage("Please select RAM first");
+          setShowDialog(true);
+        }
         break;
       case "cooler":
-        handleCooler(product);
+        if (selectStorage) {
+          handleCooler(product);
+        } else {
+          setDialogMessage("Please select storage first");
+          setShowDialog(true);
+        }
+        break;
+      case "power supply":
+        if (selectPsu) {
+          handlePsu(product);
+        } else {
+          setDialogMessage("Please select cooler first");
+          setShowDialog(true);
+        }
+        break;
+      case "case":
+        if (selectCase) {
+          handleCase(product);
+        } else {
+          setDialogMessage("Please select power supply first");
+          setShowDialog(true);
+        }
         break;
       default:
         break;
@@ -95,7 +152,12 @@ function Builder() {
   ];
 
   const handleReset = () => {
-    builderItems.forEach((item) => item.clearFunc());
+    builderItems.forEach((item) => {
+      if (item.item) {
+        item.clearFunc();
+        removeFromCart(item.item);
+      }
+    });
   };
 
   const handleAddAllToCart = () => {
@@ -145,6 +207,8 @@ function Builder() {
                 handleClear(clearFunc, category);
               }}
               handleCategory={handleCategory}
+              storeMobo={storeMobo}
+              setStoreMobo={setStoreMobo}
             />
           ))}
           <div className="text-white">
@@ -209,6 +273,15 @@ function Builder() {
               ))}
         </div>
       </div>
+
+      {showDialog && (
+        <dialog className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-white p-8 rounded shadow-lg text-black">
+            <p>{dialogMessage}</p>
+            <button onClick={() => setShowDialog(false)}>Close</button>
+          </div>
+        </dialog>
+      )}
     </section>
   );
 }

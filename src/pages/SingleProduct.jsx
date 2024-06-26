@@ -43,7 +43,7 @@ function SingleProduct() {
 
   return (
     <section className="text-white">
-      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xs:pb-6 xl:pb-20 3xl:pb-28 3xl:pt-8">
+      <div className="bg-builds bg-cover bg-no-repeat bg-bottom xs:pb-6 xl:pb-20 xl:pt-8 3xl:pb-28">
         <h1 className="text-center xs:text-xl xl:text-5xl">
           {products[index].name}
         </h1>
@@ -58,27 +58,22 @@ function SingleProduct() {
               className="xs:size-3/6 xl:w-96"
             />
           </div>
-        </div>{" "}
-        <div className="flex xs:flex-col xl:flex-row justify-between bg-bar xs:my-10 xl:my-5 xl:text-2xl xl:items-center">
-          <h1 className="xl:pl-4 xs:w-full xl:w-auto">
+        </div>
+        <div className="flex justify-between bg-bar my-5 xl:text-2xl items-center">
+          <h1 className="xl:px-4 xs:w-full xl:w-auto">
             {products[index].name}
           </h1>
-          <div className="xs:flex xs:justify-end xl:block">
-            <button
-              onClick={handleAddToCart}
-              className="bg-button bg-no-repeat bg-center xs:-mr-16 xl:-mr-10 xs:bg-contain xs:px-16 xl:bg-cover xl:px-36 xl:py-6"
-            >
-              Buy now
-            </button>
-            <button className="bg-buttonC bg-center bg-no-repeat xs:bg-contain xs:px-5 xl:bg-cover xl:px-36 xl:py-6">
-              Customize
-            </button>
-          </div>
+
+          <button
+            onClick={handleAddToCart}
+            className="bg-button bg-no-repeat bg-center xs:px-16 xs:bg-contain xl:bg-cover xl:px-36 xl:py-6"
+          >
+            Buy now
+          </button>
         </div>
       </div>
 
       <dialog id="my_modal_1" className="py-10 rounded-md">
-        {" "}
         <button
           onClick={() => document.getElementById("my_modal_1").close()}
           className="top-0 right-0 absolute bg-button bg-center bg-cover bg-no-repeat px-2 py-1 text-white"
@@ -94,14 +89,12 @@ function SingleProduct() {
             to="/products"
             className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
           >
-            {" "}
             Products
           </NavLink>
           <NavLink
             to="/shopping-cart"
             className="bg-buttonB bg-center bg-cover bg-no-repeat px-10 text-white"
           >
-            {" "}
             Cart
           </NavLink>
         </div>

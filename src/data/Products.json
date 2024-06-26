@@ -5,11 +5,9 @@
     "description": "10 cores, 20 threads, 3.7GHz base clock, 5.3GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 178560,
-    "price_eur": 7440,
     "stock": 50,
     "deal": true,
     "deal price": 1607040,
-    "deal_price_eur": 6696,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -19,7 +17,9 @@
       "cache": "20MB Intel Smart Cache",
       "tdp": "125W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 2,
@@ -27,11 +27,9 @@
     "description": "12 cores, 24 threads, 3.7GHz base clock, 4.8GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 155520,
-    "price_eur": 6480,
     "stock": 40,
     "deal": false,
     "deal price": 1555200,
-    "deal_price_eur": 6480,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -41,7 +39,9 @@
       "cache": "70MB GameCache",
       "tdp": "105W",
       "architecture": "Zen 3"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 3,
@@ -49,11 +49,9 @@
     "description": "8 cores, 16 threads, 3.6GHz base clock, 5.0GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 139680,
-    "price_eur": 5820,
     "stock": 30,
     "deal": true,
     "deal price": 1257120,
-    "deal_price_eur": 5246,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -63,7 +61,9 @@
       "cache": "16MB Intel Smart Cache",
       "tdp": "125W",
       "architecture": "Rocket Lake"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 4,
@@ -71,11 +71,9 @@
     "description": "8 cores, 16 threads, 3.8GHz base clock, 4.7GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 121920,
-    "price_eur": 5080,
     "stock": 45,
     "deal": false,
     "deal price": 1219200,
-    "deal_price_eur": 5080,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -85,7 +83,9 @@
       "cache": "36MB GameCache",
       "tdp": "105W",
       "architecture": "Zen 3"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 5,
@@ -93,11 +93,9 @@
     "description": "6 cores, 12 threads, 3.9GHz base clock, 4.9GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 64512,
-    "price_eur": 2688,
     "stock": 60,
     "deal": true,
     "deal price": 58060,
-    "deal_price_eur": 2424,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -107,7 +105,9 @@
       "cache": "12MB Intel Smart Cache",
       "tdp": "125W",
       "architecture": "Rocket Lake"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 6,
@@ -115,11 +115,9 @@
     "description": "6 cores, 12 threads, 3.7GHz base clock, 4.6GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 51696,
-    "price_eur": 2154,
     "stock": 70,
     "deal": false,
     "deal price": 51696,
-    "deal_price_eur": 2154,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -129,7 +127,9 @@
       "cache": "35MB GameCache",
       "tdp": "65W",
       "architecture": "Zen 3"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 7,
@@ -137,11 +137,9 @@
     "description": "8 cores, 16 threads, 3.5GHz base clock, 5.3GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 190080,
-    "price_eur": 7920,
     "stock": 55,
     "deal": true,
     "deal price": 171072,
-    "deal_price_eur": 7128,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -151,7 +149,9 @@
       "cache": "16MB Intel Smart Cache",
       "tdp": "125W",
       "architecture": "Rocket Lake"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 8,
@@ -159,11 +159,9 @@
     "description": "16 cores, 32 threads, 3.4GHz base clock, 4.9GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 232320,
-    "price_eur": 9680,
     "stock": 25,
     "deal": false,
     "deal price": 232300,
-    "deal_price_eur": 9680,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -173,7 +171,9 @@
       "cache": "72MB GameCache",
       "tdp": "105W",
       "architecture": "Zen 3"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 9,
@@ -181,11 +181,9 @@
     "description": "6 cores, 12 threads, 4.1GHz base clock, 4.8GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 72960,
-    "price_eur": 3040,
     "stock": 50,
     "deal": true,
     "deal price": 65640,
-    "deal_price_eur": 2736,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -195,7 +193,9 @@
       "cache": "12MB Intel Smart Cache",
       "tdp": "125W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 10,
@@ -203,11 +203,9 @@
     "description": "8 cores, 16 threads, 3.4GHz base clock, 4.6GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 109440,
-    "price_eur": 4560,
     "stock": 45,
     "deal": false,
     "deal price": 109400,
-    "deal_price_eur": 4560,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -217,7 +215,9 @@
       "cache": "36MB GameCache",
       "tdp": "105W",
       "architecture": "Zen 3"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 11,
@@ -225,11 +225,9 @@
     "description": "4 cores, 8 threads, 3.6GHz base clock, 4.3GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 32832,
-    "price_eur": 1368,
     "stock": 80,
     "deal": true,
     "deal price": 29548,
-    "deal_price_eur": 1231,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -239,7 +237,9 @@
       "cache": "6MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 12,
@@ -247,11 +247,9 @@
     "description": "6 cores, 12 threads, 3.3GHz base clock, 4.4GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 49340,
-    "price_eur": 2056,
     "stock": 70,
     "deal": false,
     "deal price": 47440,
-    "deal_price_eur": 2056,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -261,7 +259,9 @@
       "cache": "35MB GameCache",
       "tdp": "65W",
       "architecture": "Zen 3"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 13,
@@ -269,11 +269,9 @@
     "description": "8 cores, 16 threads, 3.8GHz base clock, 5.1GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 138240,
-    "price_eur": 5760,
     "stock": 60,
     "deal": true,
     "deal price": 124160,
-    "deal_price_eur": 5184,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -283,7 +281,9 @@
       "cache": "16MB Intel Smart Cache",
       "tdp": "125W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 14,
@@ -291,11 +291,9 @@
     "description": "4 cores, 8 threads, 3.8GHz base clock, 4.3GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 23040,
-    "price_eur": 960,
     "stock": 90,
     "deal": true,
     "deal price": 20730,
-    "deal_price_eur": 864,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -305,7 +303,9 @@
       "cache": "18MB GameCache",
       "tdp": "65W",
       "architecture": "Zen 2"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 15,
@@ -313,11 +313,9 @@
     "description": "6 cores, 12 threads, 3.1GHz base clock, 4.5GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 56208,
-    "price_eur": 2342,
     "stock": 55,
     "deal": false,
     "deal price": 56200,
-    "deal_price_eur": 2342,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -327,7 +325,9 @@
       "cache": "12MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 16,
@@ -335,11 +335,9 @@
     "description": "8 cores, 16 threads, 3.6GHz base clock, 4.4GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 85280,
-    "price_eur": 3552,
     "stock": 50,
     "deal": true,
     "deal price": 77232,
-    "deal_price_eur": 3197,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -349,7 +347,9 @@
       "cache": "36MB GameCache",
       "tdp": "65W",
       "architecture": "Zen 2"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 17,
@@ -357,11 +357,9 @@
     "description": "10 cores, 20 threads, 3.6GHz base clock, 5.2GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 162700,
-    "price_eur": 6780,
     "stock": 40,
     "deal": false,
     "deal price": 162200,
-    "deal_price_eur": 6780,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -371,7 +369,9 @@
       "cache": "20MB Intel Smart Cache",
       "tdp": "125W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 18,
@@ -379,11 +379,9 @@
     "description": "6 cores, 12 threads, 3.8GHz base clock, 4.4GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 47520,
-    "price_eur": 1980,
     "stock": 60,
     "deal": true,
     "deal price": 42180,
-    "deal_price_eur": 1782,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -393,7 +391,9 @@
       "cache": "35MB GameCache",
       "tdp": "95W",
       "architecture": "Zen 2"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 19,
@@ -401,11 +401,9 @@
     "description": "4 cores, 8 threads, 3.7GHz base clock, 4.4GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 35904,
-    "price_eur": 1496,
     "stock": 75,
     "deal": false,
     "deal price": 35904,
-    "deal_price_eur": 1496,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -415,7 +413,9 @@
       "cache": "8MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 20,
@@ -423,11 +423,9 @@
     "description": "4 cores, 8 threads, 3.6GHz base clock, 3.9GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 18240,
-    "price_eur": 760,
     "stock": 80,
     "deal": true,
     "deal price": 16410,
-    "deal_price_eur": 684,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -437,7 +435,9 @@
       "cache": "18MB GameCache",
       "tdp": "65W",
       "architecture": "Zen 2"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 21,
@@ -445,11 +445,9 @@
     "description": "8 cores, 16 threads, 2.9GHz base clock, 4.8GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 123400,
-    "price_eur": 5160,
     "stock": 65,
     "deal": false,
     "deal price": 123000,
-    "deal_price_eur": 5160,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -459,7 +457,9 @@
       "cache": "16MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 22,
@@ -467,11 +467,9 @@
     "description": "6 cores, 12 threads, 3.6GHz base clock, 4.2GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 43500,
-    "price_eur": 1815,
     "stock": 55,
     "deal": true,
     "deal price": 32040,
-    "deal_price_eur": 1633,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -481,7 +479,9 @@
       "cache": "35MB GameCache",
       "tdp": "65W",
       "architecture": "Zen 2"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 23,
@@ -489,11 +489,9 @@
     "description": "6 cores, 12 threads, 2.9GHz base clock, 4.3GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 51440,
-    "price_eur": 2156,
     "stock": 70,
     "deal": false,
     "deal price": 51540,
-    "deal_price_eur": 2156,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -503,7 +501,9 @@
       "cache": "12MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 24,
@@ -511,11 +511,9 @@
     "description": "8 cores, 16 threads, 3.9GHz base clock, 4.5GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 89280,
-    "price_eur": 3720,
     "stock": 60,
     "deal": true,
     "deal price": 80320,
-    "deal_price_eur": 3348,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -525,7 +523,9 @@
       "cache": "36MB GameCache",
       "tdp": "105W",
       "architecture": "Zen 2"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 25,
@@ -533,11 +533,9 @@
     "description": "8 cores, 16 threads, 3.6GHz base clock, 5.0GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 148320,
-    "price_eur": 6180,
     "stock": 45,
     "deal": false,
     "deal price": 148320,
-    "deal_price_eur": 6180,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -547,7 +545,9 @@
       "cache": "16MB Intel Smart Cache",
       "tdp": "95W",
       "architecture": "Coffee Lake Refresh"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 26,
@@ -555,11 +555,9 @@
     "description": "6 cores, 12 threads, 3.6GHz base clock, 4.2GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 31240,
-    "price_eur": 1326,
     "stock": 75,
     "deal": true,
     "deal price": 28616,
-    "deal_price_eur": 1193,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -569,7 +567,9 @@
       "cache": "19MB GameCache",
       "tdp": "95W",
       "architecture": "Zen+"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 27,
@@ -577,11 +577,9 @@
     "description": "4 cores, 4 threads, 3.6GHz base clock, no integrated graphics",
     "images": "src/assets/products/CPU.jpg",
     "price": 18624,
-    "price_eur": 776,
     "stock": 80,
     "deal": false,
     "deal price": 16240,
-    "deal_price_eur": 776,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -591,7 +589,9 @@
       "cache": "6MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Coffee Lake Refresh"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 28,
@@ -599,11 +599,9 @@
     "description": "4 cores, 4 threads, 3.6GHz base clock, 4.0GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 17280,
-    "price_eur": 720,
     "stock": 85,
     "deal": true,
     "deal price": 15550,
-    "deal_price_eur": 648,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -613,7 +611,9 @@
       "cache": "6MB GameCache",
       "tdp": "65W",
       "architecture": "Zen+"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 29,
@@ -621,11 +621,9 @@
     "description": "6 cores, 6 threads, 2.9GHz base clock, no integrated graphics",
     "images": "src/assets/products/CPU.jpg",
     "price": 36380,
-    "price_eur": 1516,
     "stock": 70,
     "deal": false,
     "deal price": 36340,
-    "deal_price_eur": 1516,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -635,7 +633,9 @@
       "cache": "9MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Coffee Lake Refresh"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 30,
@@ -643,11 +643,9 @@
     "description": "4 cores, 4 threads, 3.5GHz base clock, 3.7GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 14780,
-    "price_eur": 616,
     "stock": 90,
     "deal": true,
     "deal price": 13056,
-    "deal_price_eur": 554,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -657,7 +655,9 @@
       "cache": "6MB GameCache",
       "tdp": "65W",
       "architecture": "Zen"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 31,
@@ -665,11 +665,9 @@
     "description": "4 cores, 8 threads, 3.6GHz base clock, no integrated graphics",
     "images": "src/assets/products/CPU.jpg",
     "price": 20730,
-    "price_eur": 864,
     "stock": 85,
     "deal": false,
     "deal price": 20360,
-    "deal_price_eur": 864,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -679,7 +677,9 @@
       "cache": "6MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Comet Lake"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 32,
@@ -687,11 +687,9 @@
     "description": "4 cores, 8 threads, 3.6GHz base clock, 3.9GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 20160,
-    "price_eur": 840,
     "stock": 90,
     "deal": true,
     "deal price": 18140,
-    "deal_price_eur": 756,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -701,7 +699,9 @@
       "cache": "6MB GameCache",
       "tdp": "65W",
       "architecture": "Zen"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 33,
@@ -709,11 +709,9 @@
     "description": "6 cores, 6 threads, 2.8GHz base clock, 4.0GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 37440,
-    "price_eur": 1560,
     "stock": 65,
     "deal": false,
     "deal price": 37400,
-    "deal_price_eur": 1560,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -723,7 +721,9 @@
       "cache": "9MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Coffee Lake"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 34,
@@ -731,11 +731,9 @@
     "description": "4 cores, 4 threads, 3.5GHz base clock, 3.7GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 13440,
-    "price_eur": 560,
     "stock": 95,
     "deal": true,
     "deal price": 12060,
-    "deal_price_eur": 504,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -745,7 +743,9 @@
       "cache": "8MB GameCache",
       "tdp": "65W",
       "architecture": "Zen"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 35,
@@ -753,11 +753,9 @@
     "description": "4 cores, 4 threads, 3.6GHz base clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 20970,
-    "price_eur": 874,
     "stock": 95,
     "deal": false,
     "deal price": 20960,
-    "deal_price_eur": 874,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -767,7 +765,9 @@
       "cache": "6MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Coffee Lake"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 36,
@@ -775,11 +775,9 @@
     "description": "4 cores, 4 threads, 3.1GHz base clock, 3.4GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 11040,
-    "price_eur": 460,
     "stock": 100,
     "deal": true,
     "deal price": 9930,
-    "deal_price_eur": 414,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -789,7 +787,9 @@
       "cache": "8MB GameCache",
       "tdp": "65W",
       "architecture": "Zen"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 37,
@@ -797,11 +797,9 @@
     "description": "2 cores, 4 threads, 3.9GHz base clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 15360,
-    "price_eur": 640,
     "stock": 100,
     "deal": false,
     "deal price": 15360,
-    "deal_price_eur": 640,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -811,7 +809,9 @@
       "cache": "3MB Intel Smart Cache",
       "tdp": "51W",
       "architecture": "Kaby Lake"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 38,
@@ -819,11 +819,9 @@
     "description": "4 cores, 4 threads, 3.2GHz base clock, 3.6GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 13920,
-    "price_eur": 580,
     "stock": 100,
     "deal": true,
     "deal price": 12280,
-    "deal_price_eur": 522,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -833,7 +831,9 @@
       "cache": "4MB GameCache",
       "tdp": "35W",
       "architecture": "Zen"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 39,
@@ -841,11 +841,9 @@
     "description": "4 cores, 4 threads, 3.0GHz base clock, 3.5GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 22880,
-    "price_eur": 952,
     "stock": 95,
     "deal": false,
     "deal price": 22480,
-    "deal_price_eur": 952,
     "category": "CPU",
     "filter": {
       "chipset": "Intel",
@@ -855,7 +853,9 @@
       "cache": "6MB Intel Smart Cache",
       "tdp": "65W",
       "architecture": "Kaby Lake"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 40,
@@ -863,11 +863,9 @@
     "description": "4 cores, 8 threads, 3.2GHz base clock, 3.8GHz boost clock",
     "images": "src/assets/products/CPU.jpg",
     "price": 17640,
-    "price_eur": 736,
     "stock": 90,
     "deal": true,
     "deal price": 15976,
-    "deal_price_eur": 662,
     "category": "CPU",
     "filter": {
       "chipset": "AMD",
@@ -877,7 +875,9 @@
       "cache": "6MB GameCache",
       "tdp": "35W",
       "architecture": "Zen"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 41,
@@ -885,11 +885,9 @@
     "description": "ATX motherboard with Intel Z490 chipset, supports 10th Gen Intel Core processors, Aura Sync RGB lighting, Wi-Fi 6, 2.5 Gb Ethernet, Dual M.2 slots, USB 3.2 Gen 2 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 187200,
-    "price_eur": 7800,
     "stock": 30,
     "deal": false,
     "deal price": 1872000,
-    "deal_price_eur": 7800,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -898,14 +896,17 @@
       "chipset": "Intel Z490",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4600MHz",
+      "memory speed": "4600MHz",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen 2 Type-A and Type-C",
       "lan": "2.5 Gb Ethernet",
-      "wifi": "Wi-Fi 6 (802.11ax)"
-    }
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 42,
@@ -913,11 +914,9 @@
     "description": "ATX motherboard with AMD B550 chipset, supports AMD Ryzen processors, PCIe 4.0, Dual M.2 slots, USB 3.2 Gen 2 Type-C, Intel Wi-Fi 6",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 144000,
-    "price_eur": 6000,
     "stock": 35,
     "deal": false,
     "deal price": 1440000,
-    "deal_price_eur": 6000,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -926,14 +925,17 @@
       "chipset": "AMD B550",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 5200MHz (O.C.)",
+      "memory speed": "5200MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen 2 Type-A and Type-C",
       "lan": "2.5 Gb Ethernet",
-      "wifi": "Intel Wi-Fi 6 802.11ax"
-    }
+      "wifi": "Intel Wi-Fi 6 802.11ax",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 43,
@@ -941,11 +943,9 @@
     "description": "ATX motherboard with Intel Z490 chipset, supports 10th Gen Intel Core processors, Mystic Light RGB lighting, Wi-Fi 6, 2.5 Gb Ethernet, Dual M.2 slots, USB 3.2 Gen 2",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 1608000,
-    "price_eur": 6700,
     "stock": 40,
     "deal": true,
     "deal price": 1447200,
-    "deal_price_eur": 6030,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -954,14 +954,17 @@
       "chipset": "Intel Z490",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4800MHz (O.C.)",
+      "memory speed": "4800MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen 2 Type-A and Type-C",
       "lan": "2.5 Gb Ethernet",
-      "wifi": "Wi-Fi 6 (802.11ax)"
-    }
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 44,
@@ -969,11 +972,9 @@
     "description": "ATX motherboard with AMD B550 chipset, supports AMD Ryzen processors, PCIe 4.0, Dual M.2 slots, USB 3.2 Gen 2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 96000,
-    "price_eur": 4000,
     "stock": 45,
     "deal": false,
     "deal price": 960000,
-    "deal_price_eur": 4000,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -982,13 +983,16 @@
       "chipset": "AMD B550",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4733MHz (O.C.)",
+      "memory speed": "4733MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen 2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 45,
@@ -996,11 +1000,9 @@
     "description": "Micro-ATX motherboard with Intel B560 chipset, supports 11th Gen Intel Core processors, TUF Gaming Alliance, PCIe 4.0, Dual M.2 slots, USB 3.2 Gen 2 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 96000,
-    "price_eur": 4000,
     "stock": 35,
     "deal": false,
     "deal price": 960000,
-    "deal_price_eur": 4000,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1009,13 +1011,16 @@
       "chipset": "Intel B560",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR5 5000MHz (O.C.)",
+      "memory speed": "5000MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen 2 Type-A and Type-C",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR5"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 46,
@@ -1023,11 +1028,9 @@
     "description": "ATX motherboard with AMD B550 chipset, supports AMD Ryzen processors, Mystic Light RGB lighting, PCIe 4.0, Dual M.2 slots, USB 3.2 Gen 2 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 134400,
-    "price_eur": 5600,
     "stock": 30,
     "deal": true,
     "deal price": 1209600,
-    "deal_price_eur": 5040,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1036,13 +1039,16 @@
       "chipset": "AMD B550",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 3200MHz (O.C.)",
+      "memory speed": "3200MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen 2 Type-A and Type-C",
-      "lan": "2.5 Gb Ethernet"
-    }
+      "lan": "2.5 Gb Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 47,
@@ -1050,11 +1056,9 @@
     "description": "ATX motherboard with AMD B450 chipset, supports AMD Ryzen processors, PCIe Gen3 M.2 slot, RGB Fusion lighting, USB 3.1 Gen2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 67000,
-    "price_eur": 2800,
     "stock": 25,
     "deal": false,
     "deal price": 672000,
-    "deal_price_eur": 2800,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1063,13 +1067,16 @@
       "chipset": "AMD B450",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 3600MHz (O.C.)",
+      "memory speed": "3600MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 48,
@@ -1077,11 +1084,9 @@
     "description": "Mini-ITX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, Dual M.2 slots, Intel Wi-Fi 6, USB 3.2 Gen1 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 816000,
-    "price_eur": 3400,
     "stock": 20,
     "deal": true,
     "deal price": 73440,
-    "deal_price_eur": 3060,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1090,13 +1095,16 @@
       "chipset": "Intel B460",
       "memory slots": 2,
       "max memory": "64GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 49,
@@ -1104,11 +1112,9 @@
     "description": "ATX motherboard with AMD B450 chipset, supports AMD Ryzen processors, Mystic Light RGB lighting, PCIe Gen3 M.2 slot, USB 3.2 Gen2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 84000,
-    "price_eur": 3500,
     "stock": 28,
     "deal": false,
     "deal price": 840000,
-    "deal_price_eur": 3500,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1117,13 +1123,16 @@
       "chipset": "AMD B450",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 4133MHz (O.C.)",
+      "memory speed": "4133MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 1,
       "usb ports": "USB 3.2 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 50,
@@ -1131,11 +1140,9 @@
     "description": "ATX motherboard with AMD X570 chipset, supports AMD Ryzen processors, Aura Sync RGB lighting, PCIe 4.0, Dual M.2 slots, Wi-Fi 6, Intel Gigabit Ethernet",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 208800,
-    "price_eur": 8700,
     "stock": 33,
     "deal": true,
     "deal price": 1879200,
-    "deal_price_eur": 7830,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1144,14 +1151,17 @@
       "chipset": "AMD X570",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR5 5100MHz (O.C.)",
+      "memory speed": "5100MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 8,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen 2 Type-A and Type-C",
       "lan": "Intel Gigabit Ethernet",
-      "wifi": "Wi-Fi 6 (802.11ax)"
-    }
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "type": "DDR5"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 51,
@@ -1159,11 +1169,9 @@
     "description": "Micro-ATX motherboard with AMD B450 chipset, supports AMD Ryzen processors, PCIe Gen3 M.2 slot, RGB Fusion lighting, HDMI, DVI-D",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 48900,
-    "price_eur": 2040,
     "stock": 27,
     "deal": false,
     "deal price": 489600,
-    "deal_price_eur": 2040,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1172,13 +1180,16 @@
       "chipset": "AMD B450",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 3600MHz (O.C.)",
+      "memory speed": "3600MHz (O.C.)",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 52,
@@ -1186,11 +1197,9 @@
     "description": "ATX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-C, ASRock Polychrome SYNC",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 81600,
-    "price_eur": 3400,
     "stock": 32,
     "deal": false,
     "deal price": 816000,
-    "deal_price_eur": 3400,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1199,13 +1208,16 @@
       "chipset": "Intel B460",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 53,
@@ -1213,11 +1225,9 @@
     "description": "ATX motherboard with AMD B450 chipset, supports AMD Ryzen processors, 5X Protection III, PCIe Gen3 M.2 slot, USB 3.1 Gen2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 65200,
-    "price_eur": 2720,
     "stock": 28,
     "deal": true,
     "deal price": 587520,
-    "deal_price_eur": 2448,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1226,13 +1236,16 @@
       "chipset": "AMD B450",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 3466MHz (O.C.)",
+      "memory speed": "3466MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 54,
@@ -1240,11 +1253,9 @@
     "description": "Micro-ATX motherboard with Intel B560 chipset, supports 10th and 11th Gen Intel Core processors, PCIe 4.0, Dual M.2 slots, USB 3.2 Gen1 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 81600,
-    "price_eur": 3400,
     "stock": 26,
     "deal": false,
     "deal price": 816000,
-    "deal_price_eur": 3400,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1253,13 +1264,16 @@
       "chipset": "Intel B560",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR5 5000MHz (O.C.)",
+      "memory speed": "5000MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR5"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 55,
@@ -1267,11 +1281,9 @@
     "description": "ATX motherboard with AMD B450 chipset, supports AMD Ryzen processors, Mystic Light RGB lighting, PCIe Gen3 M.2 slot, USB 3.2 Gen2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 72000,
-    "price_eur": 3000,
     "stock": 30,
     "deal": true,
     "deal price": 648000,
-    "deal_price_eur": 2700,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1280,13 +1292,16 @@
       "chipset": "AMD B450",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 4133MHz (O.C.)",
+      "memory speed": "4133MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 1,
       "usb ports": "USB 3.2 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 56,
@@ -1294,11 +1309,9 @@
     "description": "Micro-ATX motherboard with Intel H410 chipset, supports 10th Gen Intel Core processors, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 52800,
-    "price_eur": 2200,
     "stock": 24,
     "deal": false,
     "deal price": 528000,
-    "deal_price_eur": 2200,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1307,13 +1320,16 @@
       "chipset": "Intel H410",
       "memory slots": 2,
       "max memory": "64GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 57,
@@ -1321,11 +1337,9 @@
     "description": "Micro-ATX motherboard with AMD B450 chipset, supports AMD Ryzen processors, TUF Gaming Alliance, Aura Sync RGB lighting, PCIe Gen3 M.2 slot, USB 3.1 Gen2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 76800,
-    "price_eur": 3200,
     "stock": 22,
     "deal": true,
     "deal price": 691200,
-    "deal_price_eur": 2880,
     "category": "motherboard",
     "filter": {
       "support": "AMD",
@@ -1334,13 +1348,16 @@
       "chipset": "AMD B450",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 3533MHz (O.C.)",
+      "memory speed": "3533MHz (O.C.)",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 58,
@@ -1348,11 +1365,9 @@
     "description": "Micro-ATX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, Wi-Fi 6, Mystic Light RGB lighting, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 96000,
-    "price_eur": 4000,
     "stock": 29,
     "deal": false,
     "deal price": 960000,
-    "deal_price_eur": 4000,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1361,14 +1376,17 @@
       "chipset": "Intel B460",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
       "lan": "Gigabit Ethernet",
-      "wifi": "Wi-Fi 6 (802.11ax)"
-    }
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 59,
@@ -1376,11 +1394,9 @@
     "description": "Micro-ATX motherboard with Intel B365 chipset, supports 9th and 8th Gen Intel Core processors, PCIe 3.0, Dual M.2 slots, USB 3.1 Gen2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 81600,
-    "price_eur": 3400,
     "stock": 27,
     "deal": true,
     "deal price": 734400,
-    "deal_price_eur": 3060,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1389,13 +1405,16 @@
       "chipset": "Intel B365",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 2666MHz",
+      "memory speed": "2666MHz",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.1 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 60,
@@ -1403,11 +1422,9 @@
     "description": "ATX motherboard with Intel Z390 chipset, supports 8th and 9th Gen Intel Core processors, Aura Sync RGB lighting, Dual M.2 slots, USB 3.1 Gen2, Intel Gigabit Ethernet",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 201600,
-    "price_eur": 8400,
     "stock": 30,
     "deal": false,
     "deal price": 2016000,
-    "deal_price_eur": 8400,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1416,13 +1433,16 @@
       "chipset": "Intel Z390",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4266MHz (O.C.)",
+      "memory speed": "4266MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.1 Gen2 Type-A and Type-C",
-      "lan": "Intel Gigabit Ethernet"
-    }
+      "lan": "Intel Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 61,
@@ -1430,11 +1450,9 @@
     "description": "Micro-ATX motherboard with Intel B365 chipset, supports 9th and 8th Gen Intel Core processors, PCIe 3.0, Dual M.2 slots, USB 3.1 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 70500,
-    "price_eur": 2940,
     "stock": 28,
     "deal": true,
     "deal price": 635040,
-    "deal_price_eur": 2646,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1443,13 +1461,16 @@
       "chipset": "Intel B365",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 2666MHz",
+      "memory speed": "2666MHz",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.1 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 62,
@@ -1457,11 +1478,9 @@
     "description": "ATX motherboard with Intel Z490 chipset, supports 10th Gen Intel Core processors, Mystic Light RGB lighting, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen2 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 168000,
-    "price_eur": 7000,
     "stock": 32,
     "deal": false,
     "deal price": 1680000,
-    "deal_price_eur": 7000,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1470,13 +1489,16 @@
       "chipset": "Intel Z490",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4800MHz (O.C.)",
+      "memory speed": "4800MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen2 Type-C",
-      "lan": "2.5 Gb Ethernet"
-    }
+      "lan": "2.5 Gb Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 63,
@@ -1484,11 +1506,9 @@
     "description": "Mini-ITX motherboard with Intel H470 chipset, supports 10th Gen Intel Core processors, Wi-Fi 6, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 96000,
-    "price_eur": 4000,
     "stock": 30,
     "deal": true,
     "deal price": 864000,
-    "deal_price_eur": 3600,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1497,14 +1517,17 @@
       "chipset": "Intel H470",
       "memory slots": 2,
       "max memory": "64GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
       "lan": "Gigabit Ethernet",
-      "wifi": "Wi-Fi 6 (802.11ax)"
-    }
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 64,
@@ -1512,11 +1535,9 @@
     "description": "Micro-ATX motherboard with Intel H510 chipset, supports 10th and 11th Gen Intel Core processors, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 76800,
-    "price_eur": 3200,
     "stock": 26,
     "deal": false,
     "deal price": 76800,
-    "deal_price_eur": 3200,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1525,13 +1546,16 @@
       "chipset": "Intel H510",
       "memory slots": 2,
       "max memory": "64GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 2,
       "sata ports": 4,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 65,
@@ -1539,11 +1563,9 @@
     "description": "ATX motherboard with Intel Z390 chipset, supports 8th and 9th Gen Intel Core processors, Intel CNVi 802.11ac 2x2 Wave 2 Wi-Fi, RGB Fusion, Dual M.2 slots, USB 3.1 Gen2 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 211200,
-    "price_eur": 8800,
     "stock": 30,
     "deal": true,
     "deal price": 190000,
-    "deal_price_eur": 7920,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1552,14 +1574,17 @@
       "chipset": "Intel Z390",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4266MHz (O.C.)",
+      "memory speed": "4266MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 3,
       "usb ports": "USB 3.1 Gen2 Type-C",
       "lan": "Intel Gigabit Ethernet",
-      "wifi": "Intel CNVi 802.11ac 2x2 Wave 2 Wi-Fi"
-    }
+      "wifi": "Intel CNVi 802.11ac 2x2 Wave 2 Wi-Fi",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 66,
@@ -1567,11 +1592,9 @@
     "description": "ATX motherboard with Intel Z490 chipset, supports 10th Gen Intel Core processors, Phantom Gaming 2.5 Gb/s LAN, ASRock Polychrome SYNC, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 120000,
-    "price_eur": 5000,
     "stock": 28,
     "deal": false,
     "deal price": 120000,
-    "deal_price_eur": 5000,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1580,13 +1603,16 @@
       "chipset": "Intel Z490",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4400MHz (O.C.)",
+      "memory speed": "4400MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
-      "lan": "Phantom Gaming 2.5 Gb/s LAN"
-    }
+      "lan": "Phantom Gaming 2.5 Gb/s LAN",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 67,
@@ -1594,11 +1620,9 @@
     "description": "Micro-ATX motherboard with Intel B365 chipset, supports 9th and 8th Gen Intel Core processors, TUF Gaming Alliance, Aura Sync RGB lighting, PCIe 3.0, Dual M.2 slots, USB 3.1 Gen2 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 76800,
-    "price_eur": 3200,
     "stock": 26,
     "deal": true,
     "deal price": 691200,
-    "deal_price_eur": 2880,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1607,13 +1631,16 @@
       "chipset": "Intel B365",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 2666MHz",
+      "memory speed": "2666MHz",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.1 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 68,
@@ -1621,11 +1648,9 @@
     "description": "Mini-ITX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, Wi-Fi 6, Mystic Light RGB lighting, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-C",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 120000,
-    "price_eur": 5000,
     "stock": 24,
     "deal": false,
     "deal price": 1200000,
-    "deal_price_eur": 5000,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1634,14 +1659,17 @@
       "chipset": "Intel B460",
       "memory slots": 2,
       "max memory": "64GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-C",
       "lan": "Gigabit Ethernet",
-      "wifi": "Wi-Fi 6 (802.11ax)"
-    }
+      "wifi": "Wi-Fi 6 (802.11ax)",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 69,
@@ -1649,11 +1677,9 @@
     "description": "Micro-ATX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, PCIe 3.0, Dual M.2 slots, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 67200,
-    "price_eur": 2800,
     "stock": 25,
     "deal": true,
     "deal price": 604800,
-    "deal_price_eur": 2520,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1662,13 +1688,16 @@
       "chipset": "Intel B460",
       "memory slots": 2,
       "max memory": "64GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 1,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 70,
@@ -1676,11 +1705,9 @@
     "description": "Micro-ATX motherboard with Intel H310 chipset, supports 9th and 8th Gen Intel Core processors, PCIe 3.0, USB 3.1 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 48960,
-    "price_eur": 2040,
     "stock": 27,
     "deal": false,
     "deal price": 489600,
-    "deal_price_eur": 2040,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1689,13 +1716,16 @@
       "chipset": "Intel H310",
       "memory slots": 2,
       "max memory": "32GB",
-      "memory speed": "DDR4 2666MHz",
+      "memory speed": "2666MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 71,
@@ -1703,11 +1733,9 @@
     "description": "Micro-ATX motherboard with Intel H410 chipset, supports 10th Gen Intel Core processors, PCIe 3.0, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 57120,
-    "price_eur": 2380,
     "stock": 24,
     "deal": true,
     "deal price": 514080,
-    "deal_price_eur": 2142,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1716,13 +1744,16 @@
       "chipset": "Intel H410",
       "memory slots": 2,
       "max memory": "64GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 1,
       "usb ports": "USB 3.2 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 72,
@@ -1730,11 +1761,9 @@
     "description": "Micro-ATX motherboard with Intel B365 chipset, supports 9th and 8th Gen Intel Core processors, DDR4 Boost, PCIe 3.0, USB 3.1 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 63840,
-    "price_eur": 2660,
     "stock": 26,
     "deal": false,
     "deal price": 638400,
-    "deal_price_eur": 2660,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1743,13 +1772,16 @@
       "chipset": "Intel B365",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 2666MHz",
+      "memory speed": "2666MHz",
       "pcie slots": 2,
       "sata ports": 6,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 73,
@@ -1757,11 +1789,9 @@
     "description": "ATX motherboard with Intel Z390 chipset, supports 8th and 9th Gen Intel Core processors, PCIe Gen3 x4 M.2, RGB FUSION, Dual M.2, USB 3.1 Gen2",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 120000,
-    "price_eur": 5000,
     "stock": 28,
     "deal": true,
     "deal price": 1080000,
-    "deal_price_eur": 4500,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1770,13 +1800,16 @@
       "chipset": "Intel Z390",
       "memory slots": 4,
       "max memory": "64GB",
-      "memory speed": "DDR4 4266MHz (O.C.)",
+      "memory speed": "4266MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.1 Gen2 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 74,
@@ -1784,11 +1817,9 @@
     "description": "ATX motherboard with Intel Z490 chipset, supports 10th Gen Intel Core processors, ASRock Polychrome SYNC, PCIe 3.0, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 144000,
-    "price_eur": 6000,
     "stock": 25,
     "deal": false,
     "deal price": 1440000,
-    "deal_price_eur": 6000,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1797,13 +1828,16 @@
       "chipset": "Intel Z490",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 4600MHz (O.C.)",
+      "memory speed": "4600MHz (O.C.)",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 75,
@@ -1811,11 +1845,9 @@
     "description": "ATX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, ASUS OptiMem, PCIe 3.0, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 81600,
-    "price_eur": 3400,
     "stock": 27,
     "deal": true,
     "deal price": 734400,
-    "deal_price_eur": 3060,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1824,13 +1856,16 @@
       "chipset": "Intel B460",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 76,
@@ -1838,11 +1873,9 @@
     "description": "ATX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, Intel Wi-Fi 6 802.11ax, RGB Fusion 2.0, Dual M.2 slots, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 134400,
-    "price_eur": 5600,
     "stock": 26,
     "deal": false,
     "deal price": 1344000,
-    "deal_price_eur": 5600,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1851,14 +1884,17 @@
       "chipset": "Intel B460",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-A",
       "lan": "Intel Gigabit Ethernet",
-      "wifi": "Intel Wi-Fi 6 802.11ax"
-    }
+      "wifi": "Intel Wi-Fi 6 802.11ax",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 77,
@@ -1866,11 +1902,9 @@
     "description": "ATX motherboard with Intel H470 chipset, supports 10th Gen Intel Core processors, Phantom Gaming 2.5 Gb/s LAN, ASRock Polychrome SYNC, PCIe 3.0, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 115200,
-    "price_eur": 4800,
     "stock": 24,
     "deal": true,
     "deal price": 1036800,
-    "deal_price_eur": 4320,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1879,13 +1913,16 @@
       "chipset": "Intel H470",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-A",
-      "lan": "Phantom Gaming 2.5 Gb/s LAN"
-    }
+      "lan": "Phantom Gaming 2.5 Gb/s LAN",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 78,
@@ -1893,11 +1930,9 @@
     "description": "ATX motherboard with Intel B460 chipset, supports 10th Gen Intel Core processors, Mystic Light RGB lighting, PCIe 3.0, USB 3.2 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 100800,
-    "price_eur": 4200,
     "stock": 23,
     "deal": false,
     "deal price": 1008000,
-    "deal_price_eur": 4200,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1906,13 +1941,16 @@
       "chipset": "Intel B460",
       "memory slots": 4,
       "max memory": "128GB",
-      "memory speed": "DDR4 2933MHz",
+      "memory speed": "2933MHz",
       "pcie slots": 3,
       "sata ports": 6,
       "m.2 slots": 2,
       "usb ports": "USB 3.2 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 79,
@@ -1920,11 +1958,9 @@
     "description": "Micro-ATX motherboard with Intel H310 chipset, supports 9th and 8th Gen Intel Core processors, TUF Gaming Alliance, Aura Sync RGB lighting, PCIe 3.0, USB 3.1 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 65280,
-    "price_eur": 2720,
     "stock": 27,
     "deal": true,
     "deal price": 587520,
-    "deal_price_eur": 2448,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1933,13 +1969,16 @@
       "chipset": "Intel H310",
       "memory slots": 2,
       "max memory": "32GB",
-      "memory speed": "DDR4 2666MHz",
+      "memory speed": "2666MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 80,
@@ -1947,11 +1986,9 @@
     "description": "Micro-ATX motherboard with Intel H310 chipset, supports 9th and 8th Gen Intel Core processors, PCIe 3.0, USB 3.1 Gen1 Type-A",
     "images": "src/assets/products/Motherboard.jpg",
     "price": 48960,
-    "price_eur": 2040,
     "stock": 29,
     "deal": false,
     "deal price": 489600,
-    "deal_price_eur": 2040,
     "category": "motherboard",
     "filter": {
       "support": "Intel",
@@ -1960,26 +1997,26 @@
       "chipset": "Intel H310",
       "memory slots": 2,
       "max memory": "32GB",
-      "memory speed": "DDR4 2666MHz",
+      "memory speed": "2666MHz",
       "pcie slots": 1,
       "sata ports": 4,
       "m.2 slots": 1,
       "usb ports": "USB 3.1 Gen1 Type-A",
-      "lan": "Gigabit Ethernet"
-    }
+      "lan": "Gigabit Ethernet",
+      "type": "DDR4"
+    },
+    "config": true,
+    "new": false
   },
-
   {
     "id": 81,
     "name": "NVIDIA GeForce RTX 3090",
     "description": "Flagship graphics card by NVIDIA, based on the Ampere architecture, with 24GB GDDR6X VRAM, 384-bit memory interface, DirectX 12 Ultimate support, 10496 CUDA cores, 3840-bit memory bandwidth, HDMI 2.1, DisplayPort 1.4a",
     "images": "src/assets/products/GPU.jpg",
     "price": 264000,
-    "price_eur": 11000,
     "stock": 15,
     "deal": true,
     "deal price": 2376000,
-    "deal_price_eur": 9900,
     "category": "GPU",
     "filter": {
       "chipset": "NVIDIA GeForce RTX 3090",
@@ -1989,8 +2026,11 @@
       "cuda cores": 10496,
       "memory bandwidth": "936 GB/s",
       "directx support": "12 Ultimate",
+      "length": 313,
       "ports": ["HDMI 2.1", "DisplayPort 1.4a"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 82,
@@ -1998,11 +2038,9 @@
     "description": "High-performance graphics card by NVIDIA, based on the Ampere architecture, with 10GB GDDR6X VRAM, 320-bit memory interface, DirectX 12 Ultimate support, 8704 CUDA cores, 760 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4a",
     "images": "src/assets/products/GPU.jpg",
     "price": 156000,
-    "price_eur": 6500,
     "stock": 20,
     "deal": false,
     "deal price": 1560000,
-    "deal_price_eur": 6500,
     "category": "GPU",
     "filter": {
       "chipset": "NVIDIA GeForce RTX 3080",
@@ -2012,8 +2050,11 @@
       "cuda cores": 8704,
       "memory bandwidth": "760 GB/s",
       "directx support": "12 Ultimate",
+      "length": 285,
       "ports": ["HDMI 2.1", "DisplayPort 1.4a"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 83,
@@ -2021,11 +2062,9 @@
     "description": "Mid-range graphics card by NVIDIA, based on the Ampere architecture, with 8GB GDDR6 VRAM, 256-bit memory interface, DirectX 12 Ultimate support, 5888 CUDA cores, 448 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4a",
     "images": "src/assets/products/GPU.jpg",
     "price": 96000,
-    "price_eur": 4000,
     "stock": 25,
     "deal": true,
     "deal price": 864000,
-    "deal_price_eur": 3600,
     "category": "GPU",
     "filter": {
       "chipset": "NVIDIA GeForce RTX 3070",
@@ -2035,8 +2074,11 @@
       "cuda cores": 5888,
       "memory bandwidth": "448 GB/s",
       "directx support": "12 Ultimate",
+      "length": 242,
       "ports": ["HDMI 2.1", "DisplayPort 1.4a"]
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 84,
@@ -2044,11 +2086,9 @@
     "description": "Performance graphics card by NVIDIA, based on the Ampere architecture, with 8GB GDDR6 VRAM, 256-bit memory interface, DirectX 12 Ultimate support, 4864 CUDA cores, 448 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4a",
     "images": "src/assets/products/GPU.jpg",
     "price": 76800,
-    "price_eur": 3200,
     "stock": 22,
     "deal": false,
     "deal price": 768000,
-    "deal_price_eur": 3200,
     "category": "GPU",
     "filter": {
       "chipset": "NVIDIA GeForce RTX 3060 Ti",
@@ -2058,8 +2098,11 @@
       "cuda cores": 4864,
       "memory bandwidth": "448 GB/s",
       "directx support": "12 Ultimate",
+      "length": 242,
       "ports": ["HDMI 2.1", "DisplayPort 1.4a"]
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 85,
@@ -2067,11 +2110,9 @@
     "description": "Flagship graphics card by AMD, based on the RDNA 2 architecture, with 16GB GDDR6 VRAM, 2560-bit memory interface, DirectX 12 Ultimate support, 5120 stream processors, 512 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4",
     "images": "src/assets/products/GPU.jpg",
     "price": 192000,
-    "price_eur": 8000,
     "stock": 18,
     "deal": true,
     "deal price": 1728000,
-    "deal_price_eur": 7200,
     "category": "GPU",
     "filter": {
       "chipset": "AMD Radeon RX 6900 XT",
@@ -2081,8 +2122,11 @@
       "stream_processors": 5120,
       "memory bandwidth": "512 GB/s",
       "directx support": "12 Ultimate",
+      "length": 267,
       "ports": ["HDMI 2.1", "DisplayPort 1.4"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 86,
@@ -2090,11 +2134,9 @@
     "description": "High-performance graphics card by AMD, based on the RDNA 2 architecture, with 16GB GDDR6 VRAM, 2560-bit memory interface, DirectX 12 Ultimate support, 4608 stream processors, 512 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4",
     "images": "src/assets/products/GPU.jpg",
     "price": 144000,
-    "price_eur": 6000,
     "stock": 20,
     "deal": false,
     "deal price": 1440000,
-    "deal_price_eur": 6000,
     "category": "GPU",
     "filter": {
       "chipset": "AMD Radeon RX 6800 XT",
@@ -2104,8 +2146,11 @@
       "stream_processors": 4608,
       "memory bandwidth": "512 GB/s",
       "directx support": "12 Ultimate",
+      "length": 267,
       "ports": ["HDMI 2.1", "DisplayPort 1.4"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 87,
@@ -2113,11 +2158,9 @@
     "description": "Mid-range graphics card by AMD, based on the RDNA 2 architecture, with 12GB GDDR6 VRAM, 192-bit memory interface, DirectX 12 Ultimate support, 2560 stream processors, 384 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4",
     "images": "src/assets/products/GPU.jpg",
     "price": 96000,
-    "price_eur": 4000,
     "stock": 24,
     "deal": true,
     "deal price": 864000,
-    "deal_price_eur": 3600,
     "category": "GPU",
     "filter": {
       "chipset": "AMD Radeon RX 6700 XT",
@@ -2127,8 +2170,11 @@
       "stream_processors": 2560,
       "memory bandwidth": "384 GB/s",
       "directx support": "12 Ultimate",
+      "length": 267,
       "ports": ["HDMI 2.1", "DisplayPort 1.4"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 88,
@@ -2136,11 +2182,9 @@
     "description": "Mid-range graphics card by NVIDIA, based on the Ampere architecture, with 12GB GDDR6 VRAM, 192-bit memory interface, DirectX 12 Ultimate support, 3584 CUDA cores, 360 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4a",
     "images": "src/assets/products/GPU.jpg",
     "price": 76800,
-    "price_eur": 3200,
     "stock": 23,
     "deal": false,
     "deal price": 768000,
-    "deal_price_eur": 3200,
     "category": "GPU",
     "filter": {
       "chipset": "NVIDIA GeForce RTX 3060",
@@ -2150,31 +2194,35 @@
       "cuda cores": 3584,
       "memory bandwidth": "360 GB/s",
       "directx support": "12 Ultimate",
+      "length": 242,
       "ports": ["HDMI 2.1", "DisplayPort 1.4a"]
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 89,
-    "name": "NVIDIA GeForce RTX 3050 Ti",
+    "name": "NVIDIA GeForce RTX 3050",
     "description": "Entry-level graphics card by NVIDIA, based on the Ampere architecture, with 4GB GDDR6 VRAM, 128-bit memory interface, DirectX 12 Ultimate support, 2560 CUDA cores, 192 GB/s memory bandwidth, HDMI 2.1, DisplayPort 1.4a",
     "images": "src/assets/products/GPU.jpg",
     "price": 38000,
-    "price_eur": 1600,
     "stock": 26,
     "deal": true,
     "deal price": 345600,
-    "deal_price_eur": 1440,
     "category": "GPU",
     "filter": {
-      "chipset": "NVIDIA GeForce RTX 3050 Ti",
+      "chipset": "NVIDIA GeForce RTX 3050",
       "memory size": "4GB",
       "memory type": "GDDR6",
       "memory interface": "128-bit",
       "cuda cores": 2560,
       "memory bandwidth": "192 GB/s",
       "directx support": "12 Ultimate",
+      "length": 242,
       "ports": ["HDMI 2.1", "DisplayPort 1.4a"]
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 90,
@@ -2182,11 +2230,9 @@
     "description": "Entry-level graphics card by NVIDIA, based on the Pascal architecture, with 2GB GDDR5 VRAM, 64-bit memory interface, DirectX 12 support, 384 CUDA cores, 48 GB/s memory bandwidth, HDMI 2.0b, DisplayPort 1.4",
     "images": "src/assets/products/GPU.jpg",
     "price": 19200,
-    "price_eur": 800,
     "stock": 30,
     "deal": false,
     "deal price": 192000,
-    "deal_price_eur": 800,
     "category": "GPU",
     "filter": {
       "chipset": "NVIDIA GeForce GT 1030",
@@ -2196,21 +2242,21 @@
       "cuda cores": 384,
       "memory bandwidth": "48 GB/s",
       "directx support": "12",
+      "length": 119,
       "ports": ["HDMI 2.0b", "DisplayPort 1.4"]
-    }
+    },
+    "config": false,
+    "new": true
   },
-
   {
     "id": 91,
     "name": "EVGA SuperNOVA 850 G3",
     "description": "Fully modular power supply unit with 80 Plus Gold certification, 850W, Eco Mode, single +12V rail, Japanese capacitors, compact design",
     "images": "src/assets/products/PSU.jpg",
     "price": 23520,
-    "price_eur": 9800,
     "stock": 15,
     "deal": true,
     "deal price": 2116800,
-    "deal_price_eur": 8820,
     "category": "power supply",
     "filter": {
       "wattage": 850,
@@ -2221,19 +2267,19 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "150 x 150 x 85mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 92,
     "name": "Corsair RM850x",
-    "description": "Fully modular power supply unit with 80 Plus Gold certification, 850W, Zero RPM fan mode, 105°C Japanese capacitors, compact design",
+    "description": "Fully modular power supply unit with 80 Plus Gold certification, 850W, Zero RPM fan mode, 105\u00b0C Japanese capacitors, compact design",
     "images": "src/assets/products/PSU.jpg",
     "price": 23040,
-    "price_eur": 9600,
     "stock": 20,
     "deal": false,
     "deal price": 2304000,
-    "deal_price_eur": 9600,
     "category": "power supply",
     "filter": {
       "wattage": 850,
@@ -2244,7 +2290,9 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "150 x 86 x 160mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 93,
@@ -2252,11 +2300,9 @@
     "description": "Fully modular power supply unit with 80 Plus Gold certification, 850W, Hybrid Silent Fan Control, Fluid Dynamic Bearing Fan, Japanese capacitors",
     "images": "src/assets/products/PSU.jpg",
     "price": 22080,
-    "price_eur": 9200,
     "stock": 25,
     "deal": true,
     "deal price": 1987200,
-    "deal_price_eur": 8280,
     "category": "power supply",
     "filter": {
       "wattage": 850,
@@ -2268,7 +2314,9 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "140 x 150 x 86mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 94,
@@ -2276,11 +2324,9 @@
     "description": "Fully modular power supply unit with 80 Plus Platinum certification, 850W, Silent Wings 3 fan, 135mm fan, 5-year warranty, Japanese capacitors",
     "images": "src/assets/products/PSU.jpg",
     "price": 31680,
-    "price_eur": 13200,
     "stock": 22,
     "deal": false,
     "deal price": 3168000,
-    "deal_price_eur": 13200,
     "category": "power supply",
     "filter": {
       "wattage": 850,
@@ -2292,7 +2338,9 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Platinum"],
       "dimensions": "150 x 150 x 86mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 95,
@@ -2300,11 +2348,9 @@
     "description": "Fully modular power supply unit with 80 Plus Gold certification, 750W, compact 150mm size, hydraulic dynamic bearing fan, Japanese capacitors",
     "images": "src/assets/products/PSU.jpg",
     "price": 22080,
-    "price_eur": 9200,
     "stock": 18,
     "deal": true,
     "deal price": 1987200,
-    "deal_price_eur": 8280,
     "category": "power supply",
     "filter": {
       "wattage": 750,
@@ -2315,19 +2361,19 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "150 x 150 x 86mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 96,
     "name": "Corsair RM750x",
-    "description": "Fully modular power supply unit with 80 Plus Gold certification, 750W, Zero RPM fan mode, 105°C Japanese capacitors, compact design",
+    "description": "Fully modular power supply unit with 80 Plus Gold certification, 750W, Zero RPM fan mode, 105\u00b0C Japanese capacitors, compact design",
     "images": "src/assets/products/PSU.jpg",
     "price": 21120,
-    "price_eur": 8800,
     "stock": 20,
     "deal": false,
     "deal price": 2112000,
-    "deal_price_eur": 8800,
     "category": "power supply",
     "filter": {
       "wattage": 750,
@@ -2338,7 +2384,9 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "150 x 150 x 86mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 97,
@@ -2346,11 +2394,9 @@
     "description": "Fully modular power supply unit with 80 Plus Gold certification, 750W, Hybrid Silent Fan Control, Fluid Dynamic Bearing Fan, Japanese capacitors",
     "images": "src/assets/products/PSU.jpg",
     "price": 20160,
-    "price_eur": 8400,
     "stock": 23,
     "deal": true,
     "deal price": 1814400,
-    "deal_price_eur": 7560,
     "category": "power supply",
     "filter": {
       "wattage": 750,
@@ -2362,7 +2408,9 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "140 x 150 x 86mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 98,
@@ -2370,11 +2418,9 @@
     "description": "Fully modular power supply unit with 80 Plus Platinum certification, 750W, Silent Wings 3 fan, 135mm fan, 5-year warranty, Japanese capacitors",
     "images": "src/assets/products/PSU.jpg",
     "price": 30240,
-    "price_eur": 12600,
     "stock": 25,
     "deal": false,
     "deal price": 3024000,
-    "deal_price_eur": 12600,
     "category": "power supply",
     "filter": {
       "wattage": 750,
@@ -2386,7 +2432,9 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Platinum"],
       "dimensions": "150 x 150 x 86mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 99,
@@ -2394,11 +2442,9 @@
     "description": "Fully modular power supply unit with 80 Plus Gold certification, 650W, compact 150mm size, hydraulic dynamic bearing fan, Japanese capacitors",
     "images": "src/assets/products/PSU.jpg",
     "price": 20160,
-    "price_eur": 8400,
     "stock": 24,
     "deal": true,
     "deal price": 1814400,
-    "deal_price_eur": 7560,
     "category": "power supply",
     "filter": {
       "wattage": 650,
@@ -2409,19 +2455,19 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "150 x 150 x 86mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 100,
     "name": "Corsair RM650x",
-    "description": "Fully modular power supply unit with 80 Plus Gold certification, 650W, Zero RPM fan mode, 105°C Japanese capacitors, compact design",
+    "description": "Fully modular power supply unit with 80 Plus Gold certification, 650W, Zero RPM fan mode, 105\u00b0C Japanese capacitors, compact design",
     "images": "src/assets/products/PSU.jpg",
     "price": 19200,
-    "price_eur": 8000,
     "stock": 28,
     "deal": false,
     "deal price": 1920000,
-    "deal_price_eur": 8000,
     "category": "power supply",
     "filter": {
       "wattage": 650,
@@ -2432,7 +2478,9 @@
       "form factor": "ATX",
       "certifications": ["80 Plus Gold"],
       "dimensions": "150 x 150 x 86mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 101,
@@ -2440,11 +2488,9 @@
     "description": "Air cooler with a sleek black finish, RGB lighting, and excellent cooling performance for high-performance CPUs.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 5760,
-    "price_eur": 240,
     "stock": 50,
     "deal": true,
     "deal price": 51840,
-    "deal_price_eur": 216,
     "category": "cooler",
     "filter": {
       "type": "Air Cooler",
@@ -2454,7 +2500,9 @@
       "bearing type": "Rifle Bearing",
       "rgb": true,
       "dimensions": "120 x 79.6 x 158.8 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 102,
@@ -2462,11 +2510,9 @@
     "description": "Premium dual-tower CPU cooler with excellent cooling performance and near-silent operation.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 14400,
-    "price_eur": 600,
     "stock": 30,
     "deal": false,
     "deal price": 144000,
-    "deal_price_eur": 600,
     "category": "cooler",
     "filter": {
       "type": "Air Cooler",
@@ -2476,7 +2522,9 @@
       "bearing type": "SSO2 Bearing",
       "rgb": false,
       "dimensions": "150 x 161 x 165 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 103,
@@ -2484,11 +2532,9 @@
     "description": "High-performance all-in-one liquid CPU cooler with dynamic RGB lighting and advanced cooling performance.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 21600,
-    "price_eur": 900,
     "stock": 20,
     "deal": true,
     "deal price": 194400,
-    "deal_price_eur": 810,
     "category": "cooler",
     "filter": {
       "type": "Liquid Cooler",
@@ -2499,7 +2545,9 @@
       "bearing type": "Hydraulic Bearing",
       "rgb": true,
       "dimensions": "276 x 120 x 27 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 104,
@@ -2507,11 +2555,9 @@
     "description": "High-performance 280mm liquid cooler with RGB lighting and superior cooling performance.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 19200,
-    "price_eur": 800,
     "stock": 25,
     "deal": false,
     "deal price": 192000,
-    "deal_price_eur": 800,
     "category": "cooler",
     "filter": {
       "type": "Liquid Cooler",
@@ -2522,7 +2568,9 @@
       "bearing type": "Fluid Dynamic Bearing",
       "rgb": true,
       "dimensions": "315 x 143 x 30 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 105,
@@ -2530,11 +2578,9 @@
     "description": "Top-tier dual-tower air cooler with virtually silent operation and outstanding cooling performance.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 16800,
-    "price_eur": 700,
     "stock": 15,
     "deal": true,
     "deal price": 151200,
-    "deal_price_eur": 630,
     "category": "cooler",
     "filter": {
       "type": "Air Cooler",
@@ -2544,7 +2590,9 @@
       "bearing type": "Fluid Dynamic Bearing",
       "rgb": false,
       "dimensions": "136 x 163 x 145.7 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 106,
@@ -2552,11 +2600,9 @@
     "description": "Affordable and effective air cooler with blue LED lighting, designed for mid-range CPUs.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 2880,
-    "price_eur": 120,
     "stock": 60,
     "deal": false,
     "deal price": 28800,
-    "deal_price_eur": 120,
     "category": "cooler",
     "filter": {
       "type": "Air Cooler",
@@ -2566,7 +2612,9 @@
       "bearing type": "Hydro Bearing",
       "rgb": false,
       "dimensions": "135 x 84.8 x 154.5 mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 107,
@@ -2574,11 +2622,9 @@
     "description": "High-performance air cooler with dual fans and excellent thermal performance for gaming rigs.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 35,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "cooler",
     "filter": {
       "type": "Air Cooler",
@@ -2588,7 +2634,9 @@
       "bearing type": "Fluid Dynamic Bearing",
       "rgb": false,
       "dimensions": "124 x 157 x 103 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 108,
@@ -2596,11 +2644,9 @@
     "description": "High-performance all-in-one liquid CPU cooler with a 360mm radiator and triple RGB fans.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 28800,
-    "price_eur": 1200,
     "stock": 10,
     "deal": true,
     "deal price": 259200,
-    "deal_price_eur": 1080,
     "category": "cooler",
     "filter": {
       "type": "Liquid Cooler",
@@ -2611,7 +2657,9 @@
       "bearing type": "Hydraulic Bearing",
       "rgb": true,
       "dimensions": "394 x 120 x 27 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 109,
@@ -2619,11 +2667,9 @@
     "description": "High-performance 360mm liquid cooler with stunning RGB lighting and excellent thermal performance.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 33600,
-    "price_eur": 1400,
     "stock": 20,
     "deal": false,
     "deal price": 336000,
-    "deal_price_eur": 1400,
     "category": "cooler",
     "filter": {
       "type": "Liquid Cooler",
@@ -2634,7 +2680,9 @@
       "bearing type": "Magnetic Levitation",
       "rgb": true,
       "dimensions": "397 x 120 x 27 mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 110,
@@ -2642,11 +2690,9 @@
     "description": "All-in-one liquid cooler with a 240mm radiator, RGB lighting, and excellent cooling performance.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 14400,
-    "price_eur": 600,
     "stock": 30,
     "deal": true,
     "deal price": 129600,
-    "deal_price_eur": 540,
     "category": "cooler",
     "filter": {
       "type": "Liquid Cooler",
@@ -2657,7 +2703,9 @@
       "bearing type": "Dual Ball Bearing",
       "rgb": true,
       "dimensions": "277 x 119.6 x 27 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 111,
@@ -2665,11 +2713,9 @@
     "description": "Compact 120mm liquid cooler with advanced RGB lighting and exceptional cooling performance.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 25,
     "deal": true,
     "deal price": 86400,
-    "deal_price_eur": 360,
     "category": "cooler",
     "filter": {
       "type": "Liquid Cooler",
@@ -2680,7 +2726,9 @@
       "bearing type": "Fluid Dynamic Bearing",
       "rgb": true,
       "dimensions": "152 x 120 x 32 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 112,
@@ -2688,11 +2736,9 @@
     "description": "Quiet and effective air cooler with a compact design and excellent cooling performance.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 5760,
-    "price_eur": 240,
     "stock": 40,
     "deal": false,
     "deal price": 57600,
-    "deal_price_eur": 240,
     "category": "cooler",
     "filter": {
       "type": "Air Cooler",
@@ -2702,7 +2748,9 @@
       "bearing type": "Rifle Bearing",
       "rgb": false,
       "dimensions": "121 x 87 x 155 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 113,
@@ -2710,11 +2758,9 @@
     "description": "360mm liquid cooler with ARGB lighting and high-performance cooling capabilities.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 21600,
-    "price_eur": 900,
     "stock": 15,
     "deal": true,
     "deal price": 194400,
-    "deal_price_eur": 810,
     "category": "cooler",
     "filter": {
       "type": "Liquid Cooler",
@@ -2725,7 +2771,9 @@
       "bearing type": "Hydraulic Bearing",
       "rgb": true,
       "dimensions": "394 x 120 x 27 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 114,
@@ -2733,11 +2781,9 @@
     "description": "Air cooler with excellent thermal performance, RGB lighting, and advanced cooling technology.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 50,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "cooler",
     "filter": {
       "type": "Air Cooler",
@@ -2747,7 +2793,9 @@
       "bearing type": "Rifle Bearing",
       "rgb": true,
       "dimensions": "111.8 x 130.9 x 165.1 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 115,
@@ -2755,11 +2803,9 @@
     "description": "High-performance air cooler with quad direct-contact heat pipes and adjustable fan speeds for optimal cooling.",
     "images": "src/assets/products/CPU fan.jpg",
     "price": 14400,
-    "price_eur": 600,
     "stock": 20,
     "deal": false,
     "deal price": 144000,
-    "deal_price_eur": 600,
     "type": "Air Cooler",
     "category": "cooler",
     "filter": {
@@ -2769,7 +2815,9 @@
       "bearing type": "Hydraulic Bearing",
       "rgb": false,
       "dimensions": "144 x 169 x 171 mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 116,
@@ -2777,14 +2825,13 @@
     "description": "High-performance DDR4 memory kit designed for high overclocking potential and excellent heat dissipation.",
     "images": "src/assets/products/ram.jpg",
     "price": 4800,
-    "price_eur": 200,
     "stock": 50,
     "deal": true,
     "deal price": 43200,
-    "deal_price_eur": 180,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3200MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2792,7 +2839,9 @@
       "heat spreader": "Anodized Aluminum",
       "rgb": false,
       "dimensions": "135 x 7 x 34 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 117,
@@ -2800,14 +2849,13 @@
     "description": "High-speed DDR4 memory kit with customizable RGB lighting and excellent performance for gaming and content creation.",
     "images": "src/assets/products/ram.jpg",
     "price": 5760,
-    "price_eur": 240,
     "stock": 40,
     "deal": false,
     "deal price": 57600,
-    "deal_price_eur": 240,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3600MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2815,7 +2863,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "133 x 45 x 7 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 118,
@@ -2823,14 +2873,13 @@
     "description": "Reliable and affordable DDR4 memory kit with automatic overclocking and a low-profile heat spreader.",
     "images": "src/assets/products/ram.jpg",
     "price": 3840,
-    "price_eur": 160,
     "stock": 60,
     "deal": true,
     "deal price": 34560,
-    "deal_price_eur": 144,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "2666MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2838,7 +2887,9 @@
       "heat spreader": "Aluminum",
       "rgb": false,
       "dimensions": "133.35 x 34.04 x 7 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 119,
@@ -2846,14 +2897,13 @@
     "description": "Performance DDR4 memory kit with a sleek design and excellent compatibility for gaming and high-performance computing.",
     "images": "src/assets/products/ram.jpg",
     "price": 4560,
-    "price_eur": 190,
     "stock": 35,
     "deal": false,
     "deal price": 45600,
-    "deal_price_eur": 190,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3200MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2861,7 +2911,9 @@
       "heat spreader": "Aluminum",
       "rgb": false,
       "dimensions": "133.35 x 39.17 x 6 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 120,
@@ -2869,14 +2921,13 @@
     "description": "Premium DDR4 memory kit with dynamic RGB lighting, superior heat dissipation, and high performance.",
     "images": "src/assets/products/ram.jpg",
     "price": 7200,
-    "price_eur": 300,
-    "stock": 25,
+    "stock": 20,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3200MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2884,7 +2935,9 @@
       "heat spreader": "Anodized Aluminum",
       "rgb": true,
       "dimensions": "135 x 55 x 7 mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 121,
@@ -2892,14 +2945,13 @@
     "description": "Stylish DDR4 memory kit with vibrant RGB lighting and excellent performance for gaming systems.",
     "images": "src/assets/products/ram.jpg",
     "price": 4300,
-    "price_eur": 180,
     "stock": 40,
     "deal": false,
     "deal price": 43200,
-    "deal_price_eur": 180,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3000MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2907,7 +2959,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "146.8 x 49 x 7 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 122,
@@ -2915,14 +2969,13 @@
     "description": "High-speed DDR4 memory kit designed for extreme performance and overclocking potential.",
     "images": "src/assets/products/ram.jpg",
     "price": 6240,
-    "price_eur": 260,
     "stock": 20,
     "deal": true,
     "deal price": 56160,
-    "deal_price_eur": 234,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "4400MHz",
       "type": "DDR4",
       "latency": "CL19",
@@ -2930,7 +2983,9 @@
       "heat spreader": "Aluminum",
       "rgb": false,
       "dimensions": "135 x 45 x 7 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 123,
@@ -2938,14 +2993,13 @@
     "description": "High-performance DDR4 memory kit with a unique RGB design and excellent cooling performance.",
     "images": "src/assets/products/ram.jpg",
     "price": 4800,
-    "price_eur": 200,
     "stock": 30,
     "deal": true,
     "deal price": 43200,
-    "deal_price_eur": 180,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3200MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2953,7 +3007,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "133 x 45 x 8 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 124,
@@ -2961,14 +3017,13 @@
     "description": "Reliable and high-performance DDR4 memory kit with a sleek design and excellent compatibility.",
     "images": "src/assets/products/ram.jpg",
     "price": 4560,
-    "price_eur": 190,
     "stock": 45,
     "deal": false,
     "deal price": 45600,
-    "deal_price_eur": 190,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3200MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2976,7 +3031,9 @@
       "heat spreader": "Aluminum",
       "rgb": false,
       "dimensions": "133.35 x 42 x 7 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 125,
@@ -2984,14 +3041,13 @@
     "description": "High-performance DDR4 memory kit with dynamic RGB lighting and excellent overclocking capabilities.",
     "images": "src/assets/products/ram.jpg",
     "price": 5760,
-    "price_eur": 240,
     "stock": 35,
     "deal": true,
     "deal price": 51840,
-    "deal_price_eur": 216,
     "category": "RAM",
     "filter": {
       "capacity": "16GB (2 x 8GB)",
+      "modules": 2,
       "speed": "3200MHz",
       "type": "DDR4",
       "latency": "CL16",
@@ -2999,7 +3055,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "133.35 x 42.2 x 8.3 mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 126,
@@ -3007,14 +3065,13 @@
     "description": "High-performance DDR5 memory kit designed for exceptional speed and reliability for the latest platforms.",
     "images": "src/assets/products/ram.jpg",
     "price": 8640,
-    "price_eur": 360,
     "stock": 20,
     "deal": true,
     "deal price": 77760,
-    "deal_price_eur": 324,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "5200MHz",
       "type": "DDR5",
       "latency": "CL40",
@@ -3022,7 +3079,9 @@
       "heat spreader": "Anodized Aluminum",
       "rgb": false,
       "dimensions": "135 x 45 x 7 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 127,
@@ -3030,14 +3089,13 @@
     "description": "Top-tier DDR5 memory kit with stunning RGB lighting and extraordinary performance for gaming and productivity.",
     "images": "src/assets/products/ram.jpg",
     "price": 11520,
-    "price_eur": 480,
     "stock": 15,
     "deal": false,
     "deal price": 115200,
-    "deal_price_eur": 480,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "6000MHz",
       "type": "DDR5",
       "latency": "CL36",
@@ -3045,7 +3103,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "135 x 55 x 7 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 128,
@@ -3053,14 +3113,13 @@
     "description": "Powerful DDR5 memory kit designed for high-performance computing and gaming.",
     "images": "src/assets/products/ram.jpg",
     "price": 8640,
-    "price_eur": 360,
     "stock": 25,
     "deal": true,
     "deal price": 77760,
-    "deal_price_eur": 324,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "5200MHz",
       "type": "DDR5",
       "latency": "CL40",
@@ -3068,7 +3127,9 @@
       "heat spreader": "Aluminum",
       "rgb": false,
       "dimensions": "133 x 45 x 7 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 129,
@@ -3076,14 +3137,13 @@
     "description": "Ultra-fast DDR5 memory kit with vibrant RGB lighting and superior performance for the latest platforms.",
     "images": "src/assets/products/ram.jpg",
     "price": 12000,
-    "price_eur": 500,
     "stock": 10,
     "deal": true,
     "deal price": 108000,
-    "deal_price_eur": 450,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "6400MHz",
       "type": "DDR5",
       "latency": "CL40",
@@ -3091,7 +3151,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "140 x 55 x 8 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 130,
@@ -3099,14 +3161,13 @@
     "description": "High-performance DDR5 memory kit with dynamic RGB lighting and excellent overclocking potential.",
     "images": "src/assets/products/ram.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 18,
     "deal": false,
     "deal price": 96000,
-    "deal_price_eur": 400,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "5600MHz",
       "type": "DDR5",
       "latency": "CL40",
@@ -3114,7 +3175,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "135 x 45 x 7 mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 131,
@@ -3122,14 +3185,13 @@
     "description": "Standard DDR5 memory kit designed for reliability and high performance on the latest platforms.",
     "images": "src/assets/products/ram.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 22,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "4800MHz",
       "type": "DDR5",
       "latency": "CL40",
@@ -3137,7 +3199,9 @@
       "heat spreader": "None",
       "rgb": false,
       "dimensions": "133 x 45 x 7 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 132,
@@ -3145,14 +3209,13 @@
     "description": "Advanced DDR5 memory kit with RGB lighting and high performance for gaming and productivity.",
     "images": "src/assets/products/ram.jpg",
     "price": 9120,
-    "price_eur": 380,
     "stock": 15,
     "deal": true,
     "deal price": 82080,
-    "deal_price_eur": 342,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "5200MHz",
       "type": "DDR5",
       "latency": "CL38",
@@ -3160,7 +3223,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "135 x 45 x 7 mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 133,
@@ -3168,14 +3233,13 @@
     "description": "Premium DDR5 memory kit with stunning RGB lighting and high-speed performance for gaming rigs.",
     "images": "src/assets/products/ram.jpg",
     "price": 11520,
-    "price_eur": 480,
     "stock": 12,
     "deal": false,
     "deal price": 115200,
-    "deal_price_eur": 480,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "6000MHz",
       "type": "DDR5",
       "latency": "CL36",
@@ -3183,7 +3247,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "140 x 55 x 8 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 134,
@@ -3191,14 +3257,13 @@
     "description": "Reliable DDR5 memory kit designed for gamers and high-performance computing.",
     "images": "src/assets/products/ram.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 20,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "4800MHz",
       "type": "DDR5",
       "latency": "CL40",
@@ -3206,7 +3271,9 @@
       "heat spreader": "None",
       "rgb": false,
       "dimensions": "133 x 45 x 7 mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 135,
@@ -3214,14 +3281,13 @@
     "description": "Top-tier DDR5 memory kit with stunning RGB lighting and extraordinary performance for gaming and productivity.",
     "images": "src/assets/products/ram.jpg",
     "price": 12240,
-    "price_eur": 510,
     "stock": 10,
     "deal": true,
     "deal price": 110160,
-    "deal_price_eur": 459,
     "category": "RAM",
     "filter": {
       "capacity": "32GB (2 x 16GB)",
+      "modules": 2,
       "speed": "6200MHz",
       "type": "DDR5",
       "latency": "CL36",
@@ -3229,7 +3295,9 @@
       "heat spreader": "Aluminum",
       "rgb": true,
       "dimensions": "140 x 55 x 8 mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 136,
@@ -3237,11 +3305,9 @@
     "description": "Reliable and affordable 2TB HDD for everyday computing needs.",
     "images": "src/assets/products/drive.jpg",
     "price": 2400,
-    "price_eur": 100,
     "stock": 50,
     "deal": true,
     "deal price": 21600,
-    "deal_price_eur": 90,
     "category": "storage",
     "filter": {
       "capacity": "2TB",
@@ -3250,7 +3316,9 @@
       "form factor": "3.5 inch",
       "cache": "256MB",
       "rpm": 7200
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 137,
@@ -3258,11 +3326,9 @@
     "description": "High-performance 1TB HDD ideal for desktops and laptops.",
     "images": "src/assets/products/drive.jpg",
     "price": 1600,
-    "price_eur": 70,
     "stock": 60,
     "deal": false,
     "deal price": 16800,
-    "deal_price_eur": 70,
     "category": "storage",
     "filter": {
       "capacity": "1TB",
@@ -3271,7 +3337,9 @@
       "form factor": "3.5 inch",
       "cache": "64MB",
       "rpm": 7200
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 138,
@@ -3279,11 +3347,9 @@
     "description": "High-performance 4TB HDD for demanding applications and large storage.",
     "images": "src/assets/products/drive.jpg",
     "price": 4800,
-    "price_eur": 200,
     "stock": 30,
     "deal": true,
     "deal price": 43200,
-    "deal_price_eur": 180,
     "category": "storage",
     "filter": {
       "capacity": "4TB",
@@ -3292,7 +3358,9 @@
       "form factor": "3.5 inch",
       "cache": "128MB",
       "rpm": 7200
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 139,
@@ -3300,11 +3368,9 @@
     "description": "Reliable 6TB NAS HDD with high performance and scalable storage.",
     "images": "src/assets/products/drive.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 20,
     "deal": false,
     "deal price": 72000,
-    "deal_price_eur": 300,
     "category": "storage",
     "filter": {
       "capacity": "6TB",
@@ -3313,7 +3379,9 @@
       "form factor": "3.5 inch",
       "cache": "256MB",
       "rpm": 7200
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 140,
@@ -3321,11 +3389,9 @@
     "description": "High-performance 2TB HDD designed for gamers and creative professionals.",
     "images": "src/assets/products/drive.jpg",
     "price": 3120,
-    "price_eur": 130,
     "stock": 40,
     "deal": true,
     "deal price": 28080,
-    "deal_price_eur": 117,
     "category": "storage",
     "filter": {
       "capacity": "2TB",
@@ -3334,7 +3400,9 @@
       "form factor": "3.5 inch",
       "cache": "64MB",
       "rpm": 7200
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 141,
@@ -3342,11 +3410,9 @@
     "description": "Reliable and versatile 3TB HDD for everyday computing.",
     "images": "src/assets/products/drive.jpg",
     "price": 2600,
-    "price_eur": 110,
     "stock": 50,
     "deal": false,
     "deal price": 26400,
-    "deal_price_eur": 110,
     "category": "storage",
     "filter": {
       "capacity": "3TB",
@@ -3355,7 +3421,9 @@
       "form factor": "3.5 inch",
       "cache": "64MB",
       "rpm": 7200
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 142,
@@ -3363,11 +3431,9 @@
     "description": "High-speed 2TB SSHD combining the storage capacity of an HDD with the speed of an SSD.",
     "images": "src/assets/products/drive.jpg",
     "price": 2880,
-    "price_eur": 120,
     "stock": 35,
     "deal": true,
     "deal price": 25920,
-    "deal_price_eur": 108,
     "category": "storage",
     "filter": {
       "capacity": "2TB",
@@ -3376,7 +3442,9 @@
       "form factor": "3.5 inch",
       "cache": "64MB",
       "rpm": 7200
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 143,
@@ -3384,11 +3452,9 @@
     "description": "Reliable and high-capacity 4TB NAS HDD for small and medium business environments.",
     "images": "src/assets/products/drive.jpg",
     "price": 4560,
-    "price_eur": 190,
     "stock": 25,
     "deal": false,
     "deal price": 45600,
-    "deal_price_eur": 190,
     "category": "storage",
     "filter": {
       "capacity": "4TB",
@@ -3397,7 +3463,9 @@
       "form factor": "3.5 inch",
       "cache": "128MB",
       "rpm": 5400
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 144,
@@ -3405,11 +3473,9 @@
     "description": "High-capacity 8TB surveillance HDD designed for 24/7 video recording.",
     "images": "src/assets/products/drive.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 15,
     "deal": true,
     "deal price": 86400,
-    "deal_price_eur": 360,
     "category": "storage",
     "filter": {
       "capacity": "8TB",
@@ -3418,7 +3484,9 @@
       "form factor": "3.5 inch",
       "cache": "256MB",
       "rpm": 7200
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 145,
@@ -3426,11 +3494,9 @@
     "description": "Reliable 2TB HDD designed for surveillance systems.",
     "images": "src/assets/products/drive.jpg",
     "price": 2160,
-    "price_eur": 90,
     "stock": 40,
     "deal": false,
     "deal price": 21600,
-    "deal_price_eur": 90,
     "category": "storage",
     "filter": {
       "capacity": "2TB",
@@ -3439,20 +3505,19 @@
       "form factor": "3.5 inch",
       "cache": "64MB",
       "rpm": 5400
-    }
+    },
+    "config": true,
+    "new": true
   },
-
   {
     "id": 146,
     "name": "Samsung 970 EVO Plus 1TB NVMe M.2 Internal SSD",
     "description": "High-performance NVMe M.2 SSD with superior speed and reliability for gaming and professional applications.",
     "images": "src/assets/products/drive.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 25,
     "deal": true,
     "deal price": 86400,
-    "deal_price_eur": 360,
     "category": "storage",
     "filter": {
       "capacity": "1TB",
@@ -3462,7 +3527,9 @@
       "controller": "Samsung Phoenix",
       "read speed": "Up to 3500 MB/s",
       "write speed": "Up to 3300 MB/s"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 147,
@@ -3470,11 +3537,9 @@
     "description": "High-speed SATA SSD offering fast read/write speeds and reliable performance.",
     "images": "src/assets/products/drive.jpg",
     "price": 38400,
-    "price_eur": 160,
     "stock": 30,
     "deal": false,
     "deal price": 3840,
-    "deal_price_eur": 160,
     "category": "storage",
     "filter": {
       "capacity": "500GB",
@@ -3484,7 +3549,9 @@
       "controller": "Silicon Motion SM2258",
       "read speed": "Up to 560 MB/s",
       "write speed": "Up to 510 MB/s"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 148,
@@ -3492,11 +3559,9 @@
     "description": "High-speed NVMe M.2 SSD offering superior performance and reliability for gaming and productivity.",
     "images": "src/assets/products/drive.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 20,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "storage",
     "filter": {
       "capacity": "1TB",
@@ -3506,7 +3571,9 @@
       "controller": "WD SN550 NVMe",
       "read speed": "Up to 2400 MB/s",
       "write speed": "Up to 1950 MB/s"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 149,
@@ -3514,11 +3581,9 @@
     "description": "High-capacity SATA SSD with advanced 3D NAND technology for enhanced reliability and performance.",
     "images": "src/assets/products/drive.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 25,
     "deal": false,
     "deal price": 72000,
-    "deal_price_eur": 300,
     "category": "storage",
     "filter": {
       "capacity": "1TB",
@@ -3528,7 +3593,9 @@
       "controller": "Realtek RTS5760",
       "read speed": "Up to 560 MB/s",
       "write speed": "Up to 520 MB/s"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 150,
@@ -3536,11 +3603,9 @@
     "description": "Fast NVMe M.2 SSD offering reliable performance and high-speed data transfer.",
     "images": "src/assets/products/drive.jpg",
     "price": 4800,
-    "price_eur": 200,
     "stock": 35,
     "deal": true,
     "deal price": 43200,
-    "deal_price_eur": 180,
     "category": "storage",
     "filter": {
       "capacity": "500GB",
@@ -3550,7 +3615,9 @@
       "controller": "Phison E13T",
       "read speed": "Up to 2200 MB/s",
       "write speed": "Up to 2000 MB/s"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 151,
@@ -3558,11 +3625,9 @@
     "description": "High-speed NVMe M.2 SSD offering fast performance and ample storage capacity.",
     "images": "src/assets/products/drive.jpg",
     "price": 8400,
-    "price_eur": 350,
     "stock": 20,
     "deal": false,
     "deal price": 84000,
-    "deal_price_eur": 350,
     "category": "storage",
     "filter": {
       "capacity": "1TB",
@@ -3572,7 +3637,9 @@
       "controller": "Micron NVMe",
       "read speed": "Up to 2000 MB/s",
       "write speed": "Up to 1700 MB/s"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 152,
@@ -3580,11 +3647,9 @@
     "description": "High-performance SATA M.2 SSD with enhanced reliability and durability.",
     "images": "src/assets/products/drive.jpg",
     "price": 4800,
-    "price_eur": 200,
     "stock": 25,
     "deal": true,
     "deal price": 43200,
-    "deal_price_eur": 180,
     "category": "storage",
     "filter": {
       "capacity": "500GB",
@@ -3594,7 +3659,9 @@
       "controller": "Samsung MJX",
       "read speed": "Up to 550 MB/s",
       "write speed": "Up to 520 MB/s"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 153,
@@ -3602,11 +3669,9 @@
     "description": "High-speed NVMe M.2 SSD offering superior performance for gaming and content creation.",
     "images": "src/assets/products/drive.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 20,
     "deal": false,
     "deal price": 96000,
-    "deal_price_eur": 400,
     "category": "storage",
     "filter": {
       "capacity": "1TB",
@@ -3616,7 +3681,9 @@
       "controller": "Silicon Motion SM2262EN",
       "read speed": "Up to 3500 MB/s",
       "write speed": "Up to 3000 MB/s"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 154,
@@ -3624,11 +3691,9 @@
     "description": "High-speed NVMe M.2 SSD offering reliable performance and fast data transfer.",
     "images": "src/assets/products/drive.jpg",
     "price": 4800,
-    "price_eur": 200,
     "stock": 25,
     "deal": true,
     "deal price": 43200,
-    "deal_price_eur": 180,
     "category": "storage",
     "filter": {
       "capacity": "500GB",
@@ -3638,7 +3703,9 @@
       "controller": "Micron NVMe",
       "read speed": "Up to 2300 MB/s",
       "write speed": "Up to 940 MB/s"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 156,
@@ -3646,11 +3713,9 @@
     "description": "High-capacity SATA M.2 SSD with reliable performance for gaming and multimedia.",
     "images": "src/assets/products/drive.jpg",
     "price": 8400,
-    "price_eur": 350,
     "stock": 30,
     "deal": false,
     "deal price": 84000,
-    "deal_price_eur": 350,
     "category": "storage",
     "filter": {
       "capacity": "2TB",
@@ -3660,7 +3725,9 @@
       "controller": "Samsung MKX",
       "read speed": "Up to 560 MB/s",
       "write speed": "Up to 530 MB/s"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 157,
@@ -3668,11 +3735,9 @@
     "description": "Stylish and compact mid-tower case with integrated RGB lighting and tempered glass side panel.",
     "images": "src/assets/products/case.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 20,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3688,7 +3753,9 @@
       "cooling support": "Front: 2 x 120/140mm, Top: 1 x 120mm/140mm, Rear: 1 x 120mm",
       "max gpu length": "381mm",
       "max cpu height": "165mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 158,
@@ -3696,11 +3763,9 @@
     "description": "Premium ATX case with dual-chamber layout, tempered glass panels, and customizable RGB lighting.",
     "images": "src/assets/products/case.jpg",
     "price": 14400,
-    "price_eur": 600,
     "stock": 15,
     "deal": false,
     "deal price": 144000,
-    "deal_price_eur": 600,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3717,7 +3782,9 @@
       "max gpu length": "330mm",
       "max cpu height": "180mm",
       "max psu length": "225mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 159,
@@ -3725,11 +3792,9 @@
     "description": "Mid-tower case with optimized airflow, integrated RGB lighting, and tempered glass side panel.",
     "images": "src/assets/products/case.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 18,
     "deal": true,
     "deal price": 86400,
-    "deal_price_eur": 360,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3746,7 +3811,9 @@
       "max gpu length": "420mm",
       "max cpu height": "160mm",
       "max psu length": "270mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 160,
@@ -3754,11 +3821,9 @@
     "description": "Mid-tower case with dual 200mm ARGB fans, tempered glass side panel, and versatile cooling options.",
     "images": "src/assets/products/case.jpg",
     "price": 12000,
-    "price_eur": 500,
     "stock": 20,
     "deal": false,
     "deal price": 120000,
-    "deal_price_eur": 500,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3771,7 +3836,9 @@
       "max gpu length": "410mm",
       "max cpu height": "167mm",
       "max psu length": "180mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 161,
@@ -3779,11 +3846,9 @@
     "description": "Compact mid-tower case with high airflow design, tempered glass side panel, and minimalist aesthetic.",
     "images": "src/assets/products/case.jpg",
     "price": 8400,
-    "price_eur": 350,
     "stock": 22,
     "deal": true,
     "deal price": 75600,
-    "deal_price_eur": 315,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3796,7 +3861,9 @@
       "max gpu length": "315mm",
       "max cpu height": "172mm",
       "max psu length": "175mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 162,
@@ -3804,11 +3871,9 @@
     "description": "Full tower case with dual-chamber design, tempered glass panels, and support for custom water cooling.",
     "images": "src/assets/products/case.jpg",
     "price": 16800,
-    "price_eur": 700,
     "stock": 17,
     "deal": false,
     "deal price": 168000,
-    "deal_price_eur": 700,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3825,7 +3890,9 @@
       "max gpu length": "420mm",
       "max cpu height": "167mm",
       "max psu length": "255mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 163,
@@ -3833,11 +3900,9 @@
     "description": "Compact Mini-ITX case with integrated RGB lighting and tempered glass side panel for small form factor builds.",
     "images": "src/assets/products/case.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 16,
     "deal": true,
     "deal price": 86400,
-    "deal_price_eur": 360,
     "category": "case",
     "filter": {
       "form factor": "Mini-ITX",
@@ -3854,7 +3919,9 @@
       "max gpu length": "325mm",
       "max cpu height": "165mm",
       "max psu length": "311mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 164,
@@ -3862,11 +3929,9 @@
     "description": "Open frame ATX case with panoramic viewing, modular design, and wall-mountable capability.",
     "images": "src/assets/products/case.jpg",
     "price": 12000,
-    "price_eur": 500,
     "stock": 18,
     "deal": false,
     "deal price": 120000,
-    "deal_price_eur": 500,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3879,7 +3944,9 @@
       "max gpu length": "280mm (with reservoir), 450mm (without reservoir)",
       "max cpu height": "180mm",
       "max psu length": "200mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 165,
@@ -3887,11 +3954,9 @@
     "description": "Mid-tower ATX case with optimized airflow design, tempered glass side panel, and spacious interior.",
     "images": "src/assets/products/case.jpg",
     "price": 8400,
-    "price_eur": 350,
     "stock": 20,
     "deal": true,
     "deal price": 75600,
-    "deal_price_eur": 315,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3908,7 +3973,9 @@
       "max gpu length": "360mm",
       "max cpu height": "170mm",
       "max psu length": "180mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 166,
@@ -3916,11 +3983,9 @@
     "description": "Compact mid-tower case with sound-dampened design, versatile storage options, and sleek aesthetics.",
     "images": "src/assets/products/case.jpg",
     "price": 10800,
-    "price_eur": 450,
     "stock": 22,
     "deal": false,
     "deal price": 108000,
-    "deal_price_eur": 450,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3937,7 +4002,9 @@
       "max gpu length": "360mm",
       "max cpu height": "185mm",
       "max psu length": "250mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 167,
@@ -3945,11 +4012,9 @@
     "description": "Premium mid-tower ATX case with tempered glass front and side panels, integrated RGB lighting, and optimized airflow.",
     "images": "src/assets/products/case.jpg",
     "price": 13200,
-    "price_eur": 550,
     "stock": 20,
     "deal": true,
     "deal price": 118800,
-    "deal_price_eur": 495,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -3966,7 +4031,9 @@
       "max gpu length": "381mm",
       "max cpu height": "165mm",
       "max psu length": "311mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 168,
@@ -3974,11 +4041,9 @@
     "description": "Micro-ATX tower with TUF Gaming Alliance branding, magnetic dust filters, and flexible cooling options.",
     "images": "src/assets/products/case.jpg",
     "price": 6000,
-    "price_eur": 250,
     "stock": 15,
     "deal": false,
     "deal price": 60000,
-    "deal_price_eur": 250,
     "category": "case",
     "filter": {
       "form factor": "Micro-ATX",
@@ -3991,7 +4056,9 @@
       "max gpu length": "360mm",
       "max cpu height": "157mm",
       "max psu length": "160mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 169,
@@ -3999,11 +4066,9 @@
     "description": "Full tower ATX case with spacious interior, modular HDD cages, and extensive cooling options.",
     "images": "src/assets/products/case.jpg",
     "price": 16000,
-    "price_eur": 700,
     "stock": 18,
     "deal": true,
     "deal price": 151200,
-    "deal_price_eur": 630,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -4016,7 +4081,9 @@
       "max gpu length": "472mm",
       "max cpu height": "193mm",
       "max psu length": "318mm"
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 170,
@@ -4024,11 +4091,9 @@
     "description": "Mid-tower ATX case with dual-chamber layout, tempered glass panels, and support for custom water cooling.",
     "images": "src/assets/products/case.jpg",
     "price": 19200,
-    "price_eur": 800,
     "stock": 20,
     "deal": false,
     "deal price": 192000,
-    "deal_price_eur": 800,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -4045,7 +4110,9 @@
       "max gpu length": "420mm",
       "max cpu height": "167mm",
       "max psu length": "255mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 171,
@@ -4053,11 +4120,9 @@
     "description": "Mid-tower ATX gaming case with tempered glass side panel, ARGB lighting, and extensive cooling options.",
     "images": "src/assets/products/case.jpg",
     "price": 12000,
-    "price_eur": 500,
     "stock": 22,
     "deal": true,
     "deal price": 108000,
-    "deal_price_eur": 450,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -4070,7 +4135,9 @@
       "max gpu length": "350mm",
       "max cpu height": "180mm",
       "max psu length": "200mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 172,
@@ -4078,11 +4145,9 @@
     "description": "Mid-tower ATX case with optimized airflow, RGB lighting, and noise-dampening features.",
     "images": "src/assets/products/case.jpg",
     "price": 9600,
-    "price_eur": 400,
     "stock": 20,
     "deal": false,
     "deal price": 96000,
-    "deal_price_eur": 400,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -4099,7 +4164,9 @@
       "max gpu length": "369mm",
       "max cpu height": "190mm",
       "max psu length": "258mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 173,
@@ -4107,11 +4174,9 @@
     "description": "Mini-ITX small form factor case with compact design, versatile cooling options, and high-quality construction.",
     "images": "src/assets/products/case.jpg",
     "price": 7200,
-    "price_eur": 300,
     "stock": 25,
     "deal": true,
     "deal price": 64800,
-    "deal_price_eur": 270,
     "category": "case",
     "filter": {
       "form factor": "Mini-ITX",
@@ -4124,7 +4189,9 @@
       "max gpu length": "330mm",
       "max cpu height": "182mm",
       "max psu length": "150mm"
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 174,
@@ -4132,11 +4199,9 @@
     "description": "Mid-tower ATX case with angular design, tempered glass panels, and customizable RGB lighting.",
     "images": "src/assets/products/case.jpg",
     "price": 10800,
-    "price_eur": 450,
     "stock": 20,
     "deal": false,
     "deal price": 108000,
-    "deal_price_eur": 450,
     "category": "case",
     "filter": {
       "form factor": "ATX",
@@ -4149,7 +4214,9 @@
       "max gpu length": "370mm",
       "max cpu height": "170mm",
       "max psu length": "200mm"
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 175,
@@ -4157,11 +4224,9 @@
     "description": "Super tower E-ATX chassis with vertical design, tempered glass panels, and extensive water cooling support.",
     "images": "src/assets/products/case.jpg",
     "price": 24000,
-    "price_eur": 1000,
     "stock": 10,
     "deal": true,
     "deal price": 216000,
-    "deal_price_eur": 900,
     "category": "case",
     "filter": {
       "form factor": "E-ATX",
@@ -4174,7 +4239,9 @@
       "max gpu length": "400mm",
       "max cpu height": "260mm",
       "max psu length": "220mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 176,
@@ -4182,11 +4249,9 @@
     "description": "Small form-factor Mini-ITX case with premium aluminum panels, integrated RGB lighting, and vertical design.",
     "images": "src/assets/products/case.jpg",
     "price": 14400,
-    "price_eur": 600,
     "stock": 15,
     "deal": false,
     "deal price": 144000,
-    "deal_price_eur": 600,
     "category": "case",
     "filter": {
       "form factor": "Mini-ITX",
@@ -4199,7 +4264,9 @@
       "max gpu length": "529mm",
       "max cpu height": "82mm",
       "max psu length": "160mm"
-    }
+    },
+    "config": false,
+    "new": true
   },
   {
     "id": 177,
@@ -4207,11 +4274,9 @@
     "description": "27-inch QHD gaming monitor with 144Hz refresh rate and 1ms response time.",
     "images": "src/assets/products/monitor.jpg",
     "price": 14400,
-    "price_eur": 600,
     "stock": 50,
     "deal": true,
     "deal price": 129600,
-    "deal_price_eur": 540,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4221,7 +4286,9 @@
       "response time": "1ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 178,
@@ -4229,11 +4296,9 @@
     "description": "34-inch UltraWide QHD gaming monitor with 160Hz refresh rate and NVIDIA G-Sync compatibility.",
     "images": "src/assets/products/monitor.jpg",
     "price": 31200,
-    "price_eur": 1300,
     "stock": 30,
     "deal": false,
     "deal price": 312000,
-    "deal_price_eur": 1300,
     "category": "monitor",
     "filter": {
       "size": "34 inches",
@@ -4243,7 +4308,9 @@
       "response time": "1ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 179,
@@ -4251,11 +4318,9 @@
     "description": "28-inch 4K UHD gaming monitor with HDR10 and FreeSync support.",
     "images": "src/assets/products/monitor.jpg",
     "price": 19200,
-    "price_eur": 800,
     "stock": 40,
     "deal": true,
     "deal price": 172800,
-    "deal_price_eur": 720,
     "category": "monitor",
     "filter": {
       "size": "28 inches",
@@ -4265,7 +4330,9 @@
       "response time": "5ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 180,
@@ -4273,11 +4340,9 @@
     "description": "27-inch 4K UHD monitor with USB-C connectivity and 99% sRGB coverage.",
     "images": "src/assets/products/monitor.jpg",
     "price": 21700,
-    "price_eur": 900,
     "stock": 35,
     "deal": false,
     "deal price": 216000,
-    "deal_price_eur": 900,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4287,7 +4352,9 @@
       "response time": "5ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "USB-C"]
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 181,
@@ -4295,11 +4362,9 @@
     "description": "27-inch 4K UHD gaming monitor with 144Hz refresh rate and G-Sync support.",
     "images": "src/assets/products/monitor.jpg",
     "price": 28800,
-    "price_eur": 1200,
     "stock": 20,
     "deal": true,
     "deal price": 259200,
-    "deal_price_eur": 1080,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4309,7 +4374,9 @@
       "response time": "4ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 182,
@@ -4317,11 +4384,9 @@
     "description": "32-inch 4K UHD designer monitor with HDR10 and Thunderbolt 3 connectivity.",
     "images": "src/assets/products/monitor.jpg",
     "price": 31200,
-    "price_eur": 1300,
     "stock": 25,
     "deal": false,
     "deal price": 312000,
-    "deal_price_eur": 1300,
     "category": "monitor",
     "filter": {
       "size": "32 inches",
@@ -4331,7 +4396,9 @@
       "response time": "5ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "Thunderbolt 3"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 183,
@@ -4339,11 +4406,9 @@
     "description": "34-inch UltraWide QHD curved gaming monitor with 144Hz refresh rate and FreeSync Premium.",
     "images": "src/assets/products/monitor.jpg",
     "price": 88000,
-    "price_eur": 700,
     "stock": 30,
     "deal": true,
     "deal price": 151200,
-    "deal_price_eur": 630,
     "category": "monitor",
     "filter": {
       "size": "34 inches",
@@ -4353,7 +4418,9 @@
       "response time": "1ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 184,
@@ -4361,11 +4428,9 @@
     "description": "27-inch QHD curved gaming monitor with 165Hz refresh rate and HDR support.",
     "images": "src/assets/products/monitor.jpg",
     "price": 44000,
-    "price_eur": 600,
     "stock": 45,
     "deal": false,
     "deal price": 144000,
-    "deal_price_eur": 600,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4375,7 +4440,9 @@
       "response time": "1ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 185,
@@ -4383,11 +4450,9 @@
     "description": "49-inch UltraWide DFHD curved gaming monitor with 144Hz refresh rate and FreeSync 2 support.",
     "images": "src/assets/products/monitor.jpg",
     "price": 36000,
-    "price_eur": 1500,
     "stock": 15,
     "deal": true,
     "deal price": 324000,
-    "deal_price_eur": 1350,
     "category": "monitor",
     "filter": {
       "size": "49 inches",
@@ -4397,7 +4462,9 @@
       "response time": "1ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 186,
@@ -4405,11 +4472,9 @@
     "description": "32-inch QHD curved gaming monitor with 165Hz refresh rate and FreeSync 2 support.",
     "images": "src/assets/products/monitor.jpg",
     "price": 68000,
-    "price_eur": 700,
     "stock": 35,
     "deal": false,
     "deal price": 168000,
-    "deal_price_eur": 700,
     "category": "monitor",
     "filter": {
       "size": "32 inches",
@@ -4419,7 +4484,9 @@
       "response time": "1ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 187,
@@ -4427,11 +4494,9 @@
     "description": "27-inch QHD gaming monitor with 165Hz refresh rate, NVIDIA G-Sync, and HDR10.",
     "images": "src/assets/products/monitor.jpg",
     "price": 92000,
-    "price_eur": 800,
     "stock": 30,
     "deal": true,
     "deal price": 172800,
-    "deal_price_eur": 720,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4441,7 +4506,9 @@
       "response time": "1ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 188,
@@ -4449,11 +4516,9 @@
     "description": "34-inch UltraWide QHD curved gaming monitor with 144Hz refresh rate and Adaptive-Sync.",
     "images": "src/assets/products/monitor.jpg",
     "price": 68000,
-    "price_eur": 700,
     "stock": 20,
     "deal": false,
     "deal price": 168000,
-    "deal_price_eur": 700,
     "category": "monitor",
     "filter": {
       "size": "34 inches",
@@ -4463,7 +4528,9 @@
       "response time": "1ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 189,
@@ -4471,11 +4538,9 @@
     "description": "27-inch WQHD professional monitor with 100% sRGB and Calman Verified.",
     "images": "src/assets/products/monitor.jpg",
     "price": 44000,
-    "price_eur": 600,
     "stock": 40,
     "deal": true,
     "deal price": 129600,
-    "deal_price_eur": 540,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4485,7 +4550,9 @@
       "response time": "5ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 190,
@@ -4493,11 +4560,9 @@
     "description": "27-inch 4K UHD monitor with HDR10 and USB-C connectivity.",
     "images": "src/assets/products/monitor.jpg",
     "price": 192000,
-    "price_eur": 800,
     "stock": 35,
     "deal": false,
     "deal price": 92000,
-    "deal_price_eur": 800,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4507,7 +4572,9 @@
       "response time": "5ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "USB-C"]
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 191,
@@ -4515,11 +4582,9 @@
     "description": "32-inch 4K UHD monitor with AMD FreeSync and 60Hz refresh rate.",
     "images": "src/assets/products/monitor.jpg",
     "price": 84000,
-    "price_eur": 600,
     "stock": 50,
     "deal": true,
     "deal price": 129600,
-    "deal_price_eur": 540,
     "category": "monitor",
     "filter": {
       "size": "32 inches",
@@ -4529,7 +4594,9 @@
       "response time": "4ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 192,
@@ -4537,11 +4604,9 @@
     "description": "32-inch QHD curved gaming monitor with 144Hz refresh rate and HDR support.",
     "images": "src/assets/products/monitor.jpg",
     "price": 68000,
-    "price_eur": 700,
     "stock": 25,
     "deal": false,
     "deal price": 168000,
-    "deal_price_eur": 700,
     "category": "monitor",
     "filter": {
       "size": "32 inches",
@@ -4551,7 +4616,9 @@
       "response time": "4ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 193,
@@ -4559,11 +4626,9 @@
     "description": "27-inch QHD gaming monitor with 170Hz refresh rate and FreeSync Premium.",
     "images": "src/assets/products/monitor.jpg",
     "price": 84000,
-    "price_eur": 600,
     "stock": 30,
     "deal": true,
     "deal price": 129600,
-    "deal_price_eur": 540,
     "category": "monitor",
     "filter": {
       "size": "27 inches",
@@ -4573,7 +4638,9 @@
       "response time": "0.5ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort", "USB"]
-    }
+    },
+    "config": false,
+    "new": false
   },
   {
     "id": 194,
@@ -4581,11 +4648,9 @@
     "description": "34-inch UltraWide QHD gaming monitor with 144Hz refresh rate and FreeSync.",
     "images": "src/assets/products/monitor.jpg",
     "price": 92000,
-    "price_eur": 800,
     "stock": 20,
     "deal": false,
     "deal price": 192000,
-    "deal_price_eur": 800,
     "category": "monitor",
     "filter": {
       "size": "34 inches",
@@ -4595,7 +4660,9 @@
       "response time": "1ms",
       "panel type": "IPS",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": true,
+    "new": false
   },
   {
     "id": 195,
@@ -4603,11 +4670,9 @@
     "description": "28-inch 4K UHD monitor with 1ms response time and AMD FreeSync.",
     "images": "src/assets/products/monitor.jpg",
     "price": 64000,
-    "price_eur": 600,
     "stock": 45,
     "deal": true,
     "deal price": 129600,
-    "deal_price_eur": 540,
     "category": "monitor",
     "filter": {
       "size": "28 inches",
@@ -4617,7 +4682,9 @@
       "response time": "1ms",
       "panel type": "TN",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": true,
+    "new": true
   },
   {
     "id": 196,
@@ -4625,11 +4692,9 @@
     "description": "32-inch 4K UHD curved monitor with Adaptive-Sync and 60Hz refresh rate.",
     "images": "src/assets/products/monitor.jpg",
     "price": 68000,
-    "price_eur": 700,
     "stock": 25,
     "deal": false,
     "deal price": 168000,
-    "deal_price_eur": 700,
     "category": "monitor",
     "filter": {
       "size": "32 inches",
@@ -4639,6 +4704,8 @@
       "response time": "4ms",
       "panel type": "VA",
       "connectivity": ["HDMI", "DisplayPort"]
-    }
+    },
+    "config": false,
+    "new": true
   }
 ]

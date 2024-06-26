@@ -14,7 +14,7 @@ function Contact() {
   return (
     <section className="my-8">
       <div className="relative bg-cover bg-center bg-contact">
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black " />
+        <div className="absolute inset-0 rounded-xl bg-gradient-to-b from-transparent to-black" />
         <h1 className="text-white text-center my-4 p-20 xs:text-3xl xl:text-7xl">
           Send us a message
         </h1>
